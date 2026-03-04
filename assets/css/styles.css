@@ -15,11 +15,16 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #000000;
+    font-family: 'raleway', sans-serif;
 }
 
 /* Header */
 header {
     background-color: #ff00b3;
+}
+
+h1 {
+    font-family: 'Macondo', cursive;
 }
 
 /* Main Content */
