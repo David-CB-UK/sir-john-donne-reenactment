@@ -1,3 +1,5 @@
+/* Google fonts import - Maacondo, DM Sans, Raleway */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterisk wildcard selector to overrride default styles added by the browser */
 * {
