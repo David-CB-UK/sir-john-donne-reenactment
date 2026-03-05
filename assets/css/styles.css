@@ -34,13 +34,19 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-    text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5f1a37
 }
 
 h1 {
     font-family: 'Macondo', cursive;
+    text-transform: uppercase;
+    color: #5f1a37
+}
+
+#nav-menu {
+    font-size: 105%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
 /* Main Content */
@@ -48,6 +54,10 @@ main {
     background-color: #cac4ce;
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
+}
+
+#nav-menu > li {
+    margin-bottom: 1rem;
 }
 
 /* Footer */
