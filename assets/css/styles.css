@@ -31,6 +31,14 @@ header {
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #5f1a37
+}
+
 h1 {
     font-family: 'Macondo', cursive;
 }
