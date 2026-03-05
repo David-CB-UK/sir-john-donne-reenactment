@@ -20,7 +20,15 @@ body {
 
 /* Header */
 header {
-    background-color: #ff00b3;
+    background-color: #ffffff;
+    padding: 0 1rem; 
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
+    /*.notes https://openreplay.com/tools/rgba-to-hex/ */
+
+    box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;
 }
 
 h1 {
