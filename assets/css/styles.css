@@ -42,6 +42,7 @@ header a {
 
 h1 {
     font-family: 'Macondo', cursive;
+    padding: .3rem 0;
 }
 
 #nav-menu {
@@ -89,6 +90,7 @@ main {
     background-color: #cac4ce;
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
+    margin-top: 52px;
 }
 
 /* Footer */
@@ -105,3 +107,8 @@ footer {
     }
 
 }
+
+
+/* Larger devices (laptops and desktops, 992 pc and up) */
+
+/* Larger devices section for 1200 and wider screens */
