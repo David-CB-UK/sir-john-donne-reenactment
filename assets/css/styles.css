@@ -174,7 +174,7 @@ footer {
         opacity: 0;
         transition: opacity 0.3s ease;
         color: #066DDC;
-        font-size: 0.8rem;
+        font-size: 0.55rem;
     }
 
     #nav-menu a::before {
@@ -183,7 +183,7 @@ footer {
     }
 
     #nav-menu a span::after {
-        content: "✦";
+        content: "✦";             /* used a <span> on nav links so full space shows */
         right: -12px;
     }
 
