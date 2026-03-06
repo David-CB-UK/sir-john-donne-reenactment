@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #f1e9d2;
     padding: 0 1rem; 
     position: fixed;
     z-index: 99;
@@ -39,15 +39,22 @@ header a {
     color: #5f1a37
 }
 
+h1 {
+    font-family: 'Macondo', cursive;
+}
+
 #nav-menu {
     font-size: 105%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-h1 {
-    font-family: 'Macondo', cursive;
+#nav-menu > li {
+    margin-bottom: 1rem;
 }
+
+.active {
+    border-bottom: 1px solid inherit;
 
 /* Main Content */
 main {
