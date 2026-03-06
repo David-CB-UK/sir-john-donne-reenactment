@@ -34,8 +34,15 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
     letter-spacing: 2px;
+    color: #5f1a37
 }
+
+#nav-menu {
+    font-size: 105%;
+    letter-spacing: 4px;
+    list-style-type: none;
 
 h1 {
     font-family: 'Macondo', cursive;
