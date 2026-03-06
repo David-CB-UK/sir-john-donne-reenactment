@@ -36,7 +36,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: #5f1a37
 }
@@ -95,4 +94,14 @@ main {
 /* Footer */
 footer {
     background-color: #fcbd00;
+}
+
+
+@media screen and (max-width: 991px) {
+    /* Smaller devices (laptops and desktops, 992 pc and up) */
+    #nav-menu {
+        text-align: right;
+        
+    }
+
 }
