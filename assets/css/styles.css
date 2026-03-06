@@ -98,17 +98,41 @@ footer {
     background-color: #fcbd00;
 }
 
-
-@media screen and (max-width: 991px) {
-    /* Smaller devices (laptops and desktops, 992 pc and up) */
+/* Media query: Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Smaller devices (mobiles, 767 px and below) */
     #nav-menu {
         text-align: right;
-        
     }
 
 }
 
 
-/* Larger devices (laptops and desktops, 992 pc and up) */
+/* Media query: Larger devices (laptops and desktops, 768 px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+        position: relative;
+    }
 
+    #nav-menu {
+        display: flex;
+/*        gap: 2rem;       */
+        text-align: left;
+    }
+
+    #nav-menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+    display: none;
+    }   
+
+}
+
+/* Media query: Larger devices (laptops and desktops, 992 px and up) */
 /* Larger devices section for 1200 and wider screens */
