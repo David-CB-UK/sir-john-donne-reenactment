@@ -40,6 +40,12 @@ main {
     flex: 1 0 auto;
 }
 
+#nav-menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
 /* Footer */
 footer {
     background-color: #fcbd00;
