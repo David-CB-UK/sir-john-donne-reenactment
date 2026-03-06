@@ -89,7 +89,7 @@ nav {
 #logo {
     font-size: 170%;
     line-height: 45px;
-    margin: 0;
+    margin: 0 0.5rem;
 }   
 
 /* Main Content */
@@ -97,8 +97,8 @@ main {
     background-color: #cac4ce;
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
-    margin-top: 52px;
-    padding-top: 7px    ;
+    margin-top: 56px;
+    padding-top: 10px    ;
 }
 
 /* Footer */
@@ -138,9 +138,17 @@ footer {
 
     .nav-toggle-label {
     display: none;
-    }   
+    } 
 
 }
 
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */
+@media screen and (min-width: 992px) {
+    #nav-menu a:hover {
+        border-bottom: 1px solid #5f1a37;
+    }   
+}
+
+
+
 /* Larger devices section for 1200 and wider screens */
