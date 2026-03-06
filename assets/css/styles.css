@@ -25,7 +25,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     /*.notes https://openreplay.com/tools/rgba-to-hex/ */
 
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;
@@ -55,7 +57,34 @@ h1 {
 
 .active {
     border-bottom: 1px solid inherit;
+}
 
+/* Navbar styles with dropdown menus */
+nav {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+        /*.notes https://openreplay.com/tools/rgba-to-hex/ */
+
+    box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;
+    top: 100%;
+    display: none;
+}
+
+/* Navbar toggling */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}   
+
+.nav-toggle-label {
+    font-size: 190%;
+}
 /* Main Content */
 main {
     background-color: #cac4ce;
