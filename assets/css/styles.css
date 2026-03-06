@@ -21,18 +21,24 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 1rem; 
     position: fixed;
-    top: 0; /* Fix header to top of page */
-    width: 100%;
     z-index: 99;
-    box-shadow: #5f1a37 (240, 46, 170, 0.4) 0px 5px, 5f1a37(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    width: 100%;
+    
+    /*.notes https://openreplay.com/tools/rgba-to-hex/ */
+
+    box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
 }
 
 h1 {
     font-family: 'Macondo', cursive;
-    text-transform: uppercase;
-    color: #5f1a37
 }
 
 /* Main Content */
@@ -40,13 +46,6 @@ main {
     background-color: #cac4ce;
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
-}
-
-#nav-menu {
-    margin-bottom: 1rem;
-    list-style-type: none;
-    font-size: 110%;
-    letter-spacing: 4px;
 }
 
 /* Footer */
