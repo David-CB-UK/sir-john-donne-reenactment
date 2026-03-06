@@ -144,9 +144,58 @@ footer {
 
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */
 @media screen and (min-width: 992px) {
+
+    #nav-menu a {
+        position: relative;
+        padding: 0 0.3rem;
+        transition: color 0.3s ease;
+    }
+
+    /* Animated underline */
+    #nav-menu a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0%;
+        height: 2px;
+        background-color: #066DDC;
+        transition: width 0.3s ease;
+    }
+
+    #nav-menu a:hover::after {
+        width: 100%;
+    }
+
+    /* Decorative medieval marks */
+    #nav-menu a::before,
+    #nav-menu a span::after {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        color: #066DDC;
+        font-size: 0.8rem;
+    }
+
+    #nav-menu a::before {
+        content: "✦";
+        left: -12px;
+    }
+
+    #nav-menu a span::after {
+        content: "✦";
+        right: -12px;
+    }
+
+    #nav-menu a:hover::before,
+    #nav-menu a:hover span::after {
+        opacity: 1;
+    }
+
     #nav-menu a:hover {
-        border-bottom: 1px solid #5f1a37;
-    }   
+        color: #066DDC;
+    }
+
 }
 
 
