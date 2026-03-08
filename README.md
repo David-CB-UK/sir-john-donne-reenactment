@@ -1,4 +1,5 @@
 # Sir John Donne Re-enactment
+
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-Re-enactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-Re-enactment/tree/main)
 
 TBC Responsive Mockup HERE
@@ -7,7 +8,8 @@ TBC Responsive Mockup HERE
 ![Responsive Mockup](assets/images/readme/responsive-mockup.png)
 
 ---
-### Table of Contents
+
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [User Experience](#user-experience)
@@ -41,53 +43,60 @@ The goal of the project is to create a **simple, accessible**, and **responsive 
 ## User Experience
 <!-- TODO: Add responsive mockup image -->
 ### Target Audience
+
 - Visitors attending historical Re-enactment events
 - Students and educators interested in early modern history
 - Members of the public interested in historical interpretationon
 
 <!-- TODO: Add responsive mockup image -->
 ### First Time Visitor Goals
--	Understand the purpose of the site immediately
--	Navigate easily between pages
--	Access important information quickly
--	Learn about Sir John Donne
--	Understand the historical items displayed in the Re-enactment tent
--	Discover further resources about Re-enactment and historical interpretation
+
+- Understand the purpose of the site immediately
+- Navigate easily between pages
+- Access important information quickly
+- Learn about Sir John Donne
+- Understand the historical items displayed in the Re-enactment tent
+- Discover further resources about Re-enactment and historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
 ### Returning Visitor Goals
--	Find new or updated information
--	Navigate directly to sections of interest
--	Find out about future events
--	Know how to contact site owner / historical re-enactment group 
-    
+
+- Find new or updated information
+- Navigate directly to sections of interest
+- Find out about future events
+- Know how to contact site owner / historical re-enactment group
+
 <!-- TODO: Add responsive mockup image -->
 ### Site Owner Goals
--	Present information clearly
--	Provide a clean and responsive design
--	Ensure accessibility across devices
--   Provide educational material about Sir John Donne
--	Support public engagement at Re-enactment events
--	Offer an accessible digital resource that complements the physical Re-enactment display
+
+- Present information clearly
+- Provide a clean and responsive design
+- Ensure accessibility across devices
+- Provide educational material about Sir John Donne
+- Support public engagement at Re-enactment events
+- Offer an accessible digital resource that complements the physical Re-enactment display
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
 
-## Design 
+## Design
 <!-- TODO: Add responsive mockup image -->
-### Colour scheme 
-TODO: explain colour scheme 
+### Colour scheme
+
+TODO: explain colour scheme
 
 The colour scheme was chosen to create a clear and accessible visual design.
 
 Main colours:
--	Primary colour
--	Secondary colour
--	Accent colour
+
+- Primary colour
+- Secondary colour
+- Accent colour
 
 ![Skeleton Layout](assets/images/readme/skeleton-layout.png)
 
 ### Typography
+
 todo: describe fonts used / selected
 
 the following fonts are used:
@@ -110,33 +119,32 @@ The website was designed with accessibility in mind:
 a skeleton layout was used to plan the page structure including header, content sections, footer etc.
 Wireframes were created during the planning stage to outline the structure of the website.
 
-
 ## Features
 <!-- TODO: Add responsive mockup image -->
 The website currently includes the following pages:
--	Home
--	About
--	Gallery
--	Events
--	Contact
+
+- Home
+- About
+- Gallery
+- Events
+- Contact
 
 ## Home Page
 <!-- TODO: Add responsive mockup image -->
 Landing Page
--	Hero image with introductory text
--	Introduces the Re-enactment project
--	Encourages visitors to explore the site
 
+- Hero image with introductory text
+- Introduces the Re-enactment project
+- Encourages visitors to explore the site
 
 ### Navigation Bar
 <!-- TODO: Describe the feature and its value to users -->
 - Appears on all pages
-- Allows easy navigation between sections of the website easily 
+- Allows easy navigation between sections of the website easily
 
 The navigation bar allows users to easily move between the main sections of the website.
 
 This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
-
 
 ![Navigation Bar](assets/images/readme/navbar.png)
 
@@ -147,10 +155,10 @@ The footer provides additional navigation options and may include links to relat
 This helps users easily locate important information regardless of where they are on the page.
 
 The footer provides:
--	Additional navigation
--	Contact information
-- Links to related resources
 
+- Additional navigation
+- Contact information
+- Links to related resources
 
 ### Landing Page
 <!-- TODO: Describe the landing page feature -->
@@ -200,9 +208,7 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 
 - External Feature Ideas:
 
-    - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
-
-
+  - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
@@ -225,7 +231,6 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 - Font Awesome
 - Am I Responsive
 - Lighthouse
-
 
 ## Project Structure
 <!-- TODO: Add responsive mockup image -->
@@ -251,12 +256,13 @@ project-root
 [Back to top](#sir-john-donne-re-enactment)
 ---
 
-##  Testing
+## Testing
 <!-- TODO: Explain your testing strategy -->
 The website was tested across multiple screen sizes including:
--	Desktop
--	Tablet
--	Mobile
+
+- Desktop
+- Tablet
+- Mobile
 The website was tested to ensure all features function correctly.
 
 ### Responsive Design
@@ -267,7 +273,7 @@ Desktop view:
 Mobile view:
 ![Mobile Layout](assets/images/readme/responsive-mobile.png)
 
-### Manual Testing 
+### Manual Testing
 <!-- TODO: Add responsive mockup image -->
 - separate .md file??
 <!-- TODO: Add responsive mockup image -->
@@ -277,11 +283,11 @@ Mobile view:
 - The website layout adapts to different screen sizes including mobile devices.
 
 | Feature | Action | Expected Result | Result |
-|-------|-------|-------|-------|
+| --- | --- | --- | --- |
 | Navigation | Click each link | Correct page loads | P?ass |
 | Contact Form | Submit form | Redirect to thank you page | Pa?ss |
 | Gallery | View images | Images load correctly | Pa?ss |
-|Responsive layout | Resize browser | Layout adapts correctly| P??ass|
+| Responsive layout | Resize browser | Layout adapts correctly | P??ass |
 
 ### Cross-Browser Testing
 <!-- TODO: Add responsive mockup image -->
@@ -292,29 +298,27 @@ Mobile view:
 <!-- TODO: Add responsive mockup image -->
 
 | Feature | Action | Expected Result | Result |
-|-------|-------|-------|-------|
+| --- | --- | --- | --- |
 | Chrome | ?? | Correct page loads? | P/F?? |
-| Edge| ?? | ?? | P/F?? |
+| Edge | ?? | ?? | P/F?? |
 | Safari | ?? | ?? | P/F?? |
-
 
 ### Validator Testing
 
-**HTML**
+#### HTML
 <!-- TODO  -->
 - No errors found using [W3C HTML Validator](https://validator.w3.org/)
 
-**CSS**
+#### CSS
 <!-- TODO  -->
 - No errors found using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-### Lighthouse Testing 
+### Lighthouse Testing
 <!-- TODO  -->
 
 ### Unfixed Bugs
 <!-- TODO  -->
 - Minor layout shifts on very small screens???
-
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
@@ -335,34 +339,35 @@ Steps:
 The site will become available after a few minutes.
 
 Live site link:  
-https://david-cb-uk.github.io/sir-john-donne-Re-enactment/
+<https://david-cb-uk.github.io/sir-john-donne-Re-enactment/>
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
 
 ## Credits
 <!-- TODO: Add your content sources -->
--	Code Institute
--	Online documentation and tutorials??
--	Community support??
--	Book(s)??
--	tbc
+- Code Institute
+- Online documentation and tutorials??
+- Community support??
+- Book(s)??
+- tbc
 
 ### Content
 <!-- TODO: Add your content sources -->
-- ______
-- ______
+- ...
+- ...
 
 ### Media
 <!-- TODO: Add your media sources -->
 - Images used in this project were sourced from:
-    - Mike Bass's own photography
-	- Historical references ????
-    - 
+  - Mike Bass's own photography
+    - Historical references ????
+  -
 - Icons from [Font Awesome](https://fontawesome.com/)
 
 [Back to top](#sir-john-donne-re-enactment)
 
-## Notes 
+###### Notes
+
 - README images are in `assets/images/readme/` separate from live website images.
 - Include responsive screenshots for desktop and mobile for assessors to see.
