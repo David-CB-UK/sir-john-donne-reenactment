@@ -328,6 +328,7 @@ Mobile view:
 - Minor layout shifts on very small screens???
 
 
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
 ## Deployment
@@ -353,11 +354,11 @@ https://david-cb-uk.github.io/sir-john-donne-reenactment/
 
 ## Credits
 
-	-	Code Institute
-	-	Online documentation and tutorials??
-	-	Community support??
-    -	Book(s)??
-	-	tbc
+-	Code Institute
+-	Online documentation and tutorials??
+-	Community support??
+-	Book(s)??
+-	tbc
 
 ### Content
 <!-- TODO: Add your content sources -->
