@@ -1,6 +1,12 @@
 # Sir John Donne Re-enactment
+[Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment/tree/main)
 
+TBC Responsive Mockup HERE
+
+<!-- TODO: Add responsive mockup image -->
 ![Responsive Mockup](assets/images/readme/responsive-mockup.png)
+
+--- 
 
 ## README Progress
 
@@ -13,132 +19,312 @@
 - [ ] Credits
 
 ---
+### Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [User Experience](#user-experience)
+3. [Design](#design)
+4. [Features](#features)
+5. [Technologies Used](#technologies-used)
+6. [Project Structure](#project-structure)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+
+---
 
 ## Project Overview
 
-<!-- TEMPLATE: Replace the text below with your own project description -->
-PROJECT NAME is a website designed to ______.  
+<!-- TODO: Replace the text below with your own project description -->
 
-The site is aimed at ______ and provides ______ so users can easily ______.  
+The Sir John Donne Re-enactment website is designed to support historical education and engagement through the recreation of a 17th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the reenactment, and details about the items and displays used within the reenactment tent.
+
+The website is aimed at visitors attending reenactment events, students interested in history, and members of the public who want to learn more about Sir John Donne and historical reenactment.
+
+The site helps users quickly find relevant information about the reenactment, understand the historical context of the displays, and discover how to engage further with the project.
+
+Users interact with the website by navigating through clearly organised sections that explain the reenactment setup, provide historical context, and offer additional information about objects displayed within the tent.
 
 The goal of the project is to create a **simple, accessible, and responsive website** that works across desktop, tablet, and mobile devices.
 
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
 ## User Experience
-
+<!-- TODO: Add responsive mockup image -->
 ### Target Audience
-<!-- TEMPLATE: List your target audience here -->
-- ______
-- ______
-- ______
+- Visitors attending historical reenactment events
+- Students and educators interested in early modern history
+- Members of the public interested in historical interpretation
 
-### User Goals
-<!-- TEMPLATE: Describe what your users want to achieve -->
-- ______
-- ______
-- ______
+<!-- TODO: Add responsive mockup image -->
+### First Time Visitor Goals
+-	Understand the purpose of the site immediately
+-	Navigate easily between pages
+-	Access important information quickly
+-	Learn about Sir John Donne
+-	Understand the historical items displayed in the reenactment tent
+-	Discover further resources about reenactment and historical interpretati
 
+<!-- TODO: Add responsive mockup image -->
+### Returning Visitor Goals
+-	Find new or updated information
+-	Navigate directly to sections of interest
+-	Find out about future events
+-	Know how to contact site owner / hostorical re-enactment group 
+    
+<!-- TODO: Add responsive mockup image -->
 ### Site Owner Goals
-<!-- TEMPLATE: Describe what the site owner wants to achieve -->
-- ______
-- ______
-- ______
+-	Present information clearly
+-	Provide a clean and responsive design
+-	Ensure accessibility across devices
+-   Provide educational material about Sir John Donne
+-	Support public engagement at reenactment events
+-	Offer an accessible digital resource that complements the physical reenactment display
 
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
+## Design 
+<!-- TODO: Add responsive mockup image -->
+### Colour scheme 
+TODO: explain colour scheme 
+
+The colour scheme was chosen to create a clear and accessible visual design.
+
+Main colours:
+	-	Primary colour
+	-	Secondary colour
+	-	Accent colour
+
+![Skeleton Layout](assets/images/readme/skeleton-layout.png)
+
+### Typography
+todo: describe fonts used / selected
+
+the following fonts are used:
+heading...
+body...
+
+### Accessibility
+
+The website was designed with accessibility in mind:
+<!-- TODO: Add examples? -->
+- Clear contrast between text and background
+- Semantic HTML structure
+- Alt text used for images
+- Responsive layout for assistive technologies
+
+### Skeleton Layout / Wireframes
+<!-- TODO: Add your wireframe or skeleton layout explanation -->
+- Shows the website structure before styling
+- The skeleton layout shows the structural elements used to build the pages.
+a skeleton layout was used to plan the page structure including header, content sections, footer etc.
+Wireframes were created during the planning stage to outline the structure of the website.
+
+
 ## Features
+<!-- TODO: Add responsive mockup image -->
+The website currently includes the following pages:
+	-	Home
+	-	About
+	-	Gallery
+	-	Events
+	-	Contact
+
+## Home Page
+<!-- TODO: Add responsive mockup image -->
+Landing Page
+	-	Hero image with introductory text
+	-	Introduces the reenactment project
+	-	Encourages visitors to explore the site
+
 
 ### Navigation Bar
-<!-- TEMPLATE: Describe the feature and its value to users -->
+<!-- TODO: Describe the feature and its value to users -->
 - Appears on all pages
-- Allows easy navigation between sections
+- Allows easy navigation between sections of the website easily 
+
+The navigation bar allows users to easily move between the main sections of the website.
+
+This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
+
 
 ![Navigation Bar](assets/images/readme/navbar.png)
 
+### Footer
+<!-- TODO: Add responsive mockup image -->
+The footer provides additional navigation options and may include links to related resources or contact information.
+
+This helps users easily locate important information regardless of where they are on the page.
+
+The footer provides:
+-	Additional navigation
+-	Contact information
+- Links to related resources
+
+
 ### Landing Page
-<!-- TEMPLATE: Describe the landing page feature -->
+<!-- TODO: Describe the landing page feature -->
 - Large hero image with introductory text
 - Introduces the purpose of the website
+- Provides a clear entry point for visitors
+
+The landing page introduces users to the Sir John Donne reenactment project.
+
+It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
+
+The main content sections explain the historical context of the reenactment and the items displayed within the tent.
+
+These sections help visitors understand the educational purpose of the display and provide further historical insight.
 
 ![Landing Page](assets/images/readme/landing-page.png)
 
 ### Gallery / Supporting Images
-<!-- TEMPLATE: Describe your gallery or content display -->
-- Displays images relevant to the project
+<!-- TODO: Describe your gallery or content display -->
+- Displays supporting images related to the reenactment display and historical items.
 
 ![Gallery](assets/images/readme/gallery.png)
 
-### Sign Up / Contact Form
-<!-- TEMPLATE: Describe the form functionality -->
+### Contact Form
+<!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
+
+Allows visitors to send enquiries about the reenactment project.
+
+After submission users are redirected to a thank-you page confirming the message was receive.
 
 ![Sign Up](assets/images/readme/signup.png)
 
-### Skeleton Layout / Wireframes
-<!-- TEMPLATE: Add your wireframe or skeleton layout explanation -->
-- Shows the website structure before styling
-
-![Skeleton Layout](assets/images/readme/skeleton-layout.png)
-
 ### Features Left to Implement
-<!-- TEMPLATE: List future planned features -->
-- Historic Timeline ______
-- FAQs ______
-- 360degrees images of tent______
-- ______
-- ______
-- ______
+<!-- TODO: List future planned features -->
+lanned improvements for future versions of the site include:
 
+- Historic Timeline / Timeline of Sir John Donne’s life.
+
+The timeline feature was explored during development but would require more complex interactive functionality. Since it involves multiple events across different time periods, it would be better implemented in a future version using JavaScript or Python. as well as. additional detailed pages about Sir John Donne's Life
+
+- FAQ section to answer common visitor questions.
+
+- 360degrees images in the tent.
+Interactive 360° view inside the reenactment tent allowing users to click objects and learn more about them
+
+- External Feature Ideas:
+
+    - QR codes displayed at the reenactment site that link directly to relevant sections of the website
+
+
+
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
 ## Technologies Used
 
 ### Languages
-<!-- TEMPLATE: List programming languages used -->
+<!-- TODO: List programming languages used -->
 - HTML5
 - CSS3
 
 ### Tools
-<!-- TEMPLATE: List tools and frameworks -->
+<!-- TODO: List tools and frameworks -->
 - Git
 - GitHub
 - Google Fonts
 - Font Awesome
+- VS Code
+- Obsidian (planning and documentation)
+- Font Awesome
+- Am I Responsive
+- Lighthouse
 
+
+## Project Structure
+<!-- TODO: Add responsive mockup image -->
+
+```text
+project-root
+│
+├── index.html
+├── gallery.html
+├── signup.html
+│
+├── assets
+│   ├── css
+│   │   └── style.css
+│   │
+│   └── images
+│       ├── site-images
+│       └── readme
+│
+└── README.md
+```
+
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
-## Testing
-
-<!-- TEMPLATE: Explain your testing strategy -->
+##  Testing
+<testing>
+<!-- TODO: Explain your testing strategy -->
+The website was tested across multiple screen sizes including:
+	-	Desktop
+	-	Tablet
+	-	Mobile
 The website was tested to ensure all features function correctly.
 
-### Manual Testing
+### Manual Testing 
+<!-- TODO: Add responsive mockup image -->
+- seperate .md file??
+<!-- TODO: Add responsive mockup image -->
 - Navigation links
 - Form submission
 - Responsive layout on different screen sizes
+- The website layout adapts to different screen sizes including mobile devices.
+
+| Feature | Action | Expected Result | Result |
+|-------|-------|-------|-------|
+| Navigation | Click each link | Correct page loads | P?ass |
+| Contact Form | Submit form | Redirect to thank you page | Pa?ss |
+| Gallery | View images | Images load correctly | Pa?ss |
+|Responsive layout | Resize browser | Layout adapts correctly| P??ass|
 
 ### Cross-Browser Testing
+<!-- TODO: Add responsive mockup image -->
 - Chrome
 - Edge
 - Safari
 
+<!-- TODO: Add responsive mockup image -->
+
+| Feature | Action | Expected Result | Result |
+|-------|-------|-------|-------|
+| Chrome | ?? | Correct page loads? | P/F?? |
+| Edge| ?? | ?? | P/F?? |
+| Safari | ?? | ?? | P/F?? |
+
+
 ### Validator Testing
 
 **HTML**
+<!-- TODO  -->
 - No errors found using [W3C HTML Validator](https://validator.w3.org/)
 
 **CSS**
+<!-- TODO  -->
 - No errors found using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-### Unfixed Bugs
-- Minor layout shifts on very small screens
+### Lighthouse Testing 
+<!-- TODO  -->
 
+### Unfixed Bugs
+<!-- TODO  -->
+- Minor layout shifts on very small screens???
+
+</testing>
 ---
 
 ## Deployment
 
-<!-- TEMPLATE: Explain how your site is deployed -->
+<!-- TODO Explain how your site is deployed -->
 The project was deployed using **GitHub Pages**.
 
 Steps:
@@ -149,26 +335,37 @@ Steps:
 4. Select the **main branch**
 5. Save changes
 
-Live site link:  
-https://username.github.io/project-name/
+The site will become available after a few minutes.
 
+Live site link:  
+https://david-cb-uk.github.io/sir-john-donne-reenactment/
+
+[Back to top](#sir-john-donne-re-enactment)
 ---
 
-## Credits
+## Credits / Acknowledgements
+
+	-	Code Institute
+	-	Online documentation and tutorials??
+	-	Community support??
+    -	Book(s)??
+	-	tbc
 
 ### Content
-<!-- TEMPLATE: Add your content sources -->
+<!-- TODO: Add your content sources -->
 - ______
 - ______
 
 ### Media
-<!-- TEMPLATE: Add your media sources -->
-- Images sourced from ______
+<!-- TODO: Add your media sources -->
+- Images used in this project were sourced from:
+    - Mike Bass's own photography
+	- Historical references ????
+    - 
 - Icons from [Font Awesome](https://fontawesome.com/)
 
-
+[Back to top](#sir-john-donne-re-enactment)
 
 ## Notes 
 - README images are in `assets/images/readme/` separate from live website images.
-- Use descriptive file names for images (e.g., `landing-page.png`, `signup-form.png`).
 - Include responsive screenshots for desktop and mobile for assessors to see.
