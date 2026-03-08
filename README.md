@@ -6,18 +6,6 @@ TBC Responsive Mockup HERE
 <!-- TODO: Add responsive mockup image -->
 ![Responsive Mockup](assets/images/readme/responsive-mockup.png)
 
---- 
-
-## README Progress
-
-- [ ] Project Overview
-- [ ] User Experience
-- [ ] Features
-- [ ] Technologies Used
-- [ ] Testing
-- [ ] Deployment
-- [ ] Credits
-
 ---
 ### Table of Contents
 
@@ -353,7 +341,7 @@ https://david-cb-uk.github.io/sir-john-donne-Re-enactment/
 ---
 
 ## Credits
-
+<!-- TODO: Add your content sources -->
 -	Code Institute
 -	Online documentation and tutorials??
 -	Community support??
