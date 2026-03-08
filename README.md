@@ -1,5 +1,5 @@
 # Sir John Donne Re-enactment
-[Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment/tree/main)
+[Live Site](https://david-cb-uk.github.io/sir-john-donne-Re-enactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-Re-enactment/tree/main)
 
 TBC Responsive Mockup HERE
 
@@ -37,15 +37,15 @@ TBC Responsive Mockup HERE
 
 <!-- TODO: Replace the text below with your own project description -->
 
-The Sir John Donne Re-enactment website is designed to support historical education and engagement through the recreation of a 17th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the reenactment, and details about the items and displays used within the reenactment tent.
+The Sir John Donne Re-enactment website is designed to support historical education and engagement through the recreation of a 17th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the Re-enactment, and details about the items and displays used within the Re-enactment tent.
 
-The website is aimed at visitors attending reenactment events, students interested in history, and members of the public who want to learn more about Sir John Donne and historical reenactment.
+The website is aimed at visitors attending Re-enactment events, students interested in history, and members of the public who want to learn more about Sir John Donne and historical Re-enactment.
 
-The site helps users quickly find relevant information about the reenactment, understand the historical context of the displays, and discover how to engage further with the project.
+The site helps users quickly find relevant information about the Re-enactment, understand the historical context of the displays, and discover how to engage further with the project.
 
-Users interact with the website by navigating through clearly organised sections that explain the reenactment setup, provide historical context, and offer additional information about objects displayed within the tent.
+Users interact with the website by navigating through clearly organised sections that explain the Re-enactment setup, provide historical context, and offer additional information about objects displayed within the tent.
 
-The goal of the project is to create a **simple, accessible, and responsive website** that works across desktop, tablet, and mobile devices.
+The goal of the project is to create a **simple, accessible**, and **responsive website** that works across desktop, tablet, and mobile devices.
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
@@ -53,7 +53,7 @@ The goal of the project is to create a **simple, accessible, and responsive webs
 ## User Experience
 <!-- TODO: Add responsive mockup image -->
 ### Target Audience
-- Visitors attending historical reenactment events
+- Visitors attending historical Re-enactment events
 - Students and educators interested in early modern history
 - Members of the public interested in historical interpretationon
 
@@ -63,8 +63,8 @@ The goal of the project is to create a **simple, accessible, and responsive webs
 -	Navigate easily between pages
 -	Access important information quickly
 -	Learn about Sir John Donne
--	Understand the historical items displayed in the reenactment tent
--	Discover further resources about reenactment and historical interpretation
+-	Understand the historical items displayed in the Re-enactment tent
+-	Discover further resources about Re-enactment and historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
 ### Returning Visitor Goals
@@ -79,8 +79,8 @@ The goal of the project is to create a **simple, accessible, and responsive webs
 -	Provide a clean and responsive design
 -	Ensure accessibility across devices
 -   Provide educational material about Sir John Donne
--	Support public engagement at reenactment events
--	Offer an accessible digital resource that complements the physical reenactment display
+-	Support public engagement at Re-enactment events
+-	Offer an accessible digital resource that complements the physical Re-enactment display
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
@@ -136,7 +136,7 @@ The website currently includes the following pages:
 <!-- TODO: Add responsive mockup image -->
 Landing Page
 -	Hero image with introductory text
--	Introduces the reenactment project
+-	Introduces the Re-enactment project
 -	Encourages visitors to explore the site
 
 
@@ -170,11 +170,11 @@ The footer provides:
 - Introduces the purpose of the website
 - Provides a clear entry point for visitors
 
-The landing page introduces users to the Sir John Donne reenactment project.
+The landing page introduces users to the Sir John Donne Re-enactment project.
 
 It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
 
-The main content sections explain the historical context of the reenactment and the items displayed within the tent.
+The main content sections explain the historical context of the Re-enactment and the items displayed within the tent.
 
 These sections help visitors understand the educational purpose of the display and provide further historical insight.
 
@@ -182,7 +182,7 @@ These sections help visitors understand the educational purpose of the display a
 
 ### Gallery / Supporting Images
 <!-- TODO: Describe your gallery or content display -->
-- Displays supporting images related to the reenactment display and historical items.
+- Displays supporting images related to the Re-enactment display and historical items.
 
 ![Gallery](assets/images/readme/gallery.png)
 
@@ -190,7 +190,7 @@ These sections help visitors understand the educational purpose of the display a
 <!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
 
-Allows visitors to send enquiries about the reenactment project.
+Allows visitors to send enquiries about the Re-enactment project.
 
 After submission users are redirected to a thank-you page confirming the message was receive.
 
@@ -208,11 +208,11 @@ The timeline feature was explored during development but would require more comp
 
 - 360°
  images in the tent.
-Interactive 360° view inside the reenactment tent allowing users to click objects and learn more about them
+Interactive 360° view inside the Re-enactment tent allowing users to click objects and learn more about them
 
 - External Feature Ideas:
 
-    - QR codes displayed at the reenactment site that link directly to relevant sections of the website
+    - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
 
 
 
@@ -347,7 +347,7 @@ Steps:
 The site will become available after a few minutes.
 
 Live site link:  
-https://david-cb-uk.github.io/sir-john-donne-reenactment/
+https://david-cb-uk.github.io/sir-john-donne-Re-enactment/
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
