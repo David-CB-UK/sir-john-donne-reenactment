@@ -55,7 +55,7 @@ The goal of the project is to create a **simple, accessible, and responsive webs
 ### Target Audience
 - Visitors attending historical reenactment events
 - Students and educators interested in early modern history
-- Members of the public interested in historical interpretation
+- Members of the public interested in historical interpretationon
 
 <!-- TODO: Add responsive mockup image -->
 ### First Time Visitor Goals
@@ -64,14 +64,14 @@ The goal of the project is to create a **simple, accessible, and responsive webs
 -	Access important information quickly
 -	Learn about Sir John Donne
 -	Understand the historical items displayed in the reenactment tent
--	Discover further resources about reenactment and historical interpretati
+-	Discover further resources about reenactment and historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
 ### Returning Visitor Goals
 -	Find new or updated information
 -	Navigate directly to sections of interest
 -	Find out about future events
--	Know how to contact site owner / hostorical re-enactment group 
+-	Know how to contact site owner / historical re-enactment group 
     
 <!-- TODO: Add responsive mockup image -->
 ### Site Owner Goals
@@ -93,9 +93,9 @@ TODO: explain colour scheme
 The colour scheme was chosen to create a clear and accessible visual design.
 
 Main colours:
-	-	Primary colour
-	-	Secondary colour
-	-	Accent colour
+-	Primary colour
+-	Secondary colour
+-	Accent colour
 
 ![Skeleton Layout](assets/images/readme/skeleton-layout.png)
 
@@ -126,18 +126,18 @@ Wireframes were created during the planning stage to outline the structure of th
 ## Features
 <!-- TODO: Add responsive mockup image -->
 The website currently includes the following pages:
-	-	Home
-	-	About
-	-	Gallery
-	-	Events
-	-	Contact
+-	Home
+-	About
+-	Gallery
+-	Events
+-	Contact
 
 ## Home Page
 <!-- TODO: Add responsive mockup image -->
 Landing Page
-	-	Hero image with introductory text
-	-	Introduces the reenactment project
-	-	Encourages visitors to explore the site
+-	Hero image with introductory text
+-	Introduces the reenactment project
+-	Encourages visitors to explore the site
 
 
 ### Navigation Bar
@@ -197,8 +197,8 @@ After submission users are redirected to a thank-you page confirming the message
 ![Sign Up](assets/images/readme/signup.png)
 
 ### Features Left to Implement
-<!-- TODO: List future planned features -->
-lanned improvements for future versions of the site include:
+<!-- TODO: List future pplanned features -->
+planned improvements for future versions of the site include:
 
 - Historic Timeline / Timeline of Sir John Donne’s life.
 
@@ -206,7 +206,8 @@ The timeline feature was explored during development but would require more comp
 
 - FAQ section to answer common visitor questions.
 
-- 360degrees images in the tent.
+- 360°
+ images in the tent.
 Interactive 360° view inside the reenactment tent allowing users to click objects and learn more about them
 
 - External Feature Ideas:
@@ -263,17 +264,24 @@ project-root
 ---
 
 ##  Testing
-<testing>
 <!-- TODO: Explain your testing strategy -->
 The website was tested across multiple screen sizes including:
-	-	Desktop
-	-	Tablet
-	-	Mobile
+-	Desktop
+-	Tablet
+-	Mobile
 The website was tested to ensure all features function correctly.
+
+### Responsive Design
+<!-- TODO: Explain your testing strategy -->
+Desktop view:
+![Desktop Layout](assets/images/readme/responsive-desktop.png)
+<!-- TODO: Explain your testing strategy -->
+Mobile view:
+![Mobile Layout](assets/images/readme/responsive-mobile.png)
 
 ### Manual Testing 
 <!-- TODO: Add responsive mockup image -->
-- seperate .md file??
+- separate .md file??
 <!-- TODO: Add responsive mockup image -->
 - Navigation links
 - Form submission
@@ -319,7 +327,7 @@ The website was tested to ensure all features function correctly.
 <!-- TODO  -->
 - Minor layout shifts on very small screens???
 
-</testing>
+
 ---
 
 ## Deployment
@@ -343,7 +351,7 @@ https://david-cb-uk.github.io/sir-john-donne-reenactment/
 [Back to top](#sir-john-donne-re-enactment)
 ---
 
-## Credits / Acknowledgements
+## Credits
 
 	-	Code Institute
 	-	Online documentation and tutorials??
