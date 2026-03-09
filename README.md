@@ -27,15 +27,15 @@ TBC Responsive Mockup HERE
 
 <!-- TODO: Replace the text below with your own project description -->
 
-The Sir John Donne Re-enactment website is designed to support historical education and engagement through the recreation of a 17th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the Re-enactment, and details about the items and displays used within the Re-enactment tent.
+The Sir John Donne Re-enactment website is designed to support historical education and public engagement through the recreation of a 15th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the re-enactment, and details about the objects and displays used within the re-enactment or living-history tent.
 
-The website is aimed at visitors attending Re-enactment events, students interested in history, and members of the public who want to learn more about Sir John Donne and historical Re-enactment.
+The website is aimed at visitors attending re-enactment events, students interested in medieval history, and members of the public who want to learn more about Sir John Donne and historical re-enactment.
 
-The site helps users quickly find relevant information about the Re-enactment, understand the historical context of the displays, and discover how to engage further with the project.
+The site helps users quickly find relevant information about the re-enactment, understand the historical context of the displays, and discover how to engage further with the project.
 
-Users interact with the website by navigating through clearly organised sections that explain the Re-enactment setup, provide historical context, and offer additional information about objects displayed within the tent.
+Users interact with the website by navigating through clearly organised sections that explain the re-enactment setup, provide historical background, and offer additional information about the items displayed within the living-history tent.
 
-The goal of the project is to create a **simple, accessible**, and **responsive website** that works across desktop, tablet, and mobile devices.
+The goal of the project is to create a **simple, accessible** , and **responsive website** that works across desktop, tablet, and mobile devices.
 
 [Back to top](#sir-john-donne-re-enactment)
 ---
