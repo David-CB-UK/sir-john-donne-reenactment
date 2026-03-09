@@ -131,24 +131,18 @@ body.error-page main {
 
 #error-404 {
     height: 100vh; /* full viewport height */
-    display: flex;  /* center content vertically & horizontally */
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;     /* horizontal centering */
-    background-image: url('../images/404.webp');
-    background-repeat: no-repeat;
-    background-position: 85% center;
-    background-size: cover;   /* ensures image fills screen */
-    text-align: center;
-    padding: 30vh 2rem 2rem 2rem; /* 30vh push text down to be more visible on the image */
-    background-position: 85% center; /* moves image left to center with text - may change and remove to move together------------------------*/
     position: relative;
+    background-image: url('../images/404.webp');
+    background-repeat: no-repeat;    
+    background-size: cover;   /* ensures image fills screen */
+    background-position: center center;
+    text-align: center;
 }
 
 #cover-text-404 {
     position: absolute;
     top: 64%;          /* vertical middle */
-    left: 50%;         /* horizontal middle */
+    left: 52%;         /* horizontal middle */
     transform: translate(-50%, -50%); /* truly center in both axes */
     background-color: rgba(241, 237, 227, 0.88); /* semi-transparent beige background for text readability */
     padding: 1rem 0.8rem;
@@ -156,6 +150,10 @@ body.error-page main {
     border-top: 2px solid rgba(95,26,55,0.5); 
     box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
     color: #5f1a37
+}
+
+body.error-page * {
+    box-sizing: content-box; /* to remove white padding on right on small screens */
 }
 
 #cover-text-404 > p {
@@ -201,14 +199,26 @@ footer {
     #833ab4,#fd1d1d,#fcb045);
 }
 
-
 @media screen and (max-width: 767px) {
     /* Smaller devices (mobiles, 767 px and below) */
     #nav-menu {
         text-align: right;
     }
-}
+    /* 404 pages */
+    #error-404 {
+        height: 100vh;       /* full viewport height */
+        padding: 0 1rem;     /* horizontal padding for narrow screens */
+    }
 
+    #cover-text-404 {
+        top: 50%;             /* move box higher for small screens */
+        left: 52%;
+        transform: translate(-50%, -50%);
+        padding: 0.6rem 0.8rem;  /* reduce padding */
+        max-width: 90%;       /* prevent overflow on narrow screens */
+        font-size: 0.95rem;   /* optional: scale font slightly */
+    }
+}
 
 /* Media query: Larger devices (laptops and desktops, 768 px and up) */
 @media screen and (min-width: 768px) {
