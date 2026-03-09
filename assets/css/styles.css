@@ -44,6 +44,10 @@ h1 {
     padding: .3rem 0;
 }
 
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
 #nav-menu {
     font-size: 105%;
     letter-spacing: 4px;
@@ -136,10 +140,22 @@ body.error-page main {
     background-image: url('../images/404.webp');
     background-repeat: no-repeat;
     background-size: cover;   /* ensures image fills screen */
-    background-position: center;
     text-align: center;
     padding: 2rem;
-    color: #ffffff; /* text color to contrast image */
+    padding-top: 30vh; /* push text down to be more visible on the image */
+    background-position: 85% center; /* moves image left to center with text - may change and remove to move together------------------------*/
+}
+
+#cover-text-404 {
+    background-color: rgba(241, 237, 227, 0.65); /* semi-transparent beige background for text readability */
+    padding: 1rem 0.8rem;
+    border-radius: 8px;
+    border-top: 1px solid rgba(95,26,55,0.5); box-shadow: 0px -2px 6px rgba(95,26,55,0.5);
+    color: #5f1a37
+}
+
+#cover-text-404 >p {
+    color: #000000
 }
 
 /* Footer */
