@@ -185,15 +185,16 @@ footer {
 
     /* Animated underline */
     #nav-menu a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -3px;
-        width: 0%;
-        height: 2px;
-        background-color: #066DDC;
-        transition: width 0.3s ease;
-    }
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #066DDC;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
 
     #nav-menu a:hover::after {
         width: 100%;
