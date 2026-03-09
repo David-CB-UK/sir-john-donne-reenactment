@@ -350,8 +350,11 @@ Live site link:
 - Online documentation and tutorials??
 - Community support??
 - Book(s)??
-- [Gradient Page](https://gradient.page/ui-gradients/instagram) Helped me correct the instagram favicon.
--
+- [Font Awesome](https://fontawesome.com/) Used to collect favicon icons.
+- [Gradient Page](https://gradient.page/ui-gradients/instagram)
+  Used as a guide for implementing the correct Instagram favicon gradient styling.
+- Duckett, J. (2011) HTML and CSS: Design and Build Websites. Indianapolis: John Wiley & Sons. 
+  This source was used for general guidance and reference when structuring HTML and CSS within the project.
 
 ### Content
 <!-- TODO: Add your content sources -->
@@ -364,7 +367,7 @@ Live site link:
   - Mike Bass's own photography
     - Historical references ????
   -
-- Icons from [Font Awesome](https://fontawesome.com/)
+- 
 
 [Back to top](#sir-john-donne-re-enactment)
 
