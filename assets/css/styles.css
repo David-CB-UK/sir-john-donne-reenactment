@@ -144,7 +144,7 @@ body.error-page main {
     top: 64%;          /* vertical middle */
     left: 52%;         /* horizontal middle */
     transform: translate(-50%, -50%); /* truly center in both axes */
-    background-color: rgba(241, 237, 227, 0.88); /* semi-transparent beige background for text readability */
+    background-color: rgba(241, 237, 227, 0.77); /* semi-transparent beige background for text readability */
     padding: 1rem 0.8rem;
     border-radius: 6px;
     border-top: 2px solid rgba(95,26,55,0.5); 
