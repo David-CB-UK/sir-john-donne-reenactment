@@ -166,6 +166,7 @@ This feature enables visitors to navigate between pages without needing to retur
 The footer provides additional navigation options and may include links to related resources or contact information.
 
 This helps users easily locate important information regardless of where they are on the page.
+All pages include the footer, with the exception of the 404 page.
 
 The footer provides:
 
