@@ -21,9 +21,9 @@ body {
 /* Header */
 header {
     background-color: #f1e9d2;
-    padding: 0 1rem; 
+    padding: 0 0rem; 
     position: fixed;
-    z-index: 99;
+    z-index: 99; 
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -93,11 +93,21 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #cac4ce;                                       /* #f1e9d2 used here to make the main content area different from header and footer */
+    background-color: #00ff11;                                       /* #f1e9d2 used here to make the main content area different from header and footer */
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
-    margin-top: 56px;
+    margin-top: 10px;
     padding-top: 10px    ;
+}
+
+/* Hero section */
+#hero {
+    height: 600px; /* Set a fixed height for the hero section */
+    width: 100%;    
+    background: url(../images/red-and-blue-pavillion-tents.webp) no-repeat; 
+    background-size: cover; /* Ensures the image covers the entire hero section */
+    background-position: 75%; /* moves images to see the cart on the right on smaller screens */
+    position: relative; /* cover text will be placed relative to the hero image*/
 }
 
 /* Footer */
@@ -182,6 +192,16 @@ footer {
     transform: scale(1.3);  /* grows bigger */
     text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
 }
+}
+
+
+
+/* Media query: Smaller devices (mobiles, 768 px and below) */
+@media screen and (max-width: 768px) {
+    #hero {
+    height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
+    min-height: 300px;
+    }
 }
 
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */

@@ -370,7 +370,11 @@ Live site link:
 - [Gradient Page](https://gradient.page/ui-gradients/instagram)  
   Used as a visual reference for implementing the correct Instagram gradient styling.
 
-- [Openreplay](https://openreplay.com/tools/rgba-to-hex/) used to convert RGBA color values to hexadecimal format*/
+- [Openreplay](https://openreplay.com/tools/rgba-to-hex/)
+  Used to convert RGBA color values to hexadecimal format*/
+
+- [Free Convert](https://www.freeconvert.com/jpg-to-webp/download)
+  Used to convert .JPG to WebP
 
 ### Media
 <!-- TODO: Add your media sources -->
