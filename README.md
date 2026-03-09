@@ -431,5 +431,3 @@ Live site link:
 
 - README images are in `assets/images/readme/` separate from live website images.
 - Include responsive screenshots for desktop and mobile for assessors to see.
-
-[def]: #top

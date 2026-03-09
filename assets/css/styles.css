@@ -115,7 +115,6 @@ main {
 }
 
 /* 404 Error Page */
-/* Specific styles for the 404 error page to ensure the image fills the screen and text is visible */
 body.error-page {       
     margin: 0;
     padding: 0;
@@ -158,7 +157,6 @@ body.error-page main {
     box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
     color: #5f1a37
 }
-    
 
 #cover-text-404 > p {
     color: #000000
@@ -235,7 +233,7 @@ footer {
     .nav-toggle-label {
     display: none;
     } 
-
+}
 
 /* Footer Icons hover effect for all social icons */
 #social-networks i {
