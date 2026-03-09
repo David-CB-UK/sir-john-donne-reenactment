@@ -28,8 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    /*.notes https://openreplay.com/tools/rgba-to-hex/ */
-
+    /* Openreplay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;     /*note shodow box different on different screen sizes to fix */
 }
 
@@ -66,8 +65,8 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-        /*.notes https://openreplay.com/tools/rgba-to-hex/ */
 
+    /* Openreplay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;      /*note shodow box different on different screen sizes to fix */
     top: 100%;
     display: none;
@@ -133,13 +132,13 @@ footer {
 }
 
 .instagram-icon {
-    color:white;
+    color:white;                  /* Gradient Page used here see README.md */
     background: linear-gradient(
     to right,
     #833ab4,#fd1d1d,#fcb045);
 }
 
-/* Media query: Mobile devices */
+
 @media screen and (max-width: 767px) {
     /* Smaller devices (mobiles, 767 px and below) */
     #nav-menu {

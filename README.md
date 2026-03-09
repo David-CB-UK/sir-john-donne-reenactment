@@ -346,7 +346,6 @@ Live site link:
 
 ## Credits
 <!-- TODO: Add your content sources -->
-## Credits
 
 - [Code Institute](https://codeinstitute.net/)  
   Course learning materials and walkthrough lessons were used as guidance during the development of this project.
@@ -359,13 +358,19 @@ Live site link:
 
 ### Content
 <!-- TODO: Add your content sources -->
+- [Google Font](https://fonts.google.com/)
+  Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
+  
+- [Favicon Generator](https://favicon-maker.com)
+  Used to create the website favicons from, including the standard .png, .ico, .svg, and Apple touch icons, which appear in browser tabs, bookmarks, and mobile home screen.
+
 - [Font Awesome](https://fontawesome.com/)  
-  Used to source favicon and interface icons used throughout the website.
+  Used to source icon and interface icons used throughout the website.
 
 - [Gradient Page](https://gradient.page/ui-gradients/instagram)  
   Used as a visual reference for implementing the correct Instagram gradient styling.
 
-- ...
+- [Openreplay](https://openreplay.com/tools/rgba-to-hex/) used to convert RGBA color values to hexadecimal format*/
 
 ### Media
 <!-- TODO: Add your media sources -->
