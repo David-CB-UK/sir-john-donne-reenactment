@@ -119,7 +119,6 @@ main {
 body.error-page {       
     margin: 0;
     padding: 0;
-    height: 100%;
     background-color: transparent; /* remove beige from body */
 }
 
@@ -135,26 +134,33 @@ body.error-page main {
     height: 100vh; /* full viewport height */
     display: flex;  /* center content vertically & horizontally */
     flex-direction: column;
-    justify-content: center; /* vertical centering */
+    justify-content: flex-start;
     align-items: center;     /* horizontal centering */
     background-image: url('../images/404.webp');
     background-repeat: no-repeat;
+    background-position: 85% center;
     background-size: cover;   /* ensures image fills screen */
     text-align: center;
-    padding: 2rem;
-    padding-top: 30vh; /* push text down to be more visible on the image */
+    padding: 30vh 2rem 2rem 2rem; /* 30vh push text down to be more visible on the image */
     background-position: 85% center; /* moves image left to center with text - may change and remove to move together------------------------*/
+    position: relative;
 }
 
 #cover-text-404 {
-    background-color: rgba(241, 237, 227, 0.65); /* semi-transparent beige background for text readability */
+    position: absolute;
+    top: 64%;          /* vertical middle */
+    left: 50%;         /* horizontal middle */
+    transform: translate(-50%, -50%); /* truly center in both axes */
+    background-color: rgba(241, 237, 227, 0.88); /* semi-transparent beige background for text readability */
     padding: 1rem 0.8rem;
-    border-radius: 8px;
-    border-top: 1px solid rgba(95,26,55,0.5); box-shadow: 0px -2px 6px rgba(95,26,55,0.5);
+    border-radius: 6px;
+    border-top: 2px solid rgba(95,26,55,0.5); 
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
     color: #5f1a37
 }
+    
 
-#cover-text-404 >p {
+#cover-text-404 > p {
     color: #000000
 }
 
@@ -241,15 +247,20 @@ footer {
     transform: scale(1.3);  /* grows bigger */
     text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
 }
-}
-
-
 
 /* Media query: Smaller devices (mobiles, 768 px and below) */
 @media screen and (max-width: 768px) {
     #hero {
-    height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
-    min-height: 300px;
+        height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
+        min-height: 300px;
+    }
+
+    /* 404 Page */
+    #error-404 {
+        padding: 20vh 2rem 4rem 2rem; 
+        top: 55%;       /* slightly lower for smaller screens */
+        max-width: 90%; /* smaller width for narrow screens */
+   
     }
 }
 
@@ -264,16 +275,16 @@ footer {
 
     /* Animated underline */
     #nav-menu a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -3px;
-    width: 0;
-    height: 2px;
-    background-color: #066DDC;
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-}
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        background-color: #066DDC;
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+    }
 
     #nav-menu a:hover::after {
         width: 100%;
@@ -307,9 +318,4 @@ footer {
     #nav-menu a:hover {
         color: #066DDC;
     }
-
 }
-
-
-
-/* Larger devices section for 1200 and wider screens */
