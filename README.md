@@ -4,7 +4,6 @@
 
 TBC Responsive Mockup HERE
 
-<!-- TODO: Add responsive mockup image -->
 ![Responsive Mockup](assets/images/readme/responsive-mockup.png)
 
 ---
@@ -37,11 +36,14 @@ Users interact with the website by navigating through clearly organised sections
 
 The goal of the project is to create a **simple, accessible** , and **responsive website** that works across desktop, tablet, and mobile devices.
 
-[Back to top](#sir-john-donne-re-enactment)
+[Back to top](#sir-john-donne-re-enactment) <!-- add space below so not large size -->
+
 ---
 
 ## User Experience
+
 <!-- TODO: Add responsive mockup image -->
+
 ### Target Audience
 
 - Visitors attending historical Re-enactment events
@@ -49,6 +51,7 @@ The goal of the project is to create a **simple, accessible** , and **responsive
 - Members of the public interested in historical interpretationon
 
 <!-- TODO: Add responsive mockup image -->
+
 ### First Time Visitor Goals
 
 - Understand the purpose of the site immediately
@@ -59,6 +62,7 @@ The goal of the project is to create a **simple, accessible** , and **responsive
 - Discover further resources about Re-enactment and historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
+
 ### Returning Visitor Goals
 
 - Find new or updated information
@@ -67,6 +71,7 @@ The goal of the project is to create a **simple, accessible** , and **responsive
 - Know how to contact site owner / historical re-enactment group
 
 <!-- TODO: Add responsive mockup image -->
+
 ### Site Owner Goals
 
 - Present information clearly
@@ -77,10 +82,13 @@ The goal of the project is to create a **simple, accessible** , and **responsive
 - Offer an accessible digital resource that complements the physical Re-enactment display
 
 [Back to top](#sir-john-donne-re-enactment)
+
 ---
 
 ## Design
+
 <!-- TODO: Add responsive mockup image -->
+
 ### Colour scheme
 
 TODO: explain colour scheme
@@ -113,6 +121,7 @@ The website was designed with accessibility in mind:
 - Responsive layout for assistive technologies
 
 ### Skeleton Layout / Wireframes
+
 <!-- TODO: Add your wireframe or skeleton layout explanation -->
 - Shows the website structure before styling
 - The skeleton layout shows the structural elements used to build the pages.
@@ -120,6 +129,7 @@ a skeleton layout was used to plan the page structure including header, content 
 Wireframes were created during the planning stage to outline the structure of the website.
 
 ## Features
+
 <!-- TODO: Add responsive mockup image -->
 The website currently includes the following pages:
 
@@ -128,9 +138,10 @@ The website currently includes the following pages:
 - Gallery
 - Events
 - Contact
-- 404 
+- 404
 
-## Home Page
+### Home Page
+
 <!-- TODO: Add responsive mockup image -->
 Landing Page
 
@@ -150,6 +161,7 @@ This feature enables visitors to navigate between pages without needing to retur
 ![Navigation Bar](assets/images/readme/navbar.png)
 
 ### Footer
+
 <!-- TODO: Add responsive mockup image -->
 The footer provides additional navigation options and may include links to related resources or contact information.
 
@@ -162,6 +174,7 @@ The footer provides:
 - Links to related resources
 
 ### Landing Page
+
 <!-- TODO: Describe the landing page feature -->
 - Large hero image with introductory text
 - Introduces the purpose of the website
@@ -178,12 +191,14 @@ These sections help visitors understand the educational purpose of the display a
 ![Landing Page](assets/images/readme/landing-page.png)
 
 ### Gallery / Supporting Images
+
 <!-- TODO: Describe your gallery or content display -->
 - Displays supporting images related to the Re-enactment display and historical items.
 
 ![Gallery](assets/images/readme/gallery.png)
 
 ### Contact Form
+
 <!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
 
@@ -193,15 +208,16 @@ After submission users are redirected to a thank-you page confirming the message
 
 ![Sign Up](assets/images/readme/signup.png)
 
-## 404 
- - The 404 page is to inform the user of what has happned and to keep them on the site.
- - new desitnation (home page) button
- - Keep it simple
+## 404
 
+- The 404 page is to inform the user of what has happned and to keep them on the site.
+- new desitnation (home page) button
+- Keep it simple
 
 ### Features Left to Implement
+
 <!-- TODO: List future pplanned features -->
-planned improvements for future versions of the site include:
+Planned improvements for future versions of the site include:
 
 - Historic Timeline / Timeline of Sir John Donne’s life.
 
@@ -218,16 +234,19 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
   - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
 
 [Back to top](#sir-john-donne-re-enactment)
+
 ---
 
 ## Technologies Used
 
 ### Languages
+
 <!-- TODO: List programming languages used -->
 - HTML5
 - CSS3
 
 ### Tools
+
 <!-- TODO: List tools and frameworks -->
 - Git
 - GitHub
@@ -240,6 +259,7 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 - Lighthouse
 
 ## Project Structure
+
 <!-- TODO: Add responsive mockup image -->
 
 ```text
@@ -261,9 +281,11 @@ project-root
 ```
 
 [Back to top](#sir-john-donne-re-enactment)
+
 ---
 
 ## Testing
+
 <!-- TODO: Explain your testing strategy -->
 The website was tested across multiple screen sizes including:
 
@@ -273,6 +295,7 @@ The website was tested across multiple screen sizes including:
 The website was tested to ensure all features function correctly.
 
 ### Responsive Design
+
 <!-- TODO: Explain your testing strategy -->
 Desktop view:
 ![Desktop Layout](assets/images/readme/responsive-desktop.png)
@@ -281,6 +304,7 @@ Mobile view:
 ![Mobile Layout](assets/images/readme/responsive-mobile.png)
 
 ### Manual Testing
+
 <!-- TODO: Add responsive mockup image -->
 - separate .md file??
 <!-- TODO: Add responsive mockup image -->
@@ -297,6 +321,7 @@ Mobile view:
 | Responsive layout | Resize browser | Layout adapts correctly | P??ass |
 
 ### Cross-Browser Testing
+
 <!-- TODO: Add responsive mockup image -->
 - Chrome
 - Edge
@@ -313,21 +338,26 @@ Mobile view:
 ### Validator Testing
 
 #### HTML
+
 <!-- TODO  -->
 - No errors found using [W3C HTML Validator](https://validator.w3.org/)
 
 #### CSS
+
 <!-- TODO  -->
 - No errors found using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### Lighthouse Testing
+
 <!-- TODO  -->
 
 ### Unfixed Bugs
+
 <!-- TODO  -->
 - Minor layout shifts on very small screens???
 
 [Back to top](#sir-john-donne-re-enactment)
+
 ---
 
 ## Deployment
@@ -349,9 +379,11 @@ Live site link:
 <https://david-cb-uk.github.io/sir-john-donne-Re-enactment/>
 
 [Back to top](#sir-john-donne-re-enactment)
+
 ---
 
 ## Credits
+
 <!-- TODO: Add your content sources -->
 
 - [Code Institute](https://codeinstitute.net/)  
@@ -364,7 +396,8 @@ Live site link:
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
 ### Content
-<!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->       
+
+<!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->
 - [Google Font](https://fonts.google.com/)
   Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
   
@@ -384,16 +417,19 @@ Live site link:
   Used to convert .JPG to WebP
 
 ### Media
+
 <!-- TODO: Add your media sources -->
 - Images used in this project were sourced from:
   - Mike Bass's own photography
     - Historical references ????
   -
-- 
+-
 
 [Back to top](#sir-john-donne-re-enactment)
 
-###### Notes
+#### Notes
 
 - README images are in `assets/images/readme/` separate from live website images.
 - Include responsive screenshots for desktop and mobile for assessors to see.
+
+[def]: #top
