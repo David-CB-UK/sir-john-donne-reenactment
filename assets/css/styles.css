@@ -93,7 +93,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #cac4ce;
+    background-color: #cac4ce;                                       /* #f1e9d2 used here to make the main content area different from header and footer */
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
     margin-top: 56px;

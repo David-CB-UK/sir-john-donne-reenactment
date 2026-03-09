@@ -357,7 +357,7 @@ Live site link:
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
 ### Content
-<!-- TODO: Add your content sources -->
+<!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->       
 - [Google Font](https://fonts.google.com/)
   Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
   
