@@ -346,19 +346,25 @@ Live site link:
 
 ## Credits
 <!-- TODO: Add your content sources -->
-- Code Institute
-- Online documentation and tutorials??
-- Community support??
-- Book(s)??
-- [Font Awesome](https://fontawesome.com/) Used to collect favicon icons.
-- [Gradient Page](https://gradient.page/ui-gradients/instagram)
-  Used as a guide for implementing the correct Instagram favicon gradient styling.
-- Duckett, J. (2011) HTML and CSS: Design and Build Websites. Indianapolis: John Wiley & Sons. 
-  This source was used for general guidance and reference when structuring HTML and CSS within the project.
+## Credits
+
+- [Code Institute](https://codeinstitute.net/)  
+  Course learning materials and walkthrough lessons were used as guidance during the development of this project.
+
+- Community support  
+  Community forums and discussions were referenced when resolving development issues.
+
+- Duckett, J. (2011) *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.  
+  Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
 ### Content
 <!-- TODO: Add your content sources -->
-- ...
+- [Font Awesome](https://fontawesome.com/)  
+  Used to source favicon and interface icons used throughout the website.
+
+- [Gradient Page](https://gradient.page/ui-gradients/instagram)  
+  Used as a visual reference for implementing the correct Instagram gradient styling.
+
 - ...
 
 ### Media
