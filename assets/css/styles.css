@@ -160,6 +160,11 @@ body.error-page * {
     color: #000000
 }
 
+.star {
+    font-size: 0.7em;  /* Makes '✦' smaller than the normal text */
+    color: #5f1a37; 
+}
+
 /* Footer */
 footer {
     background-color: #f0e4c9; /* very slightly darker than header and body */
