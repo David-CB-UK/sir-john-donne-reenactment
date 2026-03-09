@@ -128,6 +128,7 @@ The website currently includes the following pages:
 - Gallery
 - Events
 - Contact
+- 404 
 
 ## Home Page
 <!-- TODO: Add responsive mockup image -->
@@ -191,6 +192,12 @@ Allows visitors to send enquiries about the Re-enactment project.
 After submission users are redirected to a thank-you page confirming the message was receive.
 
 ![Sign Up](assets/images/readme/signup.png)
+
+## 404 
+ - The 404 page is to inform the user of what has happned and to keep them on the site.
+ - new desitnation (home page) button
+ - Keep it simple
+
 
 ### Features Left to Implement
 <!-- TODO: List future pplanned features -->

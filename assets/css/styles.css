@@ -110,6 +110,38 @@ main {
     position: relative; /* cover text will be placed relative to the hero image*/
 }
 
+/* 404 Error Page */
+/* Specific styles for the 404 error page to ensure the image fills the screen and text is visible */
+body.error-page {       
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: transparent; /* remove beige from body */
+}
+
+body.error-page main {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: transparent; /* remove beige from main */
+    flex: unset; /* override flex layout for this page */
+}
+
+#error-404 {
+    height: 100vh; /* full viewport height */
+    display: flex;  /* center content vertically & horizontally */
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    background-image: url('../images/404.webp');
+    background-repeat: no-repeat;
+    background-size: cover;   /* ensures image fills screen */
+    background-position: center;
+    text-align: center;
+    padding: 2rem;
+    color: #ffffff; /* text color to contrast image */
+}
+
 /* Footer */
 footer {
     background-color: #f0e4c9; /* very slightly darker than header and body */
