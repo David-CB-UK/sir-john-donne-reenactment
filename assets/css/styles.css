@@ -103,8 +103,41 @@ main {
 
 /* Footer */
 footer {
-    background-color: #fcbd00;
+    background-color: #f1e9d2;
 }
+
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 140%;
+    padding: 5%;
+}
+
+.facebook-icon {
+    color: #1877F2;
+}
+
+.twitter-icon {
+    color: #000000;
+}
+
+.youtube-icon {
+    color: #FF0000;
+}
+
+.instagram-icon {
+    color:white;
+    background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045);
+}
+
 
 /* Media query: Mobile devices */
 @media screen and (max-width: 767px) {
@@ -112,7 +145,6 @@ footer {
     #nav-menu {
         text-align: right;
     }
-
 }
 
 

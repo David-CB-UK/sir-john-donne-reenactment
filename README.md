@@ -350,7 +350,8 @@ Live site link:
 - Online documentation and tutorials??
 - Community support??
 - Book(s)??
-- tbc
+- [Gradient Page](https://gradient.page/ui-gradients/instagram) Helped me correct the instagram favicon.
+-
 
 ### Content
 <!-- TODO: Add your content sources -->
