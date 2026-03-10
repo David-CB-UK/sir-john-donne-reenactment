@@ -249,15 +249,27 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 ### Tools
 
 <!-- TODO: List tools and frameworks -->
-- Git
 - GitHub
-- Google Fonts
-- Font Awesome
-- VS Code
-- Obsidian (planning and documentation)
-- Font Awesome
+- [Google Font](https://fonts.google.com/)
+  Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
+- [Favicon Generator](https://favicon-maker.com)
+  Used to create the website favicons from, including the standard .png, .ico, .svg, and Apple touch icons, which appear in browser tabs, bookmarks, and mobile home screen.
+- [Font Awesome](https://fontawesome.com/)  
+  Used to source icon and interface icons used throughout the website.
+- [Gradient Page](https://gradient.page/ui-gradients/instagram)  
+  Used as a visual reference for implementing the correct Instagram gradient styling.
+- [Openreplay](https://openreplay.com/tools/rgba-to-hex/)
+  Used to convert RGBA color values to hexadecimal format*/
+- [Free Convert](https://www.freeconvert.com/jpg-to-webp/download)
+  Used to convert .JPG images to WebP
+- [To WebP](https://towebp.io)
+  Used to bulk convert .JPG images to WebP
+- [VS Code](https://code.visualstudio.com)
+- [Obsidian](https://obsidian.md)
+  Markdown planning and documentation
 - Am I Responsive
 - Lighthouse
+
 
 ## Project Structure
 
@@ -396,28 +408,14 @@ Live site link:
 - Duckett, J. (2011) *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.  
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
+- 
+
 ### Content
 
 <!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->
-- [Google Font](https://fonts.google.com/)
-  Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
-  
-- [Favicon Generator](https://favicon-maker.com)
-  Used to create the website favicons from, including the standard .png, .ico, .svg, and Apple touch icons, which appear in browser tabs, bookmarks, and mobile home screen.
 
-- [Font Awesome](https://fontawesome.com/)  
-  Used to source icon and interface icons used throughout the website.
-
-- [Gradient Page](https://gradient.page/ui-gradients/instagram)  
-  Used as a visual reference for implementing the correct Instagram gradient styling.
-
-- [Openreplay](https://openreplay.com/tools/rgba-to-hex/)
-  Used to convert RGBA color values to hexadecimal format*/
-
-- [Free Convert](https://www.freeconvert.com/jpg-to-webp/download)
-  Used to convert .JPG images to WebP
-- [To WebP](https://towebp.io)
-  Used to bulk convert .JPG images to WebP
+- [Code Drip](https://www.youtube.com/watch?v=LHyU-V2U2cI&utm_source=chatgpt.com)
+Youtube tutorial to create Pinterest‑Like Layout with CSS‑only, without JavaScript.
 
 ### Media
 
@@ -425,8 +423,10 @@ Live site link:
 - Images used in this project were sourced from:
   - Mike Bass's own photography
     - Historical references ????
-  -
--
+
+- [404 Image](assets/images/404.webp)
+Image generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
+
 
 [Back to top](#sir-john-donne-re-enactment)
 
