@@ -1,6 +1,6 @@
 # Sir John Donne Re-enactment
 
-[Live Site](https://david-cb-uk.github.io/sir-john-donne-Re-enactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-Re-enactment/tree/main)
+[Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-re-enactment/tree/main)
 
 TBC Responsive Mockup HERE
 
