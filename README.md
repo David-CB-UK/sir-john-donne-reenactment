@@ -264,6 +264,8 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
   Used to convert .JPG images to WebP
 - [To WebP](https://towebp.io)
   Used to bulk convert .JPG images to WebP
+- [Squoosh](https://squoosh.app/)
+  Used to compress size of images.
 - [VS Code](https://code.visualstudio.com)
 - [Obsidian](https://obsidian.md)
   Markdown planning and documentation
