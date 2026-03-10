@@ -169,7 +169,7 @@ body.error-page * {
 #photos {
     width: 80%;
     margin: 1em auto;
-    column-width: 250px;
+    column-width: 250px; 
     column-gap: 10px;               
 }
 
@@ -178,6 +178,8 @@ body.error-page * {
     display: block;
     margin-bottom: 10px;
     border-radius: 10px; /* rounded corners */
+    max-width: 100%;
+    image-rendering: auto;
 }
 
 /* Footer */
@@ -343,12 +345,5 @@ footer {
 
     #nav-menu a:hover {
         color: #066DDC;
-    }
-}
-
-/* Media query: Larger devices (1200px and up) */
-@media screen and (min-width: 1200px) {
-    #photos {
-        grid-template-columns: repeat(3, 1fr);  /* 3 columns on large desktops */
     }
 }
