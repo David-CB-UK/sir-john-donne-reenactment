@@ -239,6 +239,11 @@ body.error-page * {
     align-items: center; /* centers label, textarea, and button */
 }
 
+/* Message Sent Contact Page */
+#message-sent {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: #f0e4c9; /* very slightly darker than header and body */
