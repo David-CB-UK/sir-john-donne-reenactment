@@ -269,6 +269,8 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 - [VS Code](https://code.visualstudio.com)
 - [Obsidian](https://obsidian.md)
   Markdown planning and documentation
+- [MDN](https://developer.mozilla.org/)
+  Used for HTML & CSS referencing / syntax.
 - Am I Responsive
 - Lighthouse
 
