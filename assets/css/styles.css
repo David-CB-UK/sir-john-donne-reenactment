@@ -167,16 +167,16 @@ body.error-page * {
 
 /* Gallery Page */
 #photos {
+    width: 80%;
+    margin: 1em auto;
     display: grid;
-    line-height: 0; /* remove lines between photos */
-    column-gap: 1rem;
-    margin-bottom: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;                 
 }
 
 #photos img {
     width: 100%;
-    display: block;
-    line-height: 1em; /* Set line height to 1em to prevent the gap between images and prevent issues if alt text being under other files / half missing / unreadable  */
+    border-radius: 10px; /* rounded corners */
 }
 
 /* Footer */
