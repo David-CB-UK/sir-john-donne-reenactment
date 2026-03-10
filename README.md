@@ -415,7 +415,9 @@ Live site link:
   Used to convert RGBA color values to hexadecimal format*/
 
 - [Free Convert](https://www.freeconvert.com/jpg-to-webp/download)
-  Used to convert .JPG to WebP
+  Used to convert .JPG images to WebP
+- [To WebP](https://towebp.io)
+  Used to bulk convert .JPG images to WebP
 
 ### Media
 
