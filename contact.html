@@ -47,28 +47,32 @@
    
     <!-- Main content-->
     <main>
-        <section id="contact-us">
-            <form>
-                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2><i class="fa-solid fa-envelopes-bulk"></i> Get in Contact</h2>
-                <br>
-                <label for="first-name">First Name: </label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name: </label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address: </label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <label for="email-address">Your Message: </label>
-                <br>
-                <textarea name="message" rows="10" cols="30">Add your message here...</textarea>
-                <br>
-                <button type="submit" class="contact-button">Contact US</button>
-            </form>
-        </section>
-    </main>
+  <section id="contact-us">
+    <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+      <h2><i class="fa-solid fa-envelopes-bulk"></i> Get in Contact</h2>
+      
+      <label for="first-name">First Name: </label>
+      <input type="text" name="first_name" id="first-name" class="text-input" required>
+      <br>
+      
+      <label for="last-name">Last Name: </label>
+      <input type="text" name="last_name" id="last-name" class="text-input" required>
+      <br>
+
+      <label for="email-address">Email Address: </label>
+      <input type="email" name="email_address" id="email-address" class="text-input" required>
+      <br>
+      
+      <div class="message-section">
+        <label for="message">Your Message: </label>
+        <br>
+        <textarea name="message" id="message" rows="10" cols="30">Add your message here...</textarea>
+        <br>
+        <button type="submit" class="button">Contact Us</button>
+      </div>
+    </form>
+  </section>
+</main>
    
     <!-- Footer-->
     <footer>

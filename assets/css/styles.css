@@ -39,7 +39,7 @@ header a {
     color: #5f1a37
 }
 
-h1 {
+h1, h2 {
     font-family: 'Macondo', cursive;
     padding: .3rem 0;
     color: #5f1a37
@@ -102,7 +102,7 @@ main {
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
     margin-top: 10px;
-    padding-top: 10px    ;
+    padding-top: 10px;
 }
 
 /* Hero section */
@@ -187,7 +187,7 @@ body.error-page * {
     text-align: center;
     max-width: 900px;
     margin: 0 auto 2rem;  /* 2rem spacing below paragraph */
-    padding-top: 59px;   /* pushes content below fixed header */
+    padding-top: 50px;   /* pushes content below fixed header */
 }
 
 .gallery-intro-wrapper > p {
@@ -197,7 +197,43 @@ body.error-page * {
 
 /* Contact Page */
 #contact-us {
-    padding-top: 59px;   /* pushes content below fixed header */
+    padding-top: 50px;   /* pushes content below fixed header */
+    margin: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form {
+    align-items: left;
+    flex-direction: column;
+    display: flex
+}
+
+#contact-form .text-input {
+    width: 250px;       /* optional fixed width for text inputs */
+    padding: 8px;
+}
+
+.message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers label, textarea, and button */
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #5f1a37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: 5f1a37;
 }
 
 /* Footer */
