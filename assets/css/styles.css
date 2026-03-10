@@ -238,6 +238,13 @@ body.error-page * {
     flex-direction: column;
     align-items: center; /* centers label, textarea, and button */
 }
+/* Style contact forms to site colors*/
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #5f1a37;
+    box-shadow: 0 0 6px rgba(95, 26, 55, 0.5);
+}
 
 /* Message Sent Contact Page */
 #message-sent {
