@@ -128,6 +128,8 @@ The website was designed with accessibility in mind:
 a skeleton layout was used to plan the page structure including header, content sections, footer etc.
 Wireframes were created during the planning stage to outline the structure of the website.
 
+---
+
 ## Features
 
 <!-- TODO: Add responsive mockup image -->
@@ -269,6 +271,7 @@ The following table lists the key tools, resources, and references used during t
 | [Lighthouse](TBC)   |     | 
 | [TBC](TBC)   |     | 
 
+---
 
 ## Project Structure
 
