@@ -168,6 +168,7 @@ body.error-page * {
 /* Gallery Page */
 #photos img {
     width: 100%;
+    display: block;
     line-height: 1em; /* Set line height to 1em to prevent the gap between images and prevent issues if alt text being under other files / half missing / unreadable  */
 }
 
@@ -214,17 +215,18 @@ footer {
     #833ab4,#fd1d1d,#fcb045);
 }
 
-@media screen and (max-width: 767px) {
-    /* Smaller devices (mobiles, 767 px and below) */
+/* Media query: Smaller devices (mobiles, 768 px and below) */
+@media screen and (max-width: 768px) {
     #nav-menu {
         text-align: right;
     }
-    /* 404 pages */
-    #error-404 {
-        height: 100vh;       /* full viewport height */
-        padding: 0 1rem;     /* horizontal padding for narrow screens */
+
+    #hero {
+        height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
+        min-height: 300px;
     }
 
+    /* 404 Page */
     #cover-text-404 {
         top: 50%;             /* move box higher for small screens */
         left: 52%;
@@ -233,6 +235,19 @@ footer {
         max-width: 90%;       /* prevent overflow on narrow screens */
         font-size: 0.95rem;   /* optional: scale font slightly */
     }
+
+    #error-404 {
+        height: 100vh;       /* full viewport height */
+        padding: 20vh 2rem 4rem 2rem; 
+        top: 55%;       /* slightly lower for smaller screens */
+        max-width: 90%; /* smaller width for narrow screens */
+    }
+
+    /* Gallery Page */
+    #photos {
+        grid-template-columns: repeat(2, 1fr);  /* 2 columns on tablets & small desktops */
+    }
+
 }
 
 /* Media query: Larger devices (laptops and desktops, 768 px and up) */
@@ -269,22 +284,6 @@ footer {
 #social-networks i:hover {
     transform: scale(1.3);  /* grows bigger */
     text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
-}
-
-/* Media query: Smaller devices (mobiles, 768 px and below) */
-@media screen and (max-width: 768px) {
-    #hero {
-        height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
-        min-height: 300px;
-    }
-
-    /* 404 Page */
-    #error-404 {
-        padding: 20vh 2rem 4rem 2rem; 
-        top: 55%;       /* slightly lower for smaller screens */
-        max-width: 90%; /* smaller width for narrow screens */
-   
-    }
 }
 
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */
