@@ -63,6 +63,22 @@ p {
     border-bottom: 1px solid inherit;
 }
 
+.button {
+    padding: 5px 20px;
+    margin: 6px;
+    background-color: #5f1a37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none; /* removes underline on links */
+}
+
+.button:hover {
+    background-color: #066DDC;
+}
+
 /* Navbar styles with dropdown menus */
 nav {
     position: absolute;
@@ -223,19 +239,6 @@ body.error-page * {
     align-items: center; /* centers label, textarea, and button */
 }
 
-.contact-button {
-    padding: 10px 20px;
-    background-color: #5f1a37;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact-button:hover {
-    background-color: 5f1a37;
-}
-
 /* Footer */
 footer {
     background-color: #f0e4c9; /* very slightly darker than header and body */
@@ -306,6 +309,10 @@ footer {
     /* Gallery Page */
     #photos {
         grid-template-columns: repeat(2, 1fr);  /* 2 columns on tablets & small desktops */
+    }
+
+    .button {
+
     }
 
 }
