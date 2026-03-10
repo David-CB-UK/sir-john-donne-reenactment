@@ -166,14 +166,17 @@ body.error-page * {
 }
 
 /* Gallery Page */
+#photos {
+    display: grid;
+    line-height: 0; /* remove lines between photos */
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
 #photos img {
     width: 100%;
     display: block;
     line-height: 1em; /* Set line height to 1em to prevent the gap between images and prevent issues if alt text being under other files / half missing / unreadable  */
-}
-
-#photos {
-    line-height: 0; /* remove lines between photos */
 }
 
 /* Footer */
@@ -339,5 +342,12 @@ footer {
 
     #nav-menu a:hover {
         color: #066DDC;
+    }
+}
+
+/* Media query: Larger devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #photos {
+        grid-template-columns: repeat(3, 1fr);  /* 3 columns on large desktops */
     }
 }
