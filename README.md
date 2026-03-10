@@ -249,30 +249,25 @@ Interactive 360° view inside the Re-enactment tent allowing users to click obje
 ### Tools
 
 <!-- TODO: List tools and frameworks -->
-- GitHub
-- [Google Font](https://fonts.google.com/)
-  Used to import the website’s typography, including the DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.
-- [Favicon Generator](https://favicon-maker.com)
-  Used to create the website favicons from, including the standard .png, .ico, .svg, and Apple touch icons, which appear in browser tabs, bookmarks, and mobile home screen.
-- [Font Awesome](https://fontawesome.com/)  
-  Used to source icon and interface icons used throughout the website.
-- [Gradient Page](https://gradient.page/ui-gradients/instagram)  
-  Used as a visual reference for implementing the correct Instagram gradient styling.
-- [Openreplay](https://openreplay.com/tools/rgba-to-hex/)
-  Used to convert RGBA color values to hexadecimal format*/
-- [Free Convert](https://www.freeconvert.com/jpg-to-webp/download)
-  Used to convert .JPG images to WebP
-- [To WebP](https://towebp.io)
-  Used to bulk convert .JPG images to WebP
-- [Squoosh](https://squoosh.app/)
-  Used to compress size of images.
-- [VS Code](https://code.visualstudio.com)
-- [Obsidian](https://obsidian.md)
-  Markdown planning and documentation
-- [MDN](https://developer.mozilla.org/)
-  Used for HTML & CSS referencing / syntax.
-- Am I Responsive
-- Lighthouse
+The following table lists the key tools, resources, and references used during the development of this website.
+
+| Resource | Purpose / How It Was Used |
+|----------|---------------------------|
+| [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration |
+| [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements |
+| [Favicon Generator](https://favicon-maker.com) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
+| [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website |
+| [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling |
+| [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format |
+| [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Used to convert .JPG images to WebP format |
+| [To WebP](https://towebp.io) | Used to bulk convert .JPG images to WebP |
+| [Squoosh](https://squoosh.app/) | Used to compress image sizes without losing quality |
+| [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website |
+| [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation |
+| [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation |
+| [Am I Responsive](TBC)   |     | 
+| [Lighthouse](TBC)   |     | 
+| [TBC](TBC)   |     | 
 
 
 ## Project Structure
