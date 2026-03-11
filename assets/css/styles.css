@@ -217,9 +217,13 @@ body.error-page * {
     margin: 0 auto;
 }
 
-.event-wrapper h1{
-    text-align: center;;
- }
+.event-wrapper h1 {
+    text-align: center;
+}
+
+.event-wrapper p {
+    font-size: 105%;
+}
 
 /* Event card layout */
 .event-card {
