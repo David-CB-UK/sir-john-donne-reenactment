@@ -34,7 +34,7 @@ The site helps users quickly find relevant information about the re-enactment, u
 
 Users interact with the website by navigating through clearly organised sections that explain the re-enactment setup, provide historical background, and offer additional information about the items displayed within the living-history tent.
 
-The goal of the project is to create a **simple, accessible** , and **responsive website** that works across desktop, tablet, and mobile devices.
+The goal of the project is to create a **simple, accessible**, and **responsive** website that works across desktop, tablet, and mobile devices.
 
 [Back to top](#sir-john-donne-re-enactment) <!-- add space below so not large size -->
 
@@ -48,7 +48,7 @@ The goal of the project is to create a **simple, accessible** , and **responsive
 
 - Visitors attending historical Re-enactment events
 - Students and educators interested in early modern history
-- Members of the public interested in historical interpretationon
+- Members of the public interested in historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
 
@@ -135,21 +135,16 @@ Wireframes were created during the planning stage to outline the structure of th
 <!-- TODO: Add responsive mockup image -->
 The website currently includes the following pages:
 
+**Main Navigation Pages**
 - Home
-- About
 - Gallery
 - Events
 - Contact
-- 404
 
-### Home Page
+**Utility / Support Pages**
+- Message Sent
+- 404 Error Page
 
-<!-- TODO: Add responsive mockup image -->
-Landing Page
-
-- Hero image with introductory text
-- Introduces the Re-enactment project
-- Encourages visitors to explore the site
 
 ### Navigation Bar
 <!-- TODO: Describe the feature and its value to users -->
@@ -176,7 +171,7 @@ The footer provides:
 - Contact information
 - Links to related resources
 
-### Landing Page
+### Landing / Home Page
 
 <!-- TODO: Describe the landing page feature -->
 - Large hero image with introductory text
@@ -193,6 +188,12 @@ These sections help visitors understand the educational purpose of the display a
 
 ![Landing Page](assets/images/readme/landing-page.png)
 
+Landing Page
+
+- Hero image with introductory text
+- Introduces the Re-enactment project
+- Encourages visitors to explore the site
+
 ### Gallery / Supporting Images
 
 <!-- TODO: Describe your gallery or content display -->
@@ -200,22 +201,36 @@ These sections help visitors understand the educational purpose of the display a
 
 ![Gallery](assets/images/readme/gallery.png)
 
-### Contact Form
+### Events List page
+<!-- TODO: Describe the Events Page -->
+The Events page provides information about upcoming historical re-enactment events where the Sir John Donne living-history display may appear.
+
+Visitors can view event locations, dates, and brief descriptions of the activities taking place. This allows users to discover opportunities to experience the re-enactment display in person.
+
+### Contact page
 
 <!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
 
 Allows visitors to send enquiries about the Re-enactment project.
 
-After submission users are redirected to a thank-you page confirming the message was receive.
-
+After submission, users are redirected to a confirmation page indicating that their message has been received.
 ![Sign Up](assets/images/readme/signup.png)
 
-## 404
+### Message Sent page
+<!-- TODO: Describe the form functionality -->
 
-- The 404 page is to inform the user of what has happned and to keep them on the site.
-- new desitnation (home page) button
-- Keep it simple
+The *Message Sent* page appears after the *Contact form* has been completed and the *Send* button is pressed. 
+
+As this project is a front-end only website, the page acts as a confirmation screen to simulate a successful email submission. It provides visual feedback to the user that their message has been received, mimicking the behaviour of a working contact form without requiring a backend email service.
+
+## 404 Error Page
+
+The 404 page appears when a user attempts to access a page that does not exist on the website.
+
+The page informs the user that the requested page could not be found and provides a clear navigation option to return to the Home page.
+
+This helps prevent users from becoming lost on the site and improves the overall user experience by guiding them back to a valid page.
 
 ### Features Left to Implement
 
@@ -228,13 +243,11 @@ The timeline feature was explored during development but would require more comp
 
 - FAQ section to answer common visitor questions.
 
-- 360°
- images in the tent.
-Interactive 360° view inside the Re-enactment tent allowing users to click objects and learn more about them
+- 360° tour photo / images in the tent.
+Interactive 360° view inside the Re-enactment tent allowing users to explore the medievial tent and click objects and learn more about them.
 
-- External Feature Ideas:
-
-  - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
+External Feature Ideas:
+- QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
 
 [Back to top](#sir-john-donne-re-enactment)
 
@@ -311,6 +324,8 @@ The website was tested across multiple screen sizes including:
 The website was tested to ensure all features function correctly.
 
 ### Responsive Design
+
+The layout uses responsive design principles to ensure the site functions effectively across mobile, tablet, and desktop devices.
 
 <!-- TODO: Explain your testing strategy -->
 Desktop view:
@@ -405,32 +420,34 @@ Live site link:
 - [Code Institute](https://codeinstitute.net/)  
   Course learning materials and walkthrough lessons were used as guidance during the development of this project.
 
+- [Mimo](https://mimo.org/)
+  An online learning platform that covers programming skills including as HTML, CSS, Flexbox etc.
+
 - Community support  
   Community forums and discussions were referenced when resolving development issues.
 
 - Duckett, J. (2011) *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.  
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
-- 
+-
 
 ### Content
 
 <!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->
 
-- [Code Drip](https://www.youtube.com/watch?v=LHyU-V2U2cI&utm_source=chatgpt.com)
-Youtube tutorial to create Pinterest‑Like Layout with CSS‑only, without JavaScript.
+- [Code Drip](https://www.youtube.com/watch?v=LHyU-V2U2cI&utm_source=chatgpt.com) 
+  Youtube tutorial to create Pinterest‑Like Layout with CSS‑only, without JavaScript.
 
 ### Media
 
 <!-- TODO: Add your media sources -->
-- Images used in this project were sourced from:
-  - Mike Bass's own photography
-    - Historical references ????
-    - Photographs of the event locations are taken from the venues’ official promotional materials.
+Images used in this project were sourced from:
 
-- [404 Image](assets/images/404.webp)
-Image generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
+- Re-enactor Mike Bass's own photographs
+- Historical references ???? TBC 
+  - Photographs of the event locations are taken from the venues’ official promotional materials.
 
+- [404 Image](assets/images/404.webp) generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
 
 [Back to top](#sir-john-donne-re-enactment)
 
