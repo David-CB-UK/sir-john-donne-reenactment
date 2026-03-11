@@ -426,6 +426,7 @@ Youtube tutorial to create Pinterest‑Like Layout with CSS‑only, without Java
 - Images used in this project were sourced from:
   - Mike Bass's own photography
     - Historical references ????
+    - Photographs of the event locations are taken from the venues’ official promotional materials.
 
 - [404 Image](assets/images/404.webp)
 Image generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
