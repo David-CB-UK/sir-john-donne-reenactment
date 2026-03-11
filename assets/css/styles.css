@@ -66,7 +66,7 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color: #5f1a37;
+    background-color: #066DDC;
     color: white;
     border: none;
     border-radius: 5px;
@@ -76,7 +76,7 @@ p {
 }
 
 .button:hover {
-    background-color: #066DDC;
+    background-color: #5f1a37;
 }
 
 /* Navbar styles with dropdown menus */
@@ -222,7 +222,7 @@ body.error-page * {
 .event-card {
     display: flex;
     gap: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1rem ;
     margin-bottom: 2rem;
     padding: 1rem;
     background-color: rgba(241, 237, 227, 0.77);
@@ -257,12 +257,21 @@ body.error-page * {
     justify-content: space-between;
 }
 
-.event-content-top {                  /* add space stylein / delete  */
+.event-content-bottom > p.time {
+    font-weight: bold;
 
 }
 
-.event-content-bottom {                /* add space stylein / delete  */
-    
+/* Space after date & bold */
+.event-content-bottom > p.date {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.button-wrapper {
+    display: block;         /* ensures wrapper is block */
+    text-align: right;     /* centers inline-block button */
+    margin-right: 1rem;
 }
 
 /* Event card map */
@@ -428,9 +437,11 @@ footer {
         max-width: 300px;
         margin: 0 auto;
     }
-
-
-
+    
+    .button-wrapper {
+    display: block;    
+    text-align: center;  /* centers inline-block button */
+    }
 }
 
 /* Media query: Larger devices (laptops and desktops, 768 px and up) */
