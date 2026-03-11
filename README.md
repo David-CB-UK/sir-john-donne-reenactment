@@ -267,6 +267,7 @@ The following table lists the key tools, resources, and references used during t
 | [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website |
 | [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation |
 | [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation |
+| [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website  |
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
 | [TBC](TBC)   |     | 

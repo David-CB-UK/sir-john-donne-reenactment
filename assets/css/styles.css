@@ -257,7 +257,8 @@ body.error-page * {
     justify-content: space-between;
 }
 
-.event-content-top {;                  /* add space stylein / delete  */
+.event-content-top {                  /* add space stylein / delete  */
+
 }
 
 .event-content-bottom {                /* add space stylein / delete  */
@@ -268,8 +269,6 @@ body.error-page * {
 .event-map{
     flex: 1;
 }
-
-
 
 /* Contact Page */
 #contact-us {
