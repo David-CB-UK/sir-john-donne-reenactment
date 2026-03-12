@@ -151,9 +151,6 @@ main {
     margin-bottom: 0.6rem;
 }
 
-
-
-
 /* 404 Error Page */
 body.error-page {       
     margin: 0;
@@ -328,7 +325,7 @@ body.error-page * {
 }
 
 #contact-form .text-input {
-    width: 250px;       /* optional fixed width for text inputs */
+    width: 250px;       /* fixed width for text inputs */
     padding: 8px;
 }
 
