@@ -145,7 +145,6 @@ The website currently includes the following pages:
 - Message Sent
 - 404 Error Page
 
-
 ### Navigation Bar
 <!-- TODO: Describe the feature and its value to users -->
 - Appears on all pages
