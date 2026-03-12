@@ -18,7 +18,7 @@ TBC Responsive Mockup HERE
 6. [Project Structure](#project-structure)
 7. [Testing](#testing)
 8. [Deployment](#deployment)
-9. [Credits](#credits)
+9. [Credivts](#credits)
 
 ---
 
@@ -421,6 +421,9 @@ Live site link:
   Course learning materials and walkthrough lessons were used as guidance during the development of this project.
 
 - [Mimo](https://mimo.org/)
+  An online learning mobile application that covers programming skills including as HTML, CSS, Flexbox etc.
+
+- [Free Code Camp](https://www.freecodecamp.org/)
   An online learning platform that covers programming skills including as HTML, CSS, Flexbox etc.
 
 - Community support  
