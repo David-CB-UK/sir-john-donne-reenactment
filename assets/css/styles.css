@@ -18,6 +18,16 @@ body {
     font-family: 'raleway', sans-serif;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;      /* prevent footer from shrinking */
+    margin-top: 0;       /* remove any extra spacing */
+    padding: 1rem 0;     /* keep padding inside */
+}
+
 /* Header */
 header {
     background-color: #f1e9d2;
@@ -50,7 +60,7 @@ p {
     font-family: 'DM Sans', sans-serif;
     margin-top: 0.4rem;
     margin-left: 1rem;
-    margin-right: 1 rem;
+    margin-right: 1rem;
     margin-bottom: 0.4rem;
 }
 
@@ -122,7 +132,6 @@ main {
     background-color: #f1e9d2;  /* #f1e9d2 used here to make the main content area different from header and footer */
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
-    margin-top: 10px;
     padding-top: 50px;   /* pushes content below fixed header */
 }
 
@@ -135,7 +144,7 @@ main > .events, .gallery-intro-wrapper {
 /* Hero section */
 #hero {
     height: 65vh;
-    max-height: 425px;
+    max-height: 295px;
     width: 100%;
     background:
         linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.25)),
@@ -146,13 +155,14 @@ main > .events, .gallery-intro-wrapper {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 /* Home Landing Page */
 #cover-text {
     position: relative;
-    width: 950%; /* to look better on small screen and stop overflowing */
-    max-width: 520px;
+    width: 90%; /* to look better on small screen and stop overflowing */
+    max-width: 550px;
     background-color: rgba(241, 237, 227, 0.85);
     padding: 1rem 1.2rem;
     border-radius: 6px;
@@ -160,11 +170,41 @@ main > .events, .gallery-intro-wrapper {
     box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
     color: #5f1a37;
     text-align: center;
-    flex: 1; 
 }
 
 #cover-text p {
     margin-bottom: 0.6rem;
+}
+
+/* Zigzag rows */
+#home-zigzag {
+  display: flex;
+  gap: 1.5rem;
+  width: 95%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  align-items: flex-start;
+}
+
+.zigzag-row {
+  display: flex;
+  align-items: center;
+}
+
+/* Container for right column */
+.zigzag-right {
+    flex: 0 0 auto;        /* width based on image */
+    display: flex;
+    justify-content: center;
+}
+
+
+.zigzag-image-tall {
+    border-radius: 6px;        /* match other images */
+    max-height: 560px;         /* limit image height so footer is safe */
+    width: auto;               /* scale proportionally */
+    height: auto;
+    display: block;
 }
 
 /* 404 Error Page */
@@ -361,20 +401,15 @@ body.error-page * {
     width: 90%;
     text-align: center;
     font-size: 110%;
-
     padding: 1rem 0.8rem;
     border-radius: 6px;
-
     border: 2px solid transparent;
     background-color: rgba(241, 237, 227, 0.77);
     border-radius: 6px;
-
     background-origin: border-box;
     background-clip: padding-box, border-box;
-
     box-shadow: 0px 6px 12px rgb(6, 109, 220, 0.51);
     color: #5f1a37;
-
     max-width: 400px;
     margin: 2rem auto;
 }
@@ -429,10 +464,46 @@ footer {
         height: 60vh;    /* Allow the image to shrink but keep a minimum size for better responsiveness on smaller screens */
         min-height: 300px;
     }
+      /* hide tall image (on right) on mobile */
+    .zigzag-right {
+        display: none;         /* hide tall image on mobile */
+    }
+
+    .zigzag-row {
+        flex-direction: column; /* stack */
+        align-items: center;    /* center content */
+    }
+
+    .zigzag-image {
+        margin: 0;               /* remove extra spacing below */
+        display: flex;
+        justify-content: center; 
+    }
+    .zigzag-image img {
+        max-width: 60%;         /* responsive */
+        height: auto;
+        display: block;    
+    }
+
+    /* Center text under image without extra gap */
+    .zigzag-text {
+        text-align: center;
+        margin-top: 0.3rem;      /* small spacing from image */
+        margin-bottom: 0;        /* remove extra bottom gap */
+    }
+
     /*keeps mobile hero text box centered */
     #cover-text {
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
+        width: 520px;       /* fixed max width */
+        background-color: rgba(241, 237, 227, 0.85);
+        padding: 1rem 1.2rem;
+        border-radius: 6px;
+        border-top: 2px solid rgba(95,26,55,0.5);
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
+        color: #5f1a37;
+        text-align: center;
+        flex: 1; 
     }
 
     /* No face image on mobile */
@@ -510,6 +581,70 @@ footer {
     }
 }
 
+/* Very small screens - Galaxy Z5, iPhone SE, etc. */
+@media screen and (max-width: 375px) {
+
+    #hero {
+        min-height: 260px;   /* slightly shorter hero */
+        height: auto;
+        padding: 1rem 0.5rem;
+    }
+
+    #cover-text {
+        width: 80%;
+        max-width: 260px;
+        padding: 0.7rem 0.6rem;
+        font-size: 0.9rem;
+        margin: 0 auto;
+        @media screen and (max-width: 375px) {
+
+    #hero {
+        min-height: 260px;   /* slightly shorter hero */
+        height: auto;
+        padding: 1rem 0.5rem;
+    }
+
+    #cover-text {
+        width: 92%;
+        max-width: 260px;
+        padding: 0.7rem 0.6rem;
+        font-size: 0.9rem;
+        margin: 0 auto;
+    }
+
+    #cover-text h2 {
+        font-size: 1.2rem;
+        margin-top: 0.4rem;
+    }
+
+    #cover-text p {
+        font-size: 0.85rem;
+        margin: 0.3rem 0.4rem;
+    }
+
+    .button {
+        padding: 4px 12px;
+        font-size: 0.85rem;
+    }
+}
+    }
+
+    #cover-text h2 {
+        font-size: 1.2rem;
+        margin-top: 0.4rem;
+    }
+
+    #cover-text p {
+        font-size: 0.85rem;
+        margin: 0.3rem 0.4rem;
+    }
+
+    .button {
+        padding: 4px 12px;
+        font-size: 0.85rem;
+    }
+}
+
 /* Mobile hero cover text fix for very small screen*/
 @media screen and (max-width: 425px) {
     #hero {
@@ -520,8 +655,6 @@ footer {
     #cover-text {
         width: 90%;        
         padding: 1rem 0.6rem;   
-        left: 50%;            
-        transform: translateX(-50%);
         box-sizing: border-box; /* ensures padding is inside width */
     }
 }
@@ -550,7 +683,6 @@ footer {
     display: none;
     } 
 
-
     /* Hero section homepage */
     #hero {
         height: 450px;  /* less vertical space */
@@ -572,7 +704,24 @@ footer {
         flex-shrink: 0;
     }
 
-}
+    .zigzag-image img {
+        max-width: 125px;  /* uniform imagea width change left image height */
+        width: 100%;
+        height: auto;      /* to keep aspect ratio */
+        border-radius: 6px;
+    }
+
+    #home-zigzag {
+        /* also alighs right-image on home*/
+        align-items: anchor-center; /* align top */
+    }
+
+    .zigzag-text {
+        flex: 1;  /* expand text to fill space */
+        padding: 0.5rem 1rem; 
+    }
+
+
 
 /* Footer Icons hover effect for all social icons */
 #social-networks i {
@@ -588,6 +737,10 @@ footer {
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */
 @media screen and (min-width: 992px) {
 
+    main {
+        margin-top: 0;
+        padding-top: 55px;
+    }
     #nav-menu a {
         position: relative;
         padding: 0 0.3rem;
@@ -638,5 +791,74 @@ footer {
 
     #nav-menu a:hover {
         color: #066DDC;
+    }
+
+    /* Hero section */
+    #hero {
+        height: 65vh;
+        max-height: 440px;
+        background-size: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Make zigzag images larger on large screens */
+    .zigzag-image img {
+        max-width: 180px;  /* increase from 125px */
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .zigzag-image-tall {
+        max-height: 600px; /* slightly taller */
+        width: auto;
+    }
+
+    .zigzag-right {
+        display: flex;
+        justify-content: center; /* horizontal centering */
+        align-items: flex-start; /* top-align image inside its container */
+    }   
+    
+    .zigzag-right {
+        flex: 0 0 auto;  /* keep width based on image */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* optional, aligns top with text */
+    }
+
+    .zigzag-row {
+        align-items: flex-start; /* aligns all children to top */
+    }
+
+    /* text on large screens home page */
+        .zigzag-text p {
+        font-size: 1.05rem; /* slightly bigger than default 1rem */
+        line-height: 1.5;   /* improves readability */
+    }
+
+    .zigzag-text h2 {
+        font-size: 1.7rem; /* increase heading slightly */
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    /* to accomidate seeing footer on largest screens */
+    #hero {
+        height: 55vh;   /* slightly shorter hero */
+        max-height: 350px;  /* cap max height */
+    }
+
+    main {
+        padding-top: 20px;  /* less top padding */
+        margin-top: -;
+    }
+
+    /* Reduce zigzag row gap slightly on large screens */
+    #home-zigzag {
+        margin: 1rem auto;  /* less vertical spacing */
+        gap: 1rem;          /* smaller gap between rows */
     }
 }
