@@ -39,14 +39,19 @@ header a {
     color: #5f1a37
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Macondo', cursive;
-    padding: .3rem 0;
-    color: #5f1a37
+    color: #5f1a37;
+    margin-top: 1rem;;
+    margin-left: 1rem;
 }
 
 p {
     font-family: 'DM Sans', sans-serif;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right: 1 rem;
+    margin-bottom: 0.4rem;
 }
 
 #nav-menu {
@@ -118,7 +123,7 @@ main {
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 50px;   /* pushes content below fixed header */
 }
 
 main > .events, .gallery-intro-wrapper {
@@ -234,7 +239,6 @@ body.error-page * {
     text-align: center;
     max-width: 900px;
     margin: 0 auto 2rem;  /* 2rem spacing below paragraph */
-    padding-top: 50px;   /* pushes content below fixed header */
 }
 
 .gallery-intro-wrapper > p {
@@ -244,7 +248,6 @@ body.error-page * {
 /* Events Page */
 .events {
     width: 95%;
-    padding-top: 50px;
     margin: 0 auto;
 }
 
