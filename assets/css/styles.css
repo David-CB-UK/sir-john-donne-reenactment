@@ -561,13 +561,24 @@ footer {
         margin-bottom: 0.3rem;
     }
 
-    .event-image img {
-        width: 100%;         
-        aspect-ratio: 1 / 1; /* make square */
-        overflow: hidden;
-        border-radius: 6px;
-        margin: 0 auto;      /* center horizontally */
-    }
+/* Event Image Container */
+.event-image {
+    width: 100%;             /* full width of its column/flex item */
+    max-width: 400px;        /* prevents stretching too wide on large screens */
+    aspect-ratio: 1 / 1;     /* forces square */
+    overflow: hidden;        /* crop excess */
+    border-radius: 6px;
+    margin: 0 auto;          /* center horizontally */
+    flex-shrink: 0;          /* prevent shrinking if inside flex row */
+}
+
+/* Image itself */
+.event-image img {
+    width: 100%;
+    height: 100%;            /* fill the square container */
+    object-fit: cover;       /* crop/scale image correctly */
+    display: block;
+}
 
     .event-map {
         flex: none;
