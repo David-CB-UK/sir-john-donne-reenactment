@@ -508,14 +508,14 @@ footer {
 }
 
 /* Mobile hero cover text fix for very small screen*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     #hero {
         padding: 0 0.5rem;   /* optional: keep hero edges inside screen */
         box-sizing: border-box;
     }
 
     #cover-text {
-        width: 100%;        
+        width: 90%;        
         padding: 1rem 0.6rem;   
         left: 50%;            
         transform: translateX(-50%);
