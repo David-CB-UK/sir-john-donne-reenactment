@@ -446,8 +446,9 @@ Live site link:
 Images used in this project were sourced from:
 
 - Re-enactor Mike Bass's own photographs
-- Historical references ???? TBC 
-  - Photographs of the event locations are taken from the venues’ official promotional materials.
+  - Historical references ???? TBC 
+  - As a member of ????????? he has access to / allowed to us.....????????????????
+- Photographs of the event locations are taken from the venues’ official promotional materials.
 
 - [404 Image](assets/images/404.webp) generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
 
