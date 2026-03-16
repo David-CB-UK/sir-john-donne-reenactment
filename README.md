@@ -125,6 +125,21 @@ The website was designed with accessibility in mind:
 
 Purpose: Shows the website structure before styling, including header, content sections, footer, and general page flow. Used to plan responsive layout and UX.
 
+**Skeleton Home Page**
+![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
+
+**Skeleton Gallery Page**
+![Skeleton Gallery Page](assets/images/readme-images/skeleton-gallery-page.webp)
+
+**Skeleton Events Page**
+![Skeleton Events Page](assets/images/readme-images/skeleton-events-page.webp)
+
+**Skeleton Contact Page**
+![Skeleton Contact Page](assets/images/readme-images/skeleton-contact-page.webp)
+
+**Skeleton 404 Page**
+![Skeleton 404 Page](assets/images/readme-images/skeleton-404-page.webp)
+
 Notes:
 
 Header / Navigation
