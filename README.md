@@ -121,7 +121,21 @@ The website was designed with accessibility in mind:
 - Responsive layout for assistive technologies
 
 ### Skeleton Layout / Wireframes
+<details> <summary><strong>Skeleton Layout / Wireframes</strong> (Click to open)</summary>
 
+Purpose: Shows the website structure before styling, including header, content sections, footer, and general page flow. Used to plan responsive layout and UX.
+
+Notes:
+
+Header / Navigation
+
+Hero / Landing sections
+
+Content sections (Gallery, Events, Contact)
+
+Footer with navigation and links
+
+</details> <br>
 <!-- TODO: Add your wireframe or skeleton layout explanation -->
 - Shows the website structure before styling
 - The skeleton layout shows the structural elements used to build the pages.
@@ -146,6 +160,21 @@ The website currently includes the following pages:
 - 404 Error Page
 
 ### Navigation Bar
+
+<details> <summary><strong>Navigation Bar</strong> (Click to open)</summary>
+
+Description:
+
+Appears on all pages.
+
+Provides easy navigation between main sections: Home, Gallery, Events, Contact.
+
+Responsive with hamburger menu on small screens.
+
+User Benefit: Users can move between pages without using browser back button. Improves usability on desktop and mobile devices.
+
+</details> <br>
+
 <!-- TODO: Describe the feature and its value to users -->
 - Appears on all pages
 - Allows easy navigation between sections of the website easily
@@ -157,6 +186,19 @@ This feature enables visitors to navigate between pages without needing to retur
 ![Navigation Bar](assets/images/readme/navbar.png)
 
 ### Footer
+
+Footer
+<details> <summary><strong>Footer</strong> (Click to open)</summary>
+
+Description:
+
+Present on all pages except 404 page.
+
+Contains navigation links, contact info, and related resources.
+
+User Benefit: Ensures users can always access key info regardless of scroll position.
+
+</details> <br>
 
 <!-- TODO: Add responsive mockup image -->
 The footer provides additional navigation options and may include links to related resources or contact information.
@@ -171,6 +213,19 @@ The footer provides:
 - Links to related resources
 
 ### Landing / Home Page
+
+Landing / Home Page
+<details> <summary><strong>Landing Page / Home</strong> (Click to open)</summary>
+
+Features:
+
+Hero image with introductory text
+
+Visual introduction to the Re-enactment project
+
+Explains historical context and items in the living-history tent
+
+</details> <br>
 
 <!-- TODO: Describe the landing page feature -->
 - Large hero image with introductory text
@@ -195,18 +250,52 @@ Landing Page
 
 ### Gallery / Supporting Images
 
+Gallery / Supporting Images
+<details> <summary><strong>Gallery Page</strong> (Click to open)</summary>
+
+Features:
+
+Displays supporting images related to the Re-enactment and historical items.
+
+Helps visitors visually identify items and understand context.
+
+</details> <br>
+
 <!-- TODO: Describe your gallery or content display -->
 - Displays supporting images related to the Re-enactment display and historical items.
 
 ![Gallery](assets/images/readme/gallery.png)
 
 ### Events List page
+
+Events Page
+<details> <summary><strong>Events Page</strong> (Click to open)</summary>
+
+Features:
+
+Lists upcoming Re-enactment events, including location, date, and brief description.
+
+Helps users discover opportunities to experience the display in person.
+
+</details> <br>
+
 <!-- TODO: Describe the Events Page -->
 The Events page provides information about upcoming historical re-enactment events where the Sir John Donne living-history display may appear.
 
 Visitors can view event locations, dates, and brief descriptions of the activities taking place. This allows users to discover opportunities to experience the re-enactment display in person.
 
 ### Contact page
+
+Contact Page
+<details> <summary><strong>Contact Page</strong> (Click to open)</summary>
+
+Features:
+
+Users can submit messages via a sign-up/contact form.
+
+Redirects to a confirmation page (Message Sent) after submission.
+
+</details> <br>
 
 <!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
@@ -217,6 +306,18 @@ After submission, users are redirected to a confirmation page indicating that th
 ![Sign Up](assets/images/readme/signup.png)
 
 ### Message Sent page
+
+Message Sent Page
+<details> <summary><strong>Message Sent Page</strong> (Click to open)</summary>
+
+Description:
+
+Appears after form submission.
+
+Simulates a successful email confirmation for front-end only project.
+
+</details> <br>
+
 <!-- TODO: Describe the form functionality -->
 
 The *Message Sent* page appears after the *Contact form* has been completed and the *Send* button is pressed. 
@@ -224,6 +325,17 @@ The *Message Sent* page appears after the *Contact form* has been completed and 
 As this project is a front-end only website, the page acts as a confirmation screen to simulate a successful email submission. It provides visual feedback to the user that their message has been received, mimicking the behaviour of a working contact form without requiring a backend email service.
 
 ## 404 Error Page
+
+404 Error Page
+<details> <summary><strong>404 Error Page</strong> (Click to open)</summary>
+
+Description:
+
+Displayed when a user visits a page that does not exist.
+
+Provides clear navigation back to Home page.
+
+</details> <br>
 
 The 404 page appears when a user attempts to access a page that does not exist on the website.
 
