@@ -1,6 +1,6 @@
 # Sir John Donne Re-enactment
 
-[Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-re-enactment/tree/main)
+[Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)
 
@@ -544,6 +544,39 @@ Mobile view:
 <!-- TODO  -->
 
 ### WAVE - Web Accessibility Evaluation Tools
+
+Home Page
+<details> <summary><strong> </strong> WAVE - Home Page (Click to open)</summary>
+
+![WAVE - Home Page](assets/images/readme-images/wave-home.webp)
+</details><br>
+
+Gallery Page
+<details> <summary><strong> </strong> WAVE - Gallery Page (Click to open)</summary>
+
+![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)
+</details><br>
+
+Events PAge
+<details> <summary><strong> </strong> WAVE - Events Page (Click to open)</summary>
+
+![WAVE - Home Page](assets/images/readme-images/wave-events.webp)
+</details><br>
+
+Contact Page
+<details> <summary><strong> </strong> WAVE - Contact Page (Click to open)</summary>
+
+![WAVE - Home Page](assets/images/readme-images/wave-contact.webp)
+</details><br>
+
+<!-- To add -->
+CONTACT PAGE 2???
+
+404 Page ????
+
+
+
+
 
 
 ### Unfixed Bugs
