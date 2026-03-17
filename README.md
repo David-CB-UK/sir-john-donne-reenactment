@@ -14,7 +14,7 @@
 6. [Project Structure](#project-structure)
 7. [Testing](#testing)
 8. [Deployment](#deployment)
-9. [Credivts](#credits)
+9. [Credits](#credits)
 
 ---
 
@@ -77,14 +77,6 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 ---
 
 ## Design
-<!-- TODO: Add responsive mockup image -->
-
-
-
-
-
-
-
 
 ### The Colour scheme
 
@@ -119,7 +111,7 @@ The heading font used is *Macondo*, applied to all heading elements (H1–H4). T
 <details><summary><strong>Example of the Macondo font (Click to expand)</strong></summary>
 
 ![The Macondo font](assets/images/readme-images/font-macondo.webp)  
-*Image: Example of the Macondo font, sourced from [Google Fonts](https://fonts.google.com/).*
+*Example of the Macondo font, sourced from [Google Fonts](https://fonts.google.com/)*
 </details><br>
 
 #### Body Font – DM Sans  
@@ -127,7 +119,7 @@ The primary body font is DM Sans, used for paragraphs and general content. This 
 <details><summary><strong>Example of the DM Sans font (Click to expand)</strong></summary>
 
 ![The DM Sans font](assets/images/readme-images/font-dm-sans.webp)  
-*: Example of the DM Sans font, sourced from [Google Fonts](https://fonts.google.com/).*
+*Example of the DM Sans font, sourced from [Google Fonts](https://fonts.google.com/)*
 </details><br>
 
 #### Supporting Font – Raleway  
@@ -135,7 +127,7 @@ The primary body font is DM Sans, used for paragraphs and general content. This 
 <details><summary><strong>Example of the Raleway font (Click to expand)</strong></summary>
 
 ![The Raleway font](assets/images/readme-images/fonts-raleway.webp)  
-*Figure X: Example of the Raleway font, sourced from [Google Fonts](https://fonts.google.com/).*
+*Example of the Raleway font, sourced from [Google Fonts](https://fonts.google.com/).*
 </details><br>
 
 #### Typography Rationale  
@@ -153,43 +145,53 @@ The website was designed with accessibility in mind, ensuring that all users, in
 - **Responsive layout** – The website is fully responsive, providing a consistent experience across devices and supporting assistive technologies such as zoom, high-contrast modes, and mobile navigation aids.  
 
 ### Skeleton Layout / Wireframes
-<details> <summary><strong>Skeleton Layout / Wireframes</strong> (Click to open)</summary>
 
-Purpose: Shows the website structure before styling, including header, content sections, footer, and general page flow. Used to plan responsive layout and UX.
+**Purpose:**  
+These wireframes outline the structural layout of the website prior to visual styling. They were used to plan the placement of key elements, establish user flow, and ensure a responsive, user-friendly experience across different devices.
 
-**Skeleton Home Page**
+### Key Features of the Wireframes
+
+- **Header / Navigation:**  
+  Positioned consistently at the top of each page to provide clear and accessible navigation. Designed with simplicity in mind to ensure ease of use on both desktop and mobile devices.
+
+- **Hero / Landing Section:**  
+  A prominent introductory area on the homepage, intended to immediately communicate the purpose of the site and engage users visually.
+
+- **Content Sections:**  
+  Clearly defined areas for core content, including:
+  - Gallery (visual showcase)
+  - Events (informational listings)
+  - Contact (user interaction and enquiries)
+
+- **Footer:**  
+  Contains secondary navigation links and essential information, ensuring accessibility to key pages from anywhere on the site.
+  
+- **Notes:**
+
+  - The layout prioritises clarity and logical content flow.
+  - A mobile-first approach was considered during planning to support responsiveness.  
+  - Consistent structure across all pages improves usability and user familiarity.  
+  - The 404 page was included to maintain user experience in the event of navigation errors.
+
+<details>
+<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to open)</summary>
+
+**Skeleton Home Page**  
 ![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
 
-**Skeleton Gallery Page**
+**Skeleton Gallery Page**  
 ![Skeleton Gallery Page](assets/images/readme-images/skeleton-gallery-page.webp)
 
-**Skeleton Events Page**
+**Skeleton Events Page**  
 ![Skeleton Events Page](assets/images/readme-images/skeleton-events-page.webp)
 
-**Skeleton Contact Page**
+**Skeleton Contact Page**  
 ![Skeleton Contact Page](assets/images/readme-images/skeleton-contact-page.webp)
 
-**Skeleton 404 Page**
+**Skeleton 404 Page**  
 ![Skeleton 404 Page](assets/images/readme-images/skeleton-404-page.webp)
 
-Notes:
-
-Header / Navigation
-
-Hero / Landing sections
-
-Content sections (Gallery, Events, Contact)
-
-Footer with navigation and links
-
-</details> <br>
-<!-- TODO: Add your wireframe or skeleton layout explanation -->
-- Shows the website structure before styling
-- The skeleton layout shows the structural elements used to build the pages.
-a skeleton layout was used to plan the page structure including header, content sections, footer etc.
-Wireframes were created during the planning stage to outline the structure of the website.
-
----
+</details>
 
 ## Features
 
@@ -242,6 +244,7 @@ Description:
 Present on all pages except 404 page.
 
 Contains navigation links, contact info, and related resources.
+M. Bass currently does not use any social media, therefore I have included examples of the most popular ones which link to the respective main site webpage. 
 
 User Benefit: Ensures users can always access key info regardless of scroll position.
 
@@ -323,6 +326,9 @@ Features:
 Lists upcoming Re-enactment events, including location, date, and brief description.
 
 Helps users discover opportunities to experience the display in person.
+
+
+Links are intended to direct users to the relevant live event pages for each location, such as the [Barnet Medieval Festival](https://barnetmedievalfestival.wordpress.com/). In cases where a specific event page is not available, such as [Nottingham Castle](https://www.nottinghamcastle.org.uk/whats-on/), users are instead directed to the venue’s main “What’s On” or landing page.
 
 </details> <br>
 
@@ -554,8 +560,7 @@ Home Page
 Gallery Page
 <details> <summary><strong> </strong> WAVE - Gallery Page (Click to open)</summary>
 
-![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)
-</details><br>
+![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)</details><br>
 
 Events PAge
 <details> <summary><strong> </strong> WAVE - Events Page (Click to open)</summary>
