@@ -142,6 +142,18 @@ nav {
     height: 80%;   /* scale relative to header height */
     max-height: 60px;
     width: auto;
+padding: 4px;
+    background-color: rgba(241, 237, 227, 0.9);
+
+    border-top: 2px solid rgba(95,26,55,0.5);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.35);
+    border: 2px solid #5f1a37; 
+    padding: 1.5px;
+}
+
+#logo-image:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
 }
 
 /* Main Content */
