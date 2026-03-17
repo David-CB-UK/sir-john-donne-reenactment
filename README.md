@@ -22,7 +22,8 @@
 
 <!-- TODO: Replace the text below with your own project description -->
 
-The Sir John Donne Re-enactment website is designed to support historical education and public engagement through the recreation of a 15th-century living history display. The site provides visitors with information about Sir John Donne, the historical context of the re-enactment, and details about the objects and displays used within the re-enactment or living-history tent.
+The Sir John Donne re-enactment website is designed to support historical education and public engagement through the recreation of a 15th-century living history display. 
+The site provides visitors with information about Sir John Donne, the historical context of the re-enactment, and details about the objects and displays used within the re-enactment or living-history tent.
 
 The website is aimed at visitors attending re-enactment events, students interested in medieval history, and members of the public who want to learn more about Sir John Donne and historical re-enactment.
 

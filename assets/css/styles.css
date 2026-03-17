@@ -380,6 +380,10 @@ body.error-page * {
     align-items: center;
 }
 
+#contact-form > h2 {
+    margin-bottom: 20px;
+} 
+
 #contact-form {
     align-items: left;
     flex-direction: column;
