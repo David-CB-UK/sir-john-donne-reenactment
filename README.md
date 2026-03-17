@@ -20,8 +20,6 @@
 
 ## Project Overview
 
-<!-- TODO: Replace the text below with your own project description -->
-
 The Sir John Donne re-enactment website is designed to support historical education and public engagement through the recreation of a 15th-century living history display. 
 The site provides visitors with information about Sir John Donne, the historical context of the re-enactment, and details about the objects and displays used within the re-enactment or living-history tent.
 
@@ -40,7 +38,6 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 ## User Experience
 
 <!-- TODO: Add responsive mockup image -->
-
 ### Target Audience
 
 - Visitors attending historical Re-enactment events
@@ -48,7 +45,6 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Members of the public interested in historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
-
 ### First Time Visitor Goals
 
 - Understand the purpose of the site immediately
@@ -59,7 +55,6 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Discover further resources about Re-enactment and historical interpretation
 
 <!-- TODO: Add responsive mockup image -->
-
 ### Returning Visitor Goals
 
 - Find new or updated information
@@ -68,7 +63,6 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Know how to contact site owner / historical re-enactment group
 
 <!-- TODO: Add responsive mockup image -->
-
 ### Site Owner Goals
 
 - Present information clearly
@@ -83,39 +77,80 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 ---
 
 ## Design
-
 <!-- TODO: Add responsive mockup image -->
 
-### Colour scheme
 
-TODO: explain colour scheme
 
-The colour scheme was chosen to create a clear and accessible visual design.
 
-Main colours:
 
-- Primary colour
-- Secondary colour
-- Accent colour
 
-![Skeleton Layout](assets/images/readme/skeleton-layout.png)
+
+
+### The Colour scheme
+
+### Primary Colour – #5F1A37  
+The primary colour is a deep burgundy (#5F1A37), used for headings and key interface elements. This colour provides strong contrast against the background, improving readability while also reinforcing the historical theme of the website.
+
+### Secondary Colour – #F1E9D2  
+The secondary colour is a parchment-style beige (#F1E9D2), used as the main background colour. This creates a neutral and visually comfortable base, supporting accessibility by reducing eye strain and allowing content to remain clear and legible.
+
+### Accent Colour – #066DDC  
+An accent colour of blue (#066DDC) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
+
+### Colour Scheme Rationale  
+The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
+
+The burgundy reflects tones commonly found in period garments _(see the colour inspiration  below)_ , while the parchment background evokes materials such as aged paper and cloth.  
+<details> <summary><strong> </strong> The colour inspiration (Click to open)</summary>
+
+![Colour inspiration](assets/images/bosworth-battlefield.webp)
+*Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne.*
+</details><br>
+
+A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
+![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
+*Colour pallet: Colour palette generated using Coolors, based on historically inspired tones.*
+
 
 ### Typography
 
-todo: describe fonts used / selected
+#### Heading Font – Macondo  
+The heading font used is *Macondo*, applied to all heading elements (H1–H4). This decorative serif-style font was selected to reflect the historical and medieval theme of the website. Its distinctive style helps headings stand out clearly from body text, improving visual hierarchy and reinforcing the overall aesthetic.
+<details><summary><strong>Example of the Macondo font (Click to expand)</strong></summary>
 
-the following fonts are used:
-heading...
-body...
+![The Macondo font](assets/images/readme-images/font-macondo.webp)  
+*Image: Example of the Macondo font, sourced from [Google Fonts](https://fonts.google.com/).*
+</details><br>
+
+#### Body Font – DM Sans  
+The primary body font is DM Sans, used for paragraphs and general content. This font is clean, modern, and highly legible, making it suitable for longer blocks of text and smaller screen sizes. Its simplicity ensures readability across different devices, supporting accessibility. DM Sans was prioritised for body text due to its high legibility, while Raleway provides a stylistic alternative without compromising readability.
+<details><summary><strong>Example of the DM Sans font (Click to expand)</strong></summary>
+
+![The DM Sans font](assets/images/readme-images/font-dm-sans.webp)  
+*: Example of the DM Sans font, sourced from [Google Fonts](https://fonts.google.com/).*
+</details><br>
+
+#### Supporting Font – Raleway  
+*Raleway* is used as a fallback and general site font (applied to the body). It provides a balance between modern design and readability, ensuring consistent presentation if other fonts fail to load.
+<details><summary><strong>Example of the Raleway font (Click to expand)</strong></summary>
+
+![The Raleway font](assets/images/readme-images/fonts-raleway.webp)  
+*Figure X: Example of the Raleway font, sourced from [Google Fonts](https://fonts.google.com/).*
+</details><br>
+
+#### Typography Rationale  
+The typography was chosen to create a clear distinction between decorative and functional text. The combination of a stylised heading font (*Macondo*) and a clean sans-serif body font (*DM Sans*) ensures both visual interest and readability.  
+
+This pairing supports accessibility by maintaining legible text for users while also reinforcing the historical theme of the website. The use of web-safe fallback fonts ensures consistent rendering across different browsers and devices.
 
 ### Accessibility
 
-The website was designed with accessibility in mind:
-<!-- TODO: Add examples? -->
-- Clear contrast between text and background
-- Semantic HTML structure
-- Alt text used for images
-- Responsive layout for assistive technologies
+The website was designed with accessibility in mind, ensuring that all users, including those with visual or motor impairments, can navigate and interact with the content effectively. Key accessibility features include:
+
+- **Clear contrast between text and background** – All text is displayed with sufficient contrast against its background, supporting readability for users with visual impairments.  
+- **Semantic HTML structure** – Proper use of headings, lists, and landmarks ensures that assistive technologies, such as screen readers, can interpret the content correctly.  
+- **Alt text for images** – All meaningful images include descriptive alt text, allowing users relying on screen readers to understand visual content.  
+- **Responsive layout** – The website is fully responsive, providing a consistent experience across devices and supporting assistive technologies such as zoom, high-contrast modes, and mobile navigation aids.  
 
 ### Skeleton Layout / Wireframes
 <details> <summary><strong>Skeleton Layout / Wireframes</strong> (Click to open)</summary>
@@ -393,6 +428,7 @@ The following table lists the key tools, resources, and references used during t
 |----------|---------------------------|
 | [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration |
 | [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements |
+| [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
 | [Favicon Generator](https://favicon-maker.com) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
 | [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website |
 | [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling |
@@ -407,6 +443,7 @@ The following table lists the key tools, resources, and references used during t
 | [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices | 
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
+| [WAVE](https://wave.webaim.org)| WAVE ( Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
 | [TBC](TBC)   |     | 
 
 
@@ -506,6 +543,9 @@ Mobile view:
 
 <!-- TODO  -->
 
+### WAVE - Web Accessibility Evaluation Tools
+
+
 ### Unfixed Bugs
 
 <!-- TODO  -->
@@ -531,7 +571,7 @@ Steps:
 The site will become available after a few minutes.
 
 Live site link:  
-<https://david-cb-uk.github.io/sir-john-donne-Re-enactment/>
+<https://david-cb-uk.github.io/sir-john-donne-reenactment/>
 
 [Back to top](#sir-john-donne-re-enactment)
 
