@@ -232,6 +232,9 @@ The navigation bar allows users to easily move between the main sections of the 
 
 This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
+<!-- TODO: Describe the feature and its value to users -->
+feedback ugested an image (favison) was already a symbol on use and could me adaped to be utalised for this fuction.
+
 ![Navigation Bar](assets/images/readme/navbar.png)
 
 ### Footer
@@ -358,24 +361,27 @@ Allows visitors to send enquiries about the Re-enactment project.
 After submission, users are redirected to a confirmation page indicating that their message has been received.
 ![Sign Up](assets/images/readme/signup.png)
 
-### Message Sent page
+### Message Sent Page
 
-Message Sent Page
-<details> <summary><strong>Message Sent Page</strong> (Click to open)</summary>
+**Description:**  
 
-Description:
+The *Message Sent* page appears after the Contact form is completed and the *Send* button is pressed. As this is a front-end-only project, the page simulates a successful email confirmation rather than submitting data to a backend service.
 
-Appears after form submission.
+It provides clear visual feedback to the user that their message has been received, mimicking the behaviour of a fully functional contact form.
 
-Simulates a successful email confirmation for front-end only project.
+To maintain consistent navigation and reinforce user context, the Contact link remains active in the navigation bar:
 
+```html
+<li><a href="contact.html" class="active"><span>Contact</span></a></li>
+```
+
+<details> <summary><strong>Message Sent Page Image</strong> (Click to open)</summary>
+<!-- TODO:PCTURE HERE -->
 </details> <br>
 
-<!-- TODO: Describe the form functionality -->
+I initially implemented [Web2phone.co.uk](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; although it worked, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
 
-The *Message Sent* page appears after the *Contact form* has been completed and the *Send* button is pressed. 
-
-As this project is a front-end only website, the page acts as a confirmation screen to simulate a successful email submission. It provides visual feedback to the user that their message has been received, mimicking the behaviour of a working contact form without requiring a backend email service.
+As a result, I removed it in favour of the *Message Sent* page, which I coded myself. While this page is not functional, it simulates the behaviour of a successful form submission and demonstrates how a working contact form would behave. In the future, I can either implement a functional backend to make the contact form fully active or reintroduce Web2phone while adapting the styling to fit the site’s design.
 
 ## 404 Error Page
 
@@ -421,9 +427,12 @@ External Feature Ideas:
 
 ### Languages
 
-<!-- TODO: List programming languages used -->
-- HTML5
-- CSS3
+Languages used:
+
+- HTML5  
+- CSS3  
+
+This project was built exclusively using HTML and CSS. No external libraries, frameworks (such as Bootstrap), or JavaScript were used.
 
 ### Tools
 
@@ -447,6 +456,7 @@ The following table lists the key tools, resources, and references used during t
 | [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation |
 | [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website  |
 | [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices | 
+| [Chat GPT](https://chatgpt.com/)| Used to generate 404 image based on a custom prompt |
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
 | [WAVE](https://wave.webaim.org)| WAVE ( Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
@@ -657,7 +667,3 @@ Images used in this project were sourced from:
 
 [Back to top](#sir-john-donne-re-enactment)
 
-#### Notes
-
-- README images are in `assets/images/readme/` separate from live website images.
-- Include responsive screenshots for desktop and mobile for assessors to see.

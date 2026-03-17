@@ -31,15 +31,22 @@ footer {
 /* Header */
 header {
     background-color: #f1e9d2;
-    padding: 0 0rem; 
+    padding: 0 1rem; 
     position: fixed;
-    z-index: 99; 
+    height: 60px;                   /* fixed header height */
+    justify-content: space-between; /* keeps logo left, menu right */
+    z-index: 99; /* stays above page content */
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     /* Openreplay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;     /*note shodow box different on different screen sizes to fix */
+}
+
+#logo {
+    margin: 0;            /* removes the h1, h2, h3, h4 offset */
+    line-height: 1;       /* to keep it tight vertically */
 }
 
 header a {
@@ -98,13 +105,12 @@ p {
 nav {
     position: absolute;
     background-color: inherit;
-    width: 100%;
-    left: 0;
+    width: 50%; /* align drop menu to right side of screen */
+    right: 0;
     padding: 0 1rem;
-
-    /* Openreplay used here see README.md */
-    box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;      /*note shodow box different on different screen sizes to fix */
     top: 100%;
+    z-index: 100;  /* higher than header content but lower than header shadow */
+    box-shadow: -4px 4px 8px rgba(6, 109, 220, 0.32);    background-color: #f1e9d2; /* solid so shadow is visible */
     display: none;
 }
 
@@ -118,14 +124,25 @@ nav {
 }   
 
 .nav-toggle-label {
-    font-size: 190%;
+    display: flex;
+    align-items: center;  /* vertical center in header */
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
-#logo {
-    font-size: 170%;
-    line-height: 45px;
-    margin: 0 0.5rem;
-}   
+/* Wolf logo */
+#logo-container {
+    display: flex;           /* align image and text in a row */
+    align-items: center;     /* vertical centering */
+    gap: 10px;               /* spacing between logo and text */
+    text-decoration: none;   /* to remove underline link */
+}
+
+#logo-image {
+    height: 80%;   /* scale relative to header height */
+    max-height: 60px;
+    width: auto;
+}
 
 /* Main Content */
 main {
@@ -385,7 +402,7 @@ body.error-page * {
 } 
 
 #contact-form {
-    align-items: left;
+    align-items: flex-start;
     flex-direction: column;
     display: flex
 }
@@ -469,6 +486,16 @@ footer {
 @media screen and (max-width: 768px) {
     #nav-menu {
         text-align: right;
+    }
+
+    /* header */
+    #logo {
+        font-size: 1.2rem;   /* smaller text on smaller screeens */
+        line-height: 1.2;    /* tight line spacing */
+    }
+
+    #logo-image {
+        height: 50px;        /* smaller logo */
     }
 
     /* Homepage */
@@ -682,28 +709,50 @@ footer {
 
 /* Media query: Larger devices (laptops and desktops, 768 px and up) */
 @media screen and (min-width: 768px) {
+    
+    /* Nav bar */
     nav {
-        display: block;
-        width: fit-content;
-        padding-right: 1rem;
-        box-shadow: none;
-        position: relative;
+        position: relative;      /* now part of header flow */
+        display: flex;
+        align-items: center;
+        width: auto;
+        top: auto;               /* remove absolute offset */
+        box-shadow: none; /* removes box shadow on non mobile screens */
     }
 
     #nav-menu {
         display: flex;
-        gap: 0.4rem;
-        text-align: left;
+        gap: 1rem;
+    }
+
+    #nav-menu a {
+    display: flex;
+    align-items: center;   /* vertical centering inside each link */
+    height: 100%;          /* fill nav height */
     }
 
     #nav-menu > li {
         padding-left: 1rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0; /*  this makes menu text links center align*/
     }
 
     .nav-toggle-label {
     display: none;
     } 
 
+    /* logo header wolf image */
+    #logo-image {
+        height: 48px;        /* fixed height for desktop */
+        width: auto;
+        display: block;
+    }
+
+    #logo-container {
+        padding: 0.5rem 0;   /* adds “top/bottom breathing room” like mobile */
+    }
+ 
     /* Hero section homepage */
     #hero {
         height: 450px;  /* less vertical space */
@@ -740,17 +789,16 @@ footer {
         padding: 0.5rem 1rem; 
     }
 
+    /* Footer Icons hover effect for all social icons */
+    #social-networks i {
+        transition: transform 0.3s ease, text-shadow 0.3s ease;
+    }
 
-
-/* Footer Icons hover effect for all social icons */
-#social-networks i {
-    transition: transform 0.3s ease, text-shadow 0.3s ease;
-}
-
-/* Grow & glow on hover for all social icons */
-#social-networks i:hover {
-    transform: scale(1.3);  /* grows bigger */
-    text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
+    /* Grow & glow on hover for all social icons */
+    #social-networks i:hover {
+        transform: scale(1.3);  /* grows bigger */
+        text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
+    }
 }
 
 /* Media query: Larger devices (laptops and desktops, 992 px and up) */
@@ -869,11 +917,16 @@ footer {
         height: 55vh;   /* slightly shorter hero */
         max-height: 350px;  /* cap max height */
     }
+    
+    /* to stop main head going under header on larger screens */
+    header {
+        height: 70px;      /* taller header on large screens */
+    }
 
     main {
-        padding-top: 20px;  /* less top padding */
-        margin-top: -;
+        padding-top: 70px; /* match new header height */
     }
+
 
     /* Reduce zigzag row gap slightly on large screens */
     #home-zigzag {
