@@ -2,7 +2,14 @@
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
-![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)
+![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)
+
+<details><summary><strong>Mockup with a variety of pages (Click to open)</strong></summary>
+
+  ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)
+  *Showing a range of site pages*
+</details>
+
 
 ## Table of Contents
 
