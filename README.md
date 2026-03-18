@@ -4,7 +4,7 @@
 
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)
 
-<details><summary><strong>Mockup with a variety of pages (Click to open)</strong></summary>
+<details><summary>Mockup with a variety of pages (Click to open)</summary>
 
   ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)
   *Showing a range of site pages*
