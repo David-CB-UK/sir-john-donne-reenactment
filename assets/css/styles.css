@@ -88,8 +88,7 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color: #066DDC;
-    color: white;
+    background-color:#167fca;    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -834,8 +833,7 @@ footer {
         bottom: -3px;
         width: 0;
         height: 2px;
-        background-color: #066DDC;
-        transition: all 0.3s ease;
+        background-color:#167fca;        transition: all 0.3s ease;
         transform: translateX(-50%);
     }
 
@@ -849,8 +847,7 @@ footer {
         position: absolute;
         opacity: 0;
         transition: opacity 0.3s ease;
-        color: #066DDC;
-        font-size: 0.55rem;
+        color:#167fca;        font-size: 0.55rem;
     }
 
     #nav-menu a::before {
@@ -869,8 +866,7 @@ footer {
     }
 
     #nav-menu a:hover {
-        color: #066DDC;
-    }
+        color:#167fca;    }
 
     /* Hero section */
     #hero {

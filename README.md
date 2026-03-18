@@ -93,8 +93,9 @@ The primary colour is a deep burgundy (#5F1A37), used for headings and key inter
 ### Secondary Colour – #F1E9D2  
 The secondary colour is a parchment-style beige (#F1E9D2), used as the main background colour. This creates a neutral and visually comfortable base, supporting accessibility by reducing eye strain and allowing content to remain clear and legible.
 
-### Accent Colour – #066DDC  
+### Accent Colour – #167FCA  
 An accent colour of blue (#066DDC) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
+Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon image](assets/favicon/favicon.svg) it was decided that we would use that 'color' throughout.
 
 ### Colour Scheme Rationale  
 The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
@@ -451,10 +452,7 @@ The following table lists the key tools, resources, and references used during t
 | [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration |
 | [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements |
 | [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
-| [Favicon Generator](https://favicon-maker.com) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
-
-https://realfavicongenerator.net/
-
+| [Real Favicongenerator Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
 | [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website |
 | [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling |
 | [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format |
