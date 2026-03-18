@@ -38,38 +38,41 @@ Users interact with the website by navigating through clearly organised sections
 
 The goal of the project is to create a **simple, accessible**, and **responsive** website that works across desktop, tablet, and mobile devices.
 
-[Back to top](#sir-john-donne-re-enactment) <!-- add space below so not large size -->
+[Back to top](#sir-john-donne-re-enactment) 
 
 ---
 
 ## User Experience
 
-<!-- TODO: Add responsive mockup image -->
 ### Target Audience
 
 - Visitors attending historical re-enactment events
 - Students and educators interested in early modern history
 - Members of the public interested in historical interpretation
 
-<!-- TODO: Add responsive mockup image -->
 ### First Time Visitor Goals
 
 - Understand the purpose of the site immediately
+- Quickly identify who the site is for
 - Navigate easily between pages
 - Access important information quickly
+- Be able to scan content easily through clear layout and headings
 - Learn about Sir John Donne
 - Understand the historical items displayed in the Re-enactment tent
-- Discover further resources about Re-enactment and historical interpretation
+- Engage with visual content to support learning
+- Trust the accuracy and credibility of the information presented
+- Identify clear next steps (e.g. attending events or making contact)
+- Access content easily across different devices and abilities
+- Feel confident that the information is accurate and trustworthy
 
-<!-- TODO: Add responsive mockup image -->
 ### Returning Visitor Goals
 
 - Find new or updated information
 - Navigate directly to sections of interest
 - Find out about future events
+- Revisit specific content quickly (e.g. gallery or events)
 - Know how to contact site owner / historical re-enactment group
 
-<!-- TODO: Add responsive mockup image -->
 ### Site Owner Goals
 
 - Present information clearly
@@ -77,7 +80,20 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Ensure accessibility across devices
 - Provide educational material about Sir John Donne
 - Support public engagement at Re-enactment events
+- Promote upcoming events and increase attendance
+- Maintain and update content easily
 - Offer an accessible digital resource that complements the physical Re-enactment display
+
+### Future Features and Goals
+
+Planned features will continue to support user goals:
+
+- **Historic Timeline:** Helps first-time and returning visitors quickly understand Sir John Donne’s life and historical context.
+- **FAQ Section:** Supports first-time visitors by answering common questions efficiently.
+- **360° Tent Tour:** Enhances engagement and understanding of historical items.
+- **QR Codes at Events:** Provides seamless access to relevant pages during live re-enactments.
+
+These goals directly informed the design and feature implementation of the website, ensuring a user-centred approach throughout development.
 
 [Back to top](#sir-john-donne-re-enactment)
 
@@ -109,18 +125,18 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 
 
 A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
-<details> <summary><strong> </strong> Original colour pallet (Click to open)</summary>
+<details> <summary><strong> </strong> Original colour palette (Click to open)</summary>
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
-*Original colour pallet: Colour palette generated using Coolors, based on historically inspired tones.*
+*Original colour palette: Colour palette generated using Coolors, based on historically inspired tones.*
 </details><br>
 
 
 The visual colour palette was created later updated as noted above.
-<details> <summary><strong> </strong> Updated colour pallet (Click to open)</summary>
+<details> <summary><strong> </strong> Updated colour palette (Click to open)</summary>
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolorsv2.webp)
-*Updated pallet: Colour palette generated using Coolors, based on historically inspired tones.*
+*Updated palette: Colour palette generated using Coolors, based on historically inspired tones.*
 </details><br>
 
 ### Typography
@@ -215,9 +231,7 @@ These wireframes outline the structural layout of the website prior to visual st
 
 
 ## Features
-
-<!-- TODO: Add responsive mockup image -->
-The website currently includes the following pages:
+The features below were implemented to address the UX and design goals described above; the website currently includes the following pages:
 
 **Main Navigation Pages**
 - Home
@@ -287,17 +301,10 @@ The footer provides:
 
 ### Landing / Home Page
 
-Landing / Home Page
+
 <details> <summary><strong>Landing Page / Home</strong> (Click to open)</summary>
 
-Features:
-
-Hero image with introductory text
-
-Visual introduction to the Re-enactment project
-
-Explains historical context and items in the living-history tent
-
+<!-- TODO: ADD PHOTO-->
 </details> <br>
 
 <!-- TODO: Describe the landing page feature -->
@@ -399,7 +406,7 @@ To maintain consistent navigation and reinforce user context, the Contact link r
 <!-- TODO:PCTURE HERE -->
 </details> <br>
 
-I initially implemented [Web2phone.co.uk](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; although it worked, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
+I initially implemented [Web2phone.co.uk](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; Although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
 
 As a result, I removed it in favour of the *Message Sent* page, which I coded myself. While this page is not functional, it simulates the behaviour of a successful form submission and demonstrates how a working contact form would behave. In the future, I can either implement a functional backend to make the contact form fully active or reintroduce Web2phone while adapting the styling to fit the site’s design.
 
@@ -429,15 +436,63 @@ Planned improvements for future versions of the site include:
 
 - Historic Timeline / Timeline of Sir John Donne’s life.
 
-The timeline feature was explored during development but would require more complex interactive functionality. Since it involves multiple events across different time periods, it would be better implemented in a future version using JavaScript or Python. as well as. additional detailed pages about Sir John Donne's Life
+The timeline feature was explored during development but would require more complex interactive functionality. Since it involves multiple events across different time periods, it would be better implemented in a future version using JavaScript or Python. as well as additional detailed pages about Sir John Donne's Life
 
 - FAQ section to answer common visitor questions.
 
 - 360° tour photo / images in the tent.
-Interactive 360° view inside the Re-enactment tent allowing users to explore the medievial tent and click objects and learn more about them.
+Interactive 360° view inside the Re-enactment tent allowing users to explore the medieval tent and click objects and learn more about them.
 
 External Feature Ideas:
 - QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
+
+## User Goals Mapping
+
+The following features were designed to meet the needs of the target audience and user goals:
+
+- **Navigation Bar**
+  - Supports:
+    - First-time visitors: navigate easily between pages
+    - Returning visitors: quickly access specific sections
+    - All users: maintain awareness of location within the site
+
+- **Landing / Home Page**
+  - Supports:
+    - First-time visitors: understand the purpose of the site immediately
+    - First-time visitors: learn about Sir John Donne
+    - All users: establish trust through clear and structured content
+
+- **Gallery Page**
+  - Supports:
+    - First-time visitors: understand the historical items displayed
+    - Target audience: engage with visual content to support learning
+
+- **Events Page**
+  - Supports:
+    - Returning visitors: find new or updated information
+    - Returning visitors: discover future events
+    - All users: identify clear next steps (attending events)
+
+- **Contact Page**
+  - Supports:
+    - Returning visitors: contact the site owner or re-enactment group
+
+- **Clear Content Structure**
+  - Supports:
+    - First-time visitors: access important information quickly
+    - All users: understand content easily
+
+- **Responsive Design**
+  - Supports:
+    - Site owner goal: ensure accessibility across devices
+    - All users: access content across mobile, tablet, and desktop
+
+- **Accessibility Features**
+  - Supports:
+    - Site owner goal: provide an inclusive experience
+    - All users: access content regardless of ability
+
+
 
 [Back to top](#sir-john-donne-re-enactment)
 
@@ -519,6 +574,16 @@ The website was tested across multiple screen sizes including:
 - Tablet
 - Mobile
 The website was tested to ensure all features function correctly.
+
+### Testing Strategy
+
+Current testing focuses on existing pages and features, including navigation, forms, gallery, and responsiveness. 
+
+Future features, such as the Historic Timeline and 360° Tent Tour, will require additional interactive testing once implemented. Planned tests will include:
+
+- Interactive timeline events respond correctly to user input
+- 360° tour allows smooth rotation and object selection
+- QR codes link to the correct live pages
 
 ### Responsive Design
 
@@ -680,7 +745,7 @@ Live site link:
 Images used in this project were sourced from:
 
 - Re-enactor Mike Bass's own photographs.
-- Many of the orignal historical items and images featured are over 500 years old and are not subject to copyright restrictions.  Acknowledgement and thanks are extended to the custodians of the respective museums and galleries.
+- Many of the original historical items and images featured are over 500 years old and are not subject to copyright restrictions.  Acknowledgement and thanks are extended to the custodians of the respective museums and galleries.
 - As a member of _The Knights of Skirbeck_, the _Wars of the Roses Federation_, and the _A Taste of Loyalty_ production team, M. Bass has access to and permission to use their official imagery as part of shared and collaborative ventures.
 - Photographs of the event locations are taken from the venues’ official promotional materials.
 - [404 Image](assets/images/404.webp) generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
