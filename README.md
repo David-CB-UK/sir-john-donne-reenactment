@@ -2,10 +2,11 @@
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
+<!-- TODO: change mockup image -->
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)  
 
 <details><summary> View homepage mockup (Click to expand)</summary>
-
+<!-- TODO: change mockup image -->
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)  
 *Showing the landing / home page*
 </details>
@@ -666,7 +667,8 @@ Images used in this project were sourced from:
 
 - Re-enactor Mike Bass's own photographs
   - Historical references ???? TBC 
-  - As a member of ????????? he has access to / allowed to us.....????????????????
+  - Many of the orignal historical items and images featured are over 500 years old and are not subject to copyright restrictions.  Acknowledgement and thanks are extended to the custodians of the respective museums and galleries..
+  - As a member of The Knights Of Skirbeck, Wars of the Roses Federation & A Taste Of Loyalty production team, M. Bass has access to / and allowed to us thier ofdicia imageary as part of the shered and joint ventures. 
 - Photographs of the event locations are taken from the venues’ official promotional materials.
 
 - [404 Image](assets/images/404.webp) generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
