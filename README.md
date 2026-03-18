@@ -1,4 +1,4 @@
-# Sir John Donne Re-enactment
+p# Sir John Donne Re-enactment
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
@@ -58,12 +58,17 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Access important information quickly
 - Be able to scan content easily through clear layout and headings
 - Learn about Sir John Donne
+<<<<<<< HEAD
 - Understand the historical items displayed in the Re-enactment tent
 - Engage with visual content to support learning
 - Trust the accuracy and credibility of the information presented
 - Identify clear next steps (e.g. attending events or making contact)
 - Access content easily across different devices and abilities
 - Feel confident that the information is accurate and trustworthy
+=======
+- Understand the historical items displayed in the re-enactment tent
+- Discover further resources about re-enactment and historical interpretation
+>>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 
 ### Returning Visitor Goals
 
@@ -79,9 +84,13 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Provide a clean and responsive design
 - Ensure accessibility across devices
 - Provide educational material about Sir John Donne
+<<<<<<< HEAD
 - Support public engagement at Re-enactment events
 - Promote upcoming events and increase attendance
 - Maintain and update content easily
+=======
+- Support public engagement at re-enactment events
+>>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 - Offer an accessible digital resource that complements the physical Re-enactment display
 
 ### Future Features and Goals
@@ -304,7 +313,18 @@ The footer provides:
 
 <details> <summary><strong>Landing Page / Home</strong> (Click to open)</summary>
 
+<<<<<<< HEAD
 <!-- TODO: ADD PHOTO-->
+=======
+Features:
+
+Hero image with introductory text
+
+Visual introduction to the re-enactment project
+
+Explains historical context and items in the living-history tent
+
+>>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 </details> <br>
 
 <!-- TODO: Describe the landing page feature -->
@@ -312,11 +332,11 @@ The footer provides:
 - Introduces the purpose of the website
 - Provides a clear entry point for visitors
 
-The landing page introduces users to the Sir John Donne Re-enactment project.
+The landing page introduces users to the Sir John Donne re-enactment project.
 
 It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
 
-The main content sections explain the historical context of the Re-enactment and the items displayed within the tent.
+The main content sections explain the historical context of the re-enactment and the items displayed within the tent.
 
 These sections help visitors understand the educational purpose of the display and provide further historical insight.
 
@@ -325,7 +345,7 @@ These sections help visitors understand the educational purpose of the display a
 Landing Page
 
 - Hero image with introductory text
-- Introduces the Re-enactment project
+- Introduces the re-enactment project
 - Encourages visitors to explore the site
 
 ### Gallery / Supporting Images
@@ -335,14 +355,14 @@ Gallery / Supporting Images
 
 Features:
 
-Displays supporting images related to the Re-enactment and historical items.
+Displays supporting images related to the re-enactment and historical items.
 
 Helps visitors visually identify items and understand context.
 
 </details> <br>
 
 <!-- TODO: Describe your gallery or content display -->
-- Displays supporting images related to the Re-enactment display and historical items.
+- Displays supporting images related to the re-enactment display and historical items.
 
 ![Gallery](assets/images/readme/gallery.png)
 
@@ -353,7 +373,7 @@ Events Page
 
 Features:
 
-Lists upcoming Re-enactment events, including location, date, and brief description.
+Lists upcoming re-enactment events, including location, date, and brief description.
 
 Helps users discover opportunities to experience the display in person.
 
@@ -383,7 +403,7 @@ Redirects to a confirmation page (Message Sent) after submission.
 <!-- TODO: Describe the form functionality -->
 - Allows users to register or submit information
 
-Allows visitors to send enquiries about the Re-enactment project.
+Allows visitors to send enquiries about the re-enactment project.
 
 After submission, users are redirected to a confirmation page indicating that their message has been received.
 ![Sign Up](assets/images/readme/signup.png)
@@ -444,7 +464,7 @@ The timeline feature was explored during development but would require more comp
 Interactive 360° view inside the Re-enactment tent allowing users to explore the medieval tent and click objects and learn more about them.
 
 External Feature Ideas:
-- QR codes displayed at the Re-enactment site that link directly to relevant sections of the website
+- QR codes displayed at the re-enactment site that link directly to relevant sections of the website
 
 ## User Goals Mapping
 
