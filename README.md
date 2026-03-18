@@ -47,7 +47,7 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 <!-- TODO: Add responsive mockup image -->
 ### Target Audience
 
-- Visitors attending historical Re-enactment events
+- Visitors attending historical re-enactment events
 - Students and educators interested in early modern history
 - Members of the public interested in historical interpretation
 
@@ -452,6 +452,9 @@ The following table lists the key tools, resources, and references used during t
 | [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements |
 | [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
 | [Favicon Generator](https://favicon-maker.com) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
+
+https://realfavicongenerator.net/
+
 | [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website |
 | [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling |
 | [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format |
