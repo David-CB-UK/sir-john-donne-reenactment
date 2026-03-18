@@ -95,7 +95,7 @@ The secondary colour is a parchment-style beige (#F1E9D2), used as the main back
 
 ### Accent Colour – #167FCA  
 An accent colour of blue (#066DDC) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
-Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon image](assets/favicon/favicon.svg) it was decided that we would use that 'color' throughout.
+Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon image](assets/favicon/favicon.svg) it was decided that we would use that 'color' throughout as a more accurate colour.
 
 ### Colour Scheme Rationale  
 The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
@@ -107,10 +107,21 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 *Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne.*
 </details><br>
 
-A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
-![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
-*Colour pallet: Colour palette generated using Coolors, based on historically inspired tones.*
 
+A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
+<details> <summary><strong> </strong> Original colour pallet (Click to open)</summary>
+
+![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
+*Original colour pallet: Colour palette generated using Coolors, based on historically inspired tones.*
+</details><br>
+
+
+The visual colour palette was created later updated as noted above.
+<details> <summary><strong> </strong> Updated colour pallet (Click to open)</summary>
+
+![Colour palette created using Coolors](assets/images/readme-images/coolorsv2.webp)
+*Updated pallet: Colour palette generated using Coolors, based on historically inspired tones.*
+</details><br>
 
 ### Typography
 
