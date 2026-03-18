@@ -95,7 +95,7 @@ The secondary colour is a parchment-style beige (#F1E9D2), used as the main back
 
 ### Accent Colour – #167FCA  
 An accent colour of blue (#066DDC) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
-Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon image](assets/favicon/favicon.svg) it was decided that we would use that 'color' throughout as a more accurate colour.
+Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon](assets/favicon/web-app-manifest-512x512.png) image it was decided that we would use that 'color' throughout as a more accurate colour.
 
 ### Colour Scheme Rationale  
 The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
@@ -168,6 +168,27 @@ The website was designed with accessibility in mind, ensuring that all users, in
 **Purpose:**  
 These wireframes outline the structural layout of the website prior to visual styling. They were used to plan the placement of key elements, establish user flow, and ensure a responsive, user-friendly experience across different devices.
 
+
+<details>
+<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to open)</summary>
+
+**Skeleton Home Page**  
+![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
+
+**Skeleton Gallery Page**  
+![Skeleton Gallery Page](assets/images/readme-images/skeleton-gallery-page.webp)
+
+**Skeleton Events Page**  
+![Skeleton Events Page](assets/images/readme-images/skeleton-events-page.webp)
+
+**Skeleton Contact Page**  
+![Skeleton Contact Page](assets/images/readme-images/skeleton-contact-page.webp)
+
+**Skeleton 404 Page**  
+![Skeleton 404 Page](assets/images/readme-images/skeleton-404-page.webp)
+
+</details>
+
 ### Key Features of the Wireframes
 
 - **Header / Navigation:**  
@@ -192,25 +213,6 @@ These wireframes outline the structural layout of the website prior to visual st
   - Consistent structure across all pages improves usability and user familiarity.  
   - The 404 page was included to maintain user experience in the event of navigation errors.
 
-<details>
-<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to open)</summary>
-
-**Skeleton Home Page**  
-![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
-
-**Skeleton Gallery Page**  
-![Skeleton Gallery Page](assets/images/readme-images/skeleton-gallery-page.webp)
-
-**Skeleton Events Page**  
-![Skeleton Events Page](assets/images/readme-images/skeleton-events-page.webp)
-
-**Skeleton Contact Page**  
-![Skeleton Contact Page](assets/images/readme-images/skeleton-contact-page.webp)
-
-**Skeleton 404 Page**  
-![Skeleton 404 Page](assets/images/readme-images/skeleton-404-page.webp)
-
-</details>
 
 ## Features
 
@@ -251,8 +253,7 @@ The navigation bar allows users to easily move between the main sections of the 
 
 This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
-<!-- TODO: Describe the feature and its value to users -->
-feedback ugested an image (favison) was already a symbol on use and could me adaped to be utalised for this fuction.
+Feedback suggested adding a logo or icon image. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
 
 ![Navigation Bar](assets/images/readme/navbar.png)
 
@@ -580,28 +581,31 @@ Mobile view:
 
 ### WAVE - Web Accessibility Evaluation Tools
 
-Home Page
+WAVE identified one alert: a *redundant link*. This occurs because both the logo and the "Home" navigation link direct users to the homepage. No errors were found.
+
+All pages passed both WCAG AA and AAA standards, with a contrast ratio of 8.59:1 and no contrast issues identified.
+
+The features and structure review highlighted one minor issue on the Gallery page, where a heading level skipped from H2 to H4. This was subsequently corrected to H3.
+
 <details> <summary><strong> </strong> WAVE - Home Page (Click to open)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-home.webp)
-</details><br>
+</details>
 
-Gallery Page
 <details> <summary><strong> </strong> WAVE - Gallery Page (Click to open)</summary>
 
-![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)</details><br>
+![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)
+</details>
 
-Events PAge
 <details> <summary><strong> </strong> WAVE - Events Page (Click to open)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-events.webp)
-</details><br>
+</details>
 
-Contact Page
 <details> <summary><strong> </strong> WAVE - Contact Page (Click to open)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-contact.webp)
-</details><br>
+</details>
 
 <!-- To add -->
 CONTACT PAGE 2???
@@ -660,14 +664,12 @@ Live site link:
 - Community support  
   Community forums and discussions were referenced when resolving development issues.
 
-- Duckett, J. (2011) *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.  
+- Duckett, J. (2011) *HTML and CSS: Design and Build  Websites*. Indianapolis: John Wiley & Sons.  
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
 -
 
 ### Content
-
-<!-- TODO: Add your content sources -->           <!-- TODO: Move these to tools use? -->
 
 - [Code Drip](https://www.youtube.com/watch?v=LHyU-V2U2cI&utm_source=chatgpt.com) 
   Youtube tutorial to create Pinterest‑Like Layout with CSS‑only, without JavaScript.
@@ -677,12 +679,10 @@ Live site link:
 <!-- TODO: Add your media sources -->
 Images used in this project were sourced from:
 
-- Re-enactor Mike Bass's own photographs
-  - Historical references ???? TBC 
-  - Many of the orignal historical items and images featured are over 500 years old and are not subject to copyright restrictions.  Acknowledgement and thanks are extended to the custodians of the respective museums and galleries..
-  - As a member of The Knights Of Skirbeck, Wars of the Roses Federation & A Taste Of Loyalty production team, M. Bass has access to / and allowed to us thier ofdicia imageary as part of the shered and joint ventures. 
+- Re-enactor Mike Bass's own photographs.
+- Many of the orignal historical items and images featured are over 500 years old and are not subject to copyright restrictions.  Acknowledgement and thanks are extended to the custodians of the respective museums and galleries.
+- As a member of _The Knights of Skirbeck_, the _Wars of the Roses Federation_, and the _A Taste of Loyalty_ production team, M. Bass has access to and permission to use their official imagery as part of shared and collaborative ventures.
 - Photographs of the event locations are taken from the venues’ official promotional materials.
-
 - [404 Image](assets/images/404.webp) generated using [ChatGPT](https://chatgpt.com/) by OpenAI (2026) based on a custom prompt.
 
 [Back to top](#sir-john-donne-re-enactment)
