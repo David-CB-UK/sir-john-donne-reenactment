@@ -109,8 +109,14 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Active link underline using existing animation) */
+#nav-menu a.active::after {
+    width: 100%;
+}
+
 .active {
     border-bottom: 1px solid inherit;
+    color: #167fca;
 }
 
 .button {
