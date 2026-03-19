@@ -739,25 +739,28 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 
 | Feature | Action | Expected Result | Result |
 | --- | --- | --- | --- |
-| Chrome | ?? | Correct page loads? | P/F?? |
+| Chrome | ?? | Pages all load correctly| **Passed** |
 | Edge | ?? | ?? | P/F?? |
-| Safari | ?? | ?? | P/F?? |
+| Safari | ?? | Pages all load correctly | **Passed**|
 
 ### Validator Testing
 
 #### HTML
 
 <!-- TODO  -->
-- No errors found using [W3C HTML Validator](https://validator.w3.org/)
+
+- TODO No errors found using???? [W3C HTML Validator](https://validator.w3.org/)
 
 #### CSS
 
-<!-- TODO  -->
-- No errors found using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+<!-- TODO  --> 
+
+- TODO No errors found using??? [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### Lighthouse Testing
 
 <!-- TODO  -->
+TO ADD
 
 ### WAVE - Web Accessibility Evaluation Tools
 
@@ -788,14 +791,9 @@ The features and structure review highlighted one minor issue on the Gallery pag
 </details>
 
 <!-- To add -->
-CONTACT PAGE 2???
-
-404 Page ????
-
-
-
-
-
+To add??
+- CONTACT PAGE 2???
+- 404 Page ????
 
 ### Unfixed Bugs
 
