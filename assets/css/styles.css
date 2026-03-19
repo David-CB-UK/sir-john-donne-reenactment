@@ -24,7 +24,7 @@ main {
 
 footer {
     flex-shrink: 0;
-    padding: 1rem 0;
+    padding: 0; /*removed 0.1reme to reduce footer size*/
     font-size: 0.9rem;
 }
 

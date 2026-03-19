@@ -313,48 +313,61 @@ The main content sections explain the historical context of the re-enactment.
 
 ### Events page
 
-<details> <summary><strong>Events Page</strong> (Click to expand)</summary>
+<details><summary><strong>Events Page</strong> (Click to expand)</summary>
 
 ![Events page](assets/images/readme-images/features-events.png)
-
 </details> <br>
 
-Features:
-
-Lists upcoming re-enactment events, including location, date, and brief description.
-
-Helps users discover opportunities to experience the display in person.
-
+**Features:**
+- Lists upcoming historical re-enactment events, including location, date, and brief description.
+- Provides links to venue pages or live event information where available.
+- Helps users discover opportunities to experience the re-enactment display in person.
+- Supports a structured layout for easy scanning of events.
+- Fully responsive layout ensures usability on desktop, tablet, and mobile devices.
 
 Links are intended to direct users to the relevant live event pages for each location, such as the [Barnet Medieval Festival](https://barnetmedievalfestival.wordpress.com/). In cases where a specific event page is not available, such as [Nottingham Castle](https://www.nottinghamcastle.org.uk/whats-on/), users are instead directed to the venue’s main “What’s On” or landing page.
 
-<!-- TODO: Describe the Events Page -->
-The Events page provides information about upcoming historical re-enactment events where the Sir John Donne living-history display may appear.
+**User Benefit**: Visitors can quickly find relevant events, understand where and when the re-enactment will take place, and plan their attendance. This supports both first-time and returning visitors in engaging with the Sir John Donne project.
 
-Visitors can view event locations, dates, and brief descriptions of the activities taking place. This allows users to discover opportunities to experience the re-enactment display in person.
+**Notes / Feedback:**  
+- External links open to official venue or event pages for accurate information.
+- Consistent design ensures events list is visually aligned with other site pages.  
+- Future enhancements could include calendar integration or interactive maps.
 
 ### Contact page
 
-Contact Page
 <details> <summary><strong>Contact Page</strong> (Click to expand)</summary>
 
-Features:
-
-Users can submit messages via a sign-up/contact form.
-
-Redirects to a confirmation page (Message Sent) after submission.
-
+![Contact Page](assets/images/readme-images/features-contact.png)
 </details> <br>
 
-<!-- TODO: Describe the form functionality -->
-- Allows users to register or submit information
+Users can submit messages via a sign-up/contact form. 
+The form requiers an @ symbol or will show the message is missing.
 
-Allows visitors to send enquiries about the re-enactment project.
+<details> <summary>Error Message (Click to expand)</summary>
 
-After submission, users are redirected to a confirmation page indicating that their message has been received.
-![Sign Up](assets/images/readme/signup.png)
+![Error message](assets/images/readme-images/features-errors.png)
+</details><br>
+
+**Features:**
+- Allows visitors to submit messages via a contact form
+- After submission, users are redirected to a (*Message Sent*) confirmation page indicating that their message has been received.
+- Structured form layout with clear input fields and labels
+- Fully responsive design ensures accessibility on desktop, tablet, and mobile devices
+
+**User Benefit**: Visitors can easily submit enquiries or questions about the re-enactment project, ensuring smooth communication with the site owner.
+
+**Notes / Feedback:**  
+- The contact form currently simulates submissions (front-end only) 
+- Future improvements could include backend integration or styled email notifications  
+- Consistent typography and colour scheme aligns with overall site design
 
 ### Message Sent Page
+
+<details> <summary><strong>Message Sent Page</strong> (Click to expand)</summary>
+
+![Contact Page](assets/images/readme-images/features-message-sent.png)
+</details> <br>
 
 **Description:**  
 
@@ -375,6 +388,11 @@ To maintain consistent navigation and reinforce user context, the Contact link r
 I initially implemented [Web2phone.co.uk](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; Although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
 
 As a result, I removed it in favour of the *Message Sent* page, which I coded myself. While this page is not functional, it simulates the behaviour of a successful form submission and demonstrates how a working contact form would behave. In the future, I can either implement a functional backend to make the contact form fully active or reintroduce Web2phone while adapting the styling to fit the site’s design.
+
+
+**User Benefit**: The Immediate visual feedback on form submission builds confidence that messages are received successfully.
+
+
 
 ## 404 Error Page
 
