@@ -270,6 +270,73 @@ Due to varying screen sizes, the footer is not always immediately visible and ma
 
 **User Benefit:** Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
 
+### Favicon & App Icons
+
+The website includes multiple icon formats to ensure a consistent and professional appearance across all platforms, devices, and browsing contexts.
+
+<details> <summary><strong>Classic Favicon</strong> (Click to expand)</summary>
+<br>
+
+![Classic favicon](assets/images/browser-tabs.png)
+
+**Details:**  
+- `favicon.ico` supports legacy browsers and Windows shortcuts (16x16, 32x32, 48x48).  
+- `favicon-32x32.png` supports modern browsers and standard tabs.
+
+**User Benefit:**  
+- Provides clear identification of the site in browser tabs and bookmarks.  
+- Improves usability by allowing users to quickly locate the site among multiple open tabs.  
+- Ensures compatibility with older and modern browsers.  
+
+</details><br>
+
+<details> <summary><strong>Google Search Results</strong> (Click to expand)</summary>
+
+![Google Search Results](assets/images/google-search-results.png)
+
+**Details:**  
+- Search results display the favicon next to the page listing.  
+
+**User Benefit:**  
+- Increases brand recognition in search results.  
+- Enhances credibility and trust, as a branded icon signals a maintained and professional site.  
+
+</details><br>
+
+<details> <summary><strong>Android Icons</strong> (Click to expand)</summary>
+
+![Android Icons](assets/images/readme-images/android.png)
+
+**Details:**  
+- `android-chrome-192x192.png` – for Android home screen and Progressive Web Apps (PWA).  
+- `android-chrome-512x512.png` – for Android splash screen and high-resolution displays.
+
+**User Benefit:**  
+- Allows users to add the website as a home screen shortcut for quick access.  
+- Supports mobile engagement and PWA functionality.  
+- Provides crisp and scalable images on high-density screens.  
+
+</details><br>
+
+<details> <summary><strong>Apple Touch Icons</strong> (Click to expand)</summary>
+<br>
+
+![Apple Touch](assets/images/readme-images/apple-touch-icon.png)
+
+**Details:**  
+- `apple-touch-icon.png` (180x180) is used for iOS home screens and Safari bookmarks.
+
+**User Benefit:**  
+- Users can easily save and access the site from an iPhone or iPad home screen.  
+- Ensures the site appears clearly and professionally on iOS devices.  
+- Improves mobile UX by providing a visually consistent experience across platforms.  
+
+</details><br>
+
+**UX Rationale:**  
+Including multiple icon formats ensures that visitors have a **seamless and recognizable experience** across browsers, devices, and operating systems. It reinforces the site’s professional appearance, promotes brand consistency, and improves discoverability, whether users are browsing, bookmarking, or saving the site to their mobile devices.
+
+
 ### Landing / Home Page
 
 <details> <summary><strong>Home/Landing Page image</strong> (Click to expand)</summary>
@@ -344,9 +411,9 @@ Links are intended to direct users to the relevant live event pages for each loc
 Users can submit messages via a sign-up/contact form. 
 The form requiers an @ symbol or will show the message is missing.
 
-<details> <summary>Error Message (Click to expand)</summary>
+<details> <summary><strong>Error Message</strong> (Click to expand)</summary>
 
-![Error message](assets/images/readme-images/features-errors.png)
+  ![Error message](assets/images/readme-images/features-errors.png)
 </details><br>
 
 **Features:**
@@ -381,37 +448,39 @@ To maintain consistent navigation and reinforce user context, the Contact link r
 <li><a href="contact.html" class="active"><span>Contact</span></a></li>
 ```
 
-<details> <summary><strong>Message Sent Page Image</strong> (Click to expand)</summary>
-<!-- TODO:PCTURE HERE -->
-</details> <br>
-
-I initially implemented [Web2phone.co.uk](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; Although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
+I initially implemented [Web2phone](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; Although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
 
 As a result, I removed it in favour of the *Message Sent* page, which I coded myself. While this page is not functional, it simulates the behaviour of a successful form submission and demonstrates how a working contact form would behave. In the future, I can either implement a functional backend to make the contact form fully active or reintroduce Web2phone while adapting the styling to fit the site’s design.
 
 
 **User Benefit**: The Immediate visual feedback on form submission builds confidence that messages are received successfully.
 
-
-
 ## 404 Error Page
 
 404 Error Page
 <details> <summary><strong>404 Error Page</strong> (Click to expand)</summary>
 
-Description:
-
-Displayed when a user visits a page that does not exist.
-
-Provides clear navigation back to Home page.
+![404 Page](assets/images/readme-images/features-404.png)
 
 </details> <br>
 
-The 404 page appears when a user attempts to access a page that does not exist on the website.
+**Features**:
 
-The page informs the user that the requested page could not be found and provides a clear navigation option to return to the Home page.
+- The 404 page appears when a user attempts to access a page that does not exist on the website;  clearly informing the user that the page they requested does not exist.
+- The page informs the user that the requested page could not be found and provides clear navigation (through a a visible link/button) back to Home page.
+- Uses the same header, footer, and site layout as other pages for consistency.
+- Responsive design ensures the page works on desktop, tablet, and mobile devices.
+- the 404 page maintains the same design elements to reinforce confidence.
+- Designed to be _fun and engaging_, giving visitors a little surprise when they encounter it—adds personality to the site and encourages exploration.
 
-This helps prevent users from becoming lost on the site and improves the overall user experience by guiding them back to a valid page.
+**User Benefit**: 
+- Helps visitors quickly recover from navigation errors without getting lost.
+- Maintains consistent branding and design, reinforcing trust and usability.
+- This helps prevent users from becoming lost on the site and improves the overall user experience by guiding them back to a valid page.
+
+**Notes / Feedback**:
+- Future enhancement could include a search bar or suggested links to popular pages.
+- Currently static; could add an animated element or creative illustration to improve engagement.
 
 ### Features Left to Implement
 
@@ -419,8 +488,7 @@ This helps prevent users from becoming lost on the site and improves the overall
 Planned improvements for future versions of the site include:
 
 - Historic Timeline / Timeline of Sir John Donne’s life.
-
-The timeline feature was explored during development but would require more complex interactive functionality. Since it involves multiple events across different time periods, it would be better implemented in a future version using JavaScript or Python. as well as additional detailed pages about Sir John Donne's Life
+  The timeline feature was explored during development but would require more complex interactive functionality. Since it involves multiple events across different time periods, it would be better implemented in a future version using JavaScript or Python. as well as additional detailed pages about Sir John Donne's Life
 
 - FAQ section to answer common visitor questions.
 
@@ -439,44 +507,73 @@ The following features were designed to meet the needs of the target audience an
     - First-time visitors: navigate easily between pages
     - Returning visitors: quickly access specific sections
     - All users: maintain awareness of location within the site
+    - All users: supports keyboard navigation and accessibility
 
 - **Landing / Home Page**
   - Supports:
     - First-time visitors: understand the purpose of the site immediately
     - First-time visitors: learn about Sir John Donne
     - All users: establish trust through clear and structured content
+    - All users: encourages exploration via visual hierarchy and prominent content sections
 
 - **Gallery Page**
   - Supports:
     - First-time visitors: understand the historical items displayed
     - Target audience: engage with visual content to support learning
+    - All users: future enhancements could include interactive descriptions or lightbox functionality to further engagement
 
 - **Events Page**
   - Supports:
     - Returning visitors: find new or updated information
     - Returning visitors: discover future events
-    - All users: identify clear next steps (attending events)
+    - All users: identify clear next steps for attending events
+    - All users: plan attendance easily with clear information and external links
 
-- **Contact Page**
+- **Contact Page / Message Sent**
   - Supports:
     - Returning visitors: contact the site owner or re-enactment group
+    - All users: receive immediate visual feedback on form submission, building confidence that messages are received
+    - All users: access a structured and clear form layout
+
+- **404 Error Page**
+  - Supports:
+    - First-time and returning visitors: quickly recover from navigation errors
+    - All users: experience a fun, engaging, and playful page while maintaining trust
+    - All users: maintain consistent site branding, layout, and design
+    - Site owner goal: reinforce brand consistency and user engagement even on error pages
 
 - **Clear Content Structure**
   - Supports:
     - First-time visitors: access important information quickly
-    - All users: understand content easily
+    - All users: understand content easily and logically
 
 - **Responsive Design**
   - Supports:
     - Site owner goal: ensure accessibility across devices
-    - All users: access content across mobile, tablet, and desktop
+    - All users: access content on mobile, tablet, and desktop devices seamlessly
 
 - **Accessibility Features**
   - Supports:
     - Site owner goal: provide an inclusive experience
-    - All users: access content regardless of ability
+    - All users: access content regardless of ability, including semantic HTML, alt text, sufficient contrast, and responsive layout
 
+---
 
+## User Benefit Summary Table
+
+| Page / Feature        | Key Goals Supported                                           | User Benefits                                                                 |
+|----------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Navigation Bar        | First-time & returning visitors, accessibility               | Easy navigation, clear location awareness, keyboard-friendly                 |
+| Landing / Home Page   | First-time visitors, all users                                | Immediate understanding of purpose, visual engagement, trust building        |
+| Gallery Page          | First-time visitors, target audience                          | Visual exploration of historical items, supports learning                     |
+| Events Page           | Returning visitors, all users                                  | Easy discovery of events, plan attendance, access relevant info quickly      |
+| Contact / Message Sent| Returning visitors, all users                                  | Submit enquiries easily, receive immediate feedback, trust in site           |
+| 404 Error Page        | First-time & returning visitors, all users, site owner       | Recover from errors quickly, engaging experience, maintains branding         |
+| Clear Content Structure | First-time & all users                                        | Access information quickly, content is logical and easy to understand        |
+| Responsive Design     | Site owner & all users                                         | Seamless experience on desktop, tablet, mobile devices                        |
+| Accessibility Features| Site owner & all users                                         | Inclusive design, usable by people with visual/motor impairments, screen reader friendly |
+
+<br>
 
 [Back to top](#sir-john-donne-re-enactment)
 
@@ -515,6 +612,7 @@ The following table lists the key tools, resources, and references used during t
 | [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation.|
 | [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation. |
 | [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website. |
+|[Web2phone](https://web2phone.co.uk/)|I initially implemented this to allow email and WhatsApp messages to be sent and received without backend functionality; although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site and was removed in favour of the _message sent_ page solution. |
 | [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices. | 
 | [Chat GPT](https://chatgpt.com/)| Used to generate 404 image based on a custom prompt. |
 | [Am I Responsive](TBC)   |     | 
@@ -533,15 +631,20 @@ project-root
 │
 ├── index.html
 ├── gallery.html
-├── signup.html
+├── events.html
+├── contact.html
+├── message-sent.html
+├── 404.html
 │
 ├── assets
 │   ├── css
 │   │   └── style.css
+│   |
+│   ├── favicons
 │   │
 │   └── images
 │       ├── site-images
-│       └── readme
+│       └── readme (images / resources)
 │
 └── README.md
 ```
