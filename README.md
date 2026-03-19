@@ -230,7 +230,7 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 
 
 ## Features
-The features below were implemented to address the UX and design goals described above; the website currently includes the following pages:
+The features below were implemented to address the UX and design goals described above. The website currently includes the following pages:
 
 **Main Navigation Pages**
 - Home
@@ -252,68 +252,54 @@ The features below were implemented to address the UX and design goals described
 
 The navigation bar Appears on all pages, and provides easy navigation between main sections: Home, Gallery, Events, Contact. There is a responsive with hamburger (drop down) menu on small screens.
 
-User Benefit: This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
+**User Benefit:**  This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
-Feedback suggested adding a logo or icon image. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
+**Notes / Feedback:** A logo or icon was suggested. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
 
 ### Footer
 <!-- TODO: footer image -->
 <details> <summary><strong>Footer</strong> (Click to expand)</summary>
-<!-- TODO: footer image -->
-![Footer]()
+
+![Footer](assets/images/readme-images/features-footer.png)
 
 </details> <br>
 
 The footer is present on all pages except 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
 
-User Benefit: Ensures users can always access key info regardless of scroll position.
-
-
-
-<!-- TODO: Add responsive mockup image -->
-The footer is included on all pages except the 404 page. It contains additional navigation links, contact information, and links to relevant external resources. As M. Bass does not currently use social media, placeholder links to widely used platforms have been included; each opens the respective platform’s homepage.
-
 Due to varying screen sizes, the footer is not always immediately visible and may require the user to scroll to the bottom of the page to access it.
 
-User Benefit:
-Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
-
+**User Benefit:** Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
 
 ### Landing / Home Page
 
-
 <details> <summary><strong>Home/Landing Page image</strong> (Click to expand)</summary>
+<br>
 
-
-<!-- TODO: ADD PHOTO-->
-
+![Landing Page](assets/images/readme-images/features-home.png)
 </details> <br>
 
 Features:
-<!-- TODO: Describe the landing page feature -->
+
 - Large hero image with introductory text.
 - Visual introduction to the re-enactment project.
 - Explains historical context.
-- Introduces the purpose of the website.
+- Introduces the purpose of the website; being a re-enactment and living history site.
 - Provides a clear entry point for visitors.
+- encourages users to ecplore the site.
 
 The landing page introduces users to the Sir John Donne re-enactment project.
 It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
 The main content sections explain the historical context of the re-enactment.
 
+### Gallery Page
 
-![Landing Page](assets/images/readme/landing-page.png)
-
-Landing Page
-
-- Hero image with introductory text
-- Introduces the re-enactment project
-- Encourages visitors to explore the site
-
-### Gallery / Supporting Images
-
-Gallery / Supporting Images
 <details> <summary><strong>Gallery Page</strong> (Click to expand)</summary>
+
+![Gallery]()
+</details> <br>
+
+<!-- TODO: Describe your gallery or content display -->
+- Displays supporting images related to the re-enactment display and historical items.
 
 Features:
 
@@ -321,17 +307,14 @@ Displays supporting images related to the re-enactment and historical items.
 
 Helps visitors visually identify items and understand context.
 
-</details> <br>
-
-<!-- TODO: Describe your gallery or content display -->
-- Displays supporting images related to the re-enactment display and historical items.
-
-![Gallery](assets/images/readme/gallery.png)
 
 ### Events List page
 
 Events Page
 <details> <summary><strong>Events Page</strong> (Click to expand)</summary>
+
+
+</details> <br>
 
 Features:
 
@@ -341,8 +324,6 @@ Helps users discover opportunities to experience the display in person.
 
 
 Links are intended to direct users to the relevant live event pages for each location, such as the [Barnet Medieval Festival](https://barnetmedievalfestival.wordpress.com/). In cases where a specific event page is not available, such as [Nottingham Castle](https://www.nottinghamcastle.org.uk/whats-on/), users are instead directed to the venue’s main “What’s On” or landing page.
-
-</details> <br>
 
 <!-- TODO: Describe the Events Page -->
 The Events page provides information about upcoming historical re-enactment events where the Sir John Donne living-history display may appear.
@@ -498,22 +479,23 @@ The following table lists the key tools, resources, and references used during t
 
 | Resource | Purpose / How It Was Used |
 |----------|---------------------------|
-| [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration |
-| [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements |
+| [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration.|
+| [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.|
 | [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
-| [Real Favicongenerator Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens |
-| [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website |
-| [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling |
-| [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format |
-| [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Used to convert .JPG images to WebP format |
-| [To WebP](https://towebp.io) | Used to bulk convert .JPG images to WebP |
-| [Squoosh](https://squoosh.app/) | Used to compress image sizes without losing quality |
-| [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website |
-| [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation |
-| [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation |
-| [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website  |
-| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices | 
-| [Chat GPT](https://chatgpt.com/)| Used to generate 404 image based on a custom prompt |
+|[Canva](https://www.canva.com/online-whiteboard/wireframes/)| These skeleton wireframes were created using Canva, a tool for designing and arranging website layouts quickly and visually.|
+| [Real Favicongenerator Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens.|
+| [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website.|
+| [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling.|
+| [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format.|
+| [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Used to convert .JPG images to WebP format.|
+| [To WebP](https://towebp.io) | Used to bulk convert .JPG images to WebP.|
+| [Squoosh](https://squoosh.app/) | Used to compress image sizes without losing quality.|
+| [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website.|
+| [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation.|
+| [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation. |
+| [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website. |
+| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices. | 
+| [Chat GPT](https://chatgpt.com/)| Used to generate 404 image based on a custom prompt. |
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
 | [WAVE](https://wave.webaim.org)| WAVE ( Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|

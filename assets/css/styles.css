@@ -37,14 +37,22 @@ footer {
     gap: 0.5rem; /* better than relying on wrap spacing */
 }
 
-.footer-left,
-.footer-right {
+.footer-left, .footer-right {
     font-size: 0.85rem;
     color: #5f1a37;
 }
 
+.footer-left {
+    justify-self: end;
+}
+
+#social-networks {
+    justify-self: center; /* to make icons center in footer */
+}
+
 /* Footer links */
 .footer-right a {
+    justify-self: start; 
     color: #167fca;
     transition: color 0.3s ease;
 }
