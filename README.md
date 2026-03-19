@@ -183,11 +183,11 @@ The primary colour is a deep burgundy (#5F1A37), used for headings and key inter
 The secondary colour is a parchment-style beige (#F1E9D2), used as the main background colour. This creates a neutral and visually comfortable base, supporting accessibility by reducing eye strain and allowing content to remain clear and legible.
 
 ### Accent Colour – #167FCA  
-An accent colour of blue (#066DDC) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
+An accent colour of blue (#167FCA) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
 Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon](assets/favicon/web-app-manifest-512x512.png) image it was decided that we would use that 'color' throughout as a more accurate colour.
 
 ### Colour Scheme Rationale  
-The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne and it was important to the site owner this was reflected.
+The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne and it was important to the site owner that this was reflected.
 
 The burgundy reflects tones commonly found in period garments _(see the colour inspiration  below)_ , while the parchment background evokes materials such as aged paper and cloth.  
 <details> <summary><strong> </strong> The colour inspiration (Click to expand)</summary>
@@ -197,7 +197,7 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 </details><br>
 
 
-A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
+A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme, in collaboration with the site owner.
 <details> <summary><strong> </strong> Original colour palette (Click to expand)</summary>
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
@@ -205,13 +205,15 @@ A visual colour palette was created using [Coolors](https://coolors.co/) to pres
 </details><br>
 
 
-The visual colour palette was created later updated as noted above.
+The visual colour palette was later updated as noted above.
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolorsv2.webp)
 *Updated palette: Colour palette generated using Coolors, based on historically inspired tones.*
 
 
 ### Typography
+
+Fonts were chosen by the site owner who reviewed a range of options using Google Fonts. <!--TODO: -->
 
 #### Heading Font – Macondo  
 The heading font used is *Macondo*, applied to all heading elements (H1–H4). This decorative serif-style font was selected to reflect the historical and medieval theme of the website. Its distinctive style helps headings stand out clearly from body text, improving visual hierarchy and reinforcing the overall aesthetic.
@@ -327,7 +329,7 @@ The features below were implemented to address the UX and design goals described
 
 </details> <br>
 
-The navigation bar Appears on all pages, and provides easy navigation between main sections: Home, Gallery, Events, Contact. There is a responsive with hamburger (drop down) menu on small screens.
+The navigation bar appears on all pages, and provides easy navigation between the main sections: Home, Gallery, Events, Contact. There is a responsive hamburger (drop down) menu on small screens.
 
 **User Benefit:**  This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
@@ -341,7 +343,7 @@ The navigation bar Appears on all pages, and provides easy navigation between ma
 
 </details> <br>
 
-The footer is present on all pages except 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
+The footer is present on all pages except the 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
 
 Due to varying screen sizes, the footer is not always immediately visible and may require the user to scroll to the bottom of the page to access it.
 
@@ -444,10 +446,10 @@ The main content sections explain the historical context of the re-enactment.
 
 
 **Features:**
-- Displays supporting images related to the Sir John Donne re-enactment and historical items
-- Provides clear visual context for objects and displays featured in the living-history tent
-- Supports a structured and consistent layout with headings and captions for each image
-- Fully responsive layout ensures images are accessible on desktop, tablet, and mobile devices
+- Displays supporting images related to the Sir John Donne re-enactment and historical items.
+- Provides clear visual context for objects and displays featured in the living-history tent.
+- Supports a structured and consistent layout with headings and captions for each image.
+- Fully responsive layout ensures images are accessible on desktop, tablet, and mobile devices.
 
 **User Benefit**: Visitors can visually explore historical items, gaining a better understanding of the re-enactment setup. Images support learning by providing immediate visual references and context for first-time and returning visitors. Gallery layout prioritises clarity and ease of navigation between images
 
@@ -471,7 +473,7 @@ The main content sections explain the historical context of the re-enactment.
 
 Links are intended to direct users to the relevant live event pages for each location, such as the [Barnet Medieval Festival](https://barnetmedievalfestival.wordpress.com/). In cases where a specific event page is not available, such as [Nottingham Castle](https://www.nottinghamcastle.org.uk/whats-on/), users are instead directed to the venue’s main “What’s On” or landing page.
 
-**User Benefit**: Visitors can quickly find relevant events, understand where and when the re-enactment will take place, and plan their attendance. This supports both first-time and returning visitors in engaging with the Sir John Donne project.
+**User Benefit**: Visitors can quickly find relevant events, understand where and when the re-enactment will take place, and plan their attendance. This supports both first-time and returning visitors in engaging with the Sir John Donne site.
 
 **Notes / Feedback:**  
 - External links open to official venue or event pages for accurate information.
@@ -486,7 +488,7 @@ Links are intended to direct users to the relevant live event pages for each loc
 </details> <br>
 
 Users can submit messages via a sign-up/contact form. 
-The form requires an @ symbol or will show the message is missing.
+The form requires an @ symbol for validation in the email address field or it will show an error message.
 
 <details> <summary><strong>Error Message</strong> (Click to expand)</summary>
 
@@ -494,17 +496,19 @@ The form requires an @ symbol or will show the message is missing.
 </details><br>
 
 **Features:**
-- Allows visitors to submit messages via a contact form
-- After submission, users are redirected to a (*Message Sent*) confirmation page indicating that their message has been received.
-- Structured form layout with clear input fields and labels
-- Fully responsive design ensures accessibility on desktop, tablet, and mobile devices
+- Allows visitors to submit messages via a contact form.
+- After submission, users are redirected to a *Message Sent* confirmation page indicating that their message has been received.
+- Structured form layout with clear input fields and labels.
+- Fully responsive design ensures accessibility on desktop, tablet, and mobile devices.
 
 **User Benefit**: Visitors can easily submit enquiries or questions about the re-enactment project, ensuring smooth communication with the site owner.
 
 **Notes / Feedback:**  
-- The contact form currently simulates submissions (front-end only) 
-- Future improvements could include backend integration or styled email notifications  
-- Consistent typography and colour scheme aligns with overall site design
+- The contact form currently simulates submissions (front-end only).
+- Future improvements could include backend integration or styled email notifications.  
+- Consistent typography and colour scheme aligns with overall site design.
+- The contact page has a lot of unused whitespace on screens larger than mobile devices.
+- Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires JavaScript, which I have not learned yet.
 
 ### Message Sent Page
 
@@ -525,7 +529,7 @@ To maintain consistent navigation and reinforce user context, the Contact link r
 <li><a href="contact.html" class="active"><span>Contact</span></a></li>
 ```
 
-I initially implemented [Web2phone](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; Although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
+I initially implemented [Web2phone](https://web2phone.co.uk/) to allow email and WhatsApp messages to be sent and received without backend functionality; although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site.  
 
 As a result, I removed it in favour of the *Message Sent* page, which I coded myself. While this page is not functional, it simulates the behaviour of a successful form submission and demonstrates how a working contact form would behave. In the future, I can either implement a functional backend to make the contact form fully active or reintroduce Web2phone while adapting the styling to fit the site’s design.
 
@@ -680,13 +684,13 @@ The following table lists the key tools, resources, and references used during t
 | [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website.|
 | [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation.|
 | [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation. |
-| [Google Maps](https://www.google.com/maps/) | Used to generate embed iframe code for an interactive map, allowing visitors to view the location directly on the website. |
+| [Google Maps](https://www.google.com/maps/) | Used to generate embedded iframe code for interactive maps, allowing visitors to view the location directly on the website. |
 |[Web2phone](https://web2phone.co.uk/)|I initially implemented this to allow email and WhatsApp messages to be sent and received without backend functionality; although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site and was removed in favour of the _message sent_ page solution. |
-| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of my site on different devices. | 
+| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of the site on different devices. | 
 | [Chat GPT](https://chatgpt.com/)| Used as a supporting learning tool for HTML/CSS guidance, debugging, content structuring, and spelling and grammar refinement. It was also used to generate a custom 404 page image from a custom prompt. All generated outputs were critically reviewed, modified, and integrated independently to ensure originality and alignment with project requirements. |
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
-| [WAVE](https://wave.webaim.org)| WAVE ( Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
+| [WAVE](https://wave.webaim.org)| WAVE (Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
 | [TBC](TBC)   |     | 
 
 
@@ -730,6 +734,7 @@ The website was tested across multiple screen sizes including:
 - Desktop
 - Tablet
 - Mobile
+
 The website was tested to ensure all features function correctly.
 
 ### Testing Strategy
@@ -738,9 +743,9 @@ Current testing focuses on existing pages and features, including navigation, fo
 
 Future features, such as the Historic Timeline and 360° Tent Tour, will require additional interactive testing once implemented. Planned tests will include:
 
-- Interactive timeline events respond correctly to user input
-- 360° tour allows smooth rotation and object selection
-- QR codes link to the correct live pages
+- Interactive timeline, events respond correctly to user input
+- 360° tour, allows smooth rotation and object selection
+- QR codes, link to the correct live pages
 
 ### Responsive Design
 
