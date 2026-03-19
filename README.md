@@ -5,7 +5,7 @@
 <!-- TODO: change mockup image -->
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)  
 
-<details><summary> View homepage mockup (Click to expand)</summary>
+<details><summary> View Responsive Homepage Mockup (Click to expand)</summary>
 
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)  
 *Showing the landing / home page*
@@ -228,6 +228,7 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
   - Consistent structure across all pages improves usability and user familiarity.  
   - The 404 page was included to maintain user experience in the event of navigation errors.
 
+---
 
 ## Features
 The features below were implemented to address the UX and design goals described above. The website currently includes the following pages:
