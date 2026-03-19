@@ -13,6 +13,8 @@
 
 ## Table of Contents
 
+## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [User Experience](#user-experience)
    - [User Stories](#user-stories-and-related-goals)
@@ -21,24 +23,29 @@
    - [Colour Scheme](#the-colour-scheme)
    - [Typography](#typography)
    - [Accessibility](#accessibility)
-   - [Wireframes & Skeletons](#skeleton-layout--wireframes)
+   - [Skeleton Layout / Wireframe Images (Click to expand)](#skeleton-layout--wireframe-images)
 4. [Features](#features)
-   - [Navigation Bar](#navigation-bar)
-   - [Landing / Home Page](#landing--home-page)
-   - [Gallery Page](#gallery-page)
-   - [Events Page](#events-page)
-   - [Contact Page](#contact-page)
-   - [Message Sent Page](#message-sent-page)
-   - [404 Page](#404-error-page)
+   - [Navigation Bar (Click to expand)](#navigation-bar)
+   - [Landing / Home Page (Click to expand)](#landing--home-page)
+   - [Gallery Page (Click to expand)](#gallery-page)
+   - [Events Page (Click to expand)](#events-page)
+   - [Contact Page (Click to expand)](#contact-page)
+   - [Message Sent Page (Click to expand)](#message-sent-page)
+   - [404 Page (Click to expand)](#404-error-page)
+   - [Footer (Click to expand)](#footer)
+   - [Favicon & App Icons (Click to expand)](#favicon--app-icons)
+     - [Classic Favicon (Click to expand)](#classic-favicon)
+     - [Google Search Results (Click to expand)](#google-search-results)
+     - [Android Icons (Click to expand)](#android-icons)
+     - [Apple Touch Icons (Click to expand)](#apple-touch-icons)
 5. [User Goals Mapping](#user-goals-mapping)
 6. [Technologies Used](#technologies-used)
 7. [Project Structure](#project-structure)
 8. [Testing](#testing)
-   - [Manual Testing](#manual-testing)
+   - [Manual / Functional Testing Table (Click to expand)](#manual-testing-table)
    - [Cross-Browser Testing](#cross-browser-testing)
    - [Validator Testing](#validator-testing)
-   - [Accessibility / WAVE](#wave---web-accessibility-evaluation-tools)
-   - [Unfixed Bugs](#unfixed-bugs)
+   - [WAVE - Web Accessibility Evaluation Tools (Click to expand)](#wave---web-accessibility-evaluation-tools)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Reflections](#reflections)
@@ -108,7 +115,7 @@ Visitors with visual, motor, or cognitive impairments require an inclusive websi
 - Provide a responsive and inclusive experience that works across devices and input methods.  
 - Plan future enhancements to include accessible interactive content.
 
-> *Note:* User Experience goals (see next section) are derived from these user stories._
+> *Note:* User Experience goals (see next section) are derived from these user stories.
 
 ## User Experience Goals
 
@@ -825,7 +832,13 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 
 | Page re-tested | Outcome |
 |---|---|
-| Gallery Page| |
+|Home page| |
+|Gallery Page| |
+|Events Page | |
+|Contact Page | |
+|Message Sent Page||
+|404 Page | |
+
 
 #### CSS
 
