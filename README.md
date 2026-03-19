@@ -1,4 +1,4 @@
-p# Sir John Donne Re-enactment
+# Sir John Donne Re-enactment
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
@@ -6,7 +6,7 @@ p# Sir John Donne Re-enactment
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)  
 
 <details><summary> View homepage mockup (Click to expand)</summary>
-<!-- TODO: change mockup image -->
+
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)  
 *Showing the landing / home page*
 </details>
@@ -58,17 +58,14 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Access important information quickly
 - Be able to scan content easily through clear layout and headings
 - Learn about Sir John Donne
-<<<<<<< HEAD
 - Understand the historical items displayed in the Re-enactment tent
 - Engage with visual content to support learning
 - Trust the accuracy and credibility of the information presented
 - Identify clear next steps (e.g. attending events or making contact)
 - Access content easily across different devices and abilities
 - Feel confident that the information is accurate and trustworthy
-=======
 - Understand the historical items displayed in the re-enactment tent
 - Discover further resources about re-enactment and historical interpretation
->>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 
 ### Returning Visitor Goals
 
@@ -84,23 +81,17 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 - Provide a clean and responsive design
 - Ensure accessibility across devices
 - Provide educational material about Sir John Donne
-<<<<<<< HEAD
-- Support public engagement at Re-enactment events
-- Promote upcoming events and increase attendance
-- Maintain and update content easily
-=======
 - Support public engagement at re-enactment events
->>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 - Offer an accessible digital resource that complements the physical Re-enactment display
 
 ### Future Features and Goals
 
 Planned features will continue to support user goals:
 
-- **Historic Timeline:** Helps first-time and returning visitors quickly understand Sir John Donne’s life and historical context.
-- **FAQ Section:** Supports first-time visitors by answering common questions efficiently.
-- **360° Tent Tour:** Enhances engagement and understanding of historical items.
-- **QR Codes at Events:** Provides seamless access to relevant pages during live re-enactments.
+*Historic Timeline*: Helps first-time and returning visitors quickly understand Sir John Donne’s life and historical context.
+*FAQ Section*: Supports first-time visitors by answering common questions efficiently.
+*360° Tent Tour*: Enhances engagement and understanding of historical items.
+*QR Codes at Events*: Provides seamless access to relevant pages during live re-enactments.
 
 These goals directly informed the design and feature implementation of the website, ensuring a user-centred approach throughout development.
 
@@ -126,7 +117,7 @@ Originally #066DDC was chosen, however when I was given the image that was made 
 The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
 
 The burgundy reflects tones commonly found in period garments _(see the colour inspiration  below)_ , while the parchment background evokes materials such as aged paper and cloth.  
-<details> <summary><strong> </strong> The colour inspiration (Click to open)</summary>
+<details> <summary><strong> </strong> The colour inspiration (Click to expand)</summary>
 
 ![Colour inspiration](assets/images/bosworth-battlefield.webp)
 *Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne.*
@@ -134,7 +125,7 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 
 
 A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme.
-<details> <summary><strong> </strong> Original colour palette (Click to open)</summary>
+<details> <summary><strong> </strong> Original colour palette (Click to expand)</summary>
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolors.webp)
 *Original colour palette: Colour palette generated using Coolors, based on historically inspired tones.*
@@ -142,11 +133,10 @@ A visual colour palette was created using [Coolors](https://coolors.co/) to pres
 
 
 The visual colour palette was created later updated as noted above.
-<details> <summary><strong> </strong> Updated colour palette (Click to open)</summary>
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolorsv2.webp)
 *Updated palette: Colour palette generated using Coolors, based on historically inspired tones.*
-</details><br>
+
 
 ### Typography
 
@@ -191,11 +181,11 @@ The website was designed with accessibility in mind, ensuring that all users, in
 ### Skeleton Layout / Wireframes
 
 **Purpose:**  
-These wireframes outline the structural layout of the website prior to visual styling. They were used to plan the placement of key elements, establish user flow, and ensure a responsive, user-friendly experience across different devices.
+The wireframes were initially created as hand-sketched notes in collaboration with M. Bass and later developed into digital wireframes using [Canva](https://www.canva.com/online-whiteboard/wireframes/). These wireframes outline the structural layout of the website prior to visual styling. They were used to plan the placement of key elements, establish user flow, and ensure a responsive, user-friendly experience across different devices.
 
 
 <details>
-<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to open)</summary>
+<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to expand)</summary>
 
 **Skeleton Home Page**  
 ![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
@@ -254,91 +244,63 @@ The features below were implemented to address the UX and design goals described
 
 ### Navigation Bar
 
-<details> <summary><strong>Navigation Bar</strong> (Click to open)</summary>
+<details> <summary><strong>Navigation Bar</strong> (Click to expand)</summary>
 
-Description:
-
-Appears on all pages.
-
-Provides easy navigation between main sections: Home, Gallery, Events, Contact.
-
-Responsive with hamburger menu on small screens.
-
-User Benefit: Users can move between pages without using browser back button. Improves usability on desktop and mobile devices.
+![Navigation Bar](assets/images/readme-images/features-navigation.png)
 
 </details> <br>
 
-<!-- TODO: Describe the feature and its value to users -->
-- Appears on all pages
-- Allows easy navigation between sections of the website easily
+The navigation bar Appears on all pages, and provides easy navigation between main sections: Home, Gallery, Events, Contact. There is a responsive with hamburger (drop down) menu on small screens.
 
-The navigation bar allows users to easily move between the main sections of the website.
-
-This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
+User Benefit: This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
 Feedback suggested adding a logo or icon image. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
 
-![Navigation Bar](assets/images/readme/navbar.png)
-
 ### Footer
-
-Footer
-<details> <summary><strong>Footer</strong> (Click to open)</summary>
-
-Description:
-
-Present on all pages except 404 page.
-
-Contains navigation links, contact info, and related resources.
-M. Bass currently does not use any social media, therefore I have included examples of the most popular ones which link to the respective main site webpage. 
-
-User Benefit: Ensures users can always access key info regardless of scroll position.
+<!-- TODO: footer image -->
+<details> <summary><strong>Footer</strong> (Click to expand)</summary>
+<!-- TODO: footer image -->
+![Footer]()
 
 </details> <br>
 
+The footer is present on all pages except 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
+
+User Benefit: Ensures users can always access key info regardless of scroll position.
+
+
+
 <!-- TODO: Add responsive mockup image -->
-The footer provides additional navigation options and may include links to related resources or contact information.
+The footer is included on all pages except the 404 page. It contains additional navigation links, contact information, and links to relevant external resources. As M. Bass does not currently use social media, placeholder links to widely used platforms have been included; each opens the respective platform’s homepage.
 
-This helps users easily locate important information regardless of where they are on the page.
-All pages include the footer, with the exception of the 404 page.
+Due to varying screen sizes, the footer is not always immediately visible and may require the user to scroll to the bottom of the page to access it.
 
-The footer provides:
+User Benefit:
+Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
 
-- Additional navigation
-- Contact information
-- Links to related resources
 
 ### Landing / Home Page
 
 
-<details> <summary><strong>Landing Page / Home</strong> (Click to open)</summary>
+<details> <summary><strong>Home/Landing Page image</strong> (Click to expand)</summary>
 
-<<<<<<< HEAD
+
 <!-- TODO: ADD PHOTO-->
-=======
-Features:
 
-Hero image with introductory text
-
-Visual introduction to the re-enactment project
-
-Explains historical context and items in the living-history tent
-
->>>>>>> 67f10bb91d3e33660e7301261b04b8aff5e3239d
 </details> <br>
 
+Features:
 <!-- TODO: Describe the landing page feature -->
-- Large hero image with introductory text
-- Introduces the purpose of the website
-- Provides a clear entry point for visitors
+- Large hero image with introductory text.
+- Visual introduction to the re-enactment project.
+- Explains historical context.
+- Introduces the purpose of the website.
+- Provides a clear entry point for visitors.
 
 The landing page introduces users to the Sir John Donne re-enactment project.
-
 It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
+The main content sections explain the historical context of the re-enactment.
 
-The main content sections explain the historical context of the re-enactment and the items displayed within the tent.
-
-These sections help visitors understand the educational purpose of the display and provide further historical insight.
 
 ![Landing Page](assets/images/readme/landing-page.png)
 
@@ -351,7 +313,7 @@ Landing Page
 ### Gallery / Supporting Images
 
 Gallery / Supporting Images
-<details> <summary><strong>Gallery Page</strong> (Click to open)</summary>
+<details> <summary><strong>Gallery Page</strong> (Click to expand)</summary>
 
 Features:
 
@@ -369,7 +331,7 @@ Helps visitors visually identify items and understand context.
 ### Events List page
 
 Events Page
-<details> <summary><strong>Events Page</strong> (Click to open)</summary>
+<details> <summary><strong>Events Page</strong> (Click to expand)</summary>
 
 Features:
 
@@ -390,7 +352,7 @@ Visitors can view event locations, dates, and brief descriptions of the activiti
 ### Contact page
 
 Contact Page
-<details> <summary><strong>Contact Page</strong> (Click to open)</summary>
+<details> <summary><strong>Contact Page</strong> (Click to expand)</summary>
 
 Features:
 
@@ -422,7 +384,7 @@ To maintain consistent navigation and reinforce user context, the Contact link r
 <li><a href="contact.html" class="active"><span>Contact</span></a></li>
 ```
 
-<details> <summary><strong>Message Sent Page Image</strong> (Click to open)</summary>
+<details> <summary><strong>Message Sent Page Image</strong> (Click to expand)</summary>
 <!-- TODO:PCTURE HERE -->
 </details> <br>
 
@@ -433,7 +395,7 @@ As a result, I removed it in favour of the *Message Sent* page, which I coded my
 ## 404 Error Page
 
 404 Error Page
-<details> <summary><strong>404 Error Page</strong> (Click to open)</summary>
+<details> <summary><strong>404 Error Page</strong> (Click to expand)</summary>
 
 Description:
 
@@ -672,22 +634,22 @@ All pages passed both WCAG AA and AAA standards, with a contrast ratio of 8.59:1
 
 The features and structure review highlighted one minor issue on the Gallery page, where a heading level skipped from H2 to H4. This was subsequently corrected to H3.
 
-<details> <summary><strong> </strong> WAVE - Home Page (Click to open)</summary>
+<details> <summary><strong> </strong> WAVE - Home Page (Click to expand)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-home.webp)
 </details>
 
-<details> <summary><strong> </strong> WAVE - Gallery Page (Click to open)</summary>
+<details> <summary><strong> </strong> WAVE - Gallery Page (Click to expand)</summary>
 
 ![WAVE - Gallery Page](assets/images/readme-images/wave-gallery.webp)
 </details>
 
-<details> <summary><strong> </strong> WAVE - Events Page (Click to open)</summary>
+<details> <summary><strong> </strong> WAVE - Events Page (Click to expand)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-events.webp)
 </details>
 
-<details> <summary><strong> </strong> WAVE - Contact Page (Click to open)</summary>
+<details> <summary><strong> </strong> WAVE - Contact Page (Click to expand)</summary>
 
 ![WAVE - Home Page](assets/images/readme-images/wave-contact.webp)
 </details>
