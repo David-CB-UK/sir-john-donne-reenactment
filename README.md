@@ -284,6 +284,7 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 
 - **Header / Navigation:**  
   Positioned consistently at the top of each page to provide clear and accessible navigation. Designed with simplicity in mind to ensure ease of use on both desktop and mobile devices.
+  <!-- TODO: added acti e page visuale colour and underline-->
 
 - **Hero / Landing Section:**  
   A prominent introductory area on the homepage, intended to immediately communicate the purpose of the site and engage users visually.
@@ -328,6 +329,8 @@ The features below were implemented to address the UX and design goals described
 ![Navigation Bar](assets/images/readme-images/features-navigation.png)
 
 </details> <br>
+
+  <!-- TODO: added active uodated page visuale colour and underline-->
 
 The navigation bar appears on all pages, and provides easy navigation between the main sections: Home, Gallery, Events, Contact. There is a responsive hamburger (drop down) menu on small screens.
 
@@ -842,6 +845,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 |Message Sent Page||
 |404 Page | |
 
+  <!-- TODO: added acti e page visuale colour and underline from feedback-->
 
 #### CSS
 
