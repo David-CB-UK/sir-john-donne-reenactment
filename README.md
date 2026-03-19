@@ -1,4 +1,4 @@
-# Sir John Donne Re-enactment
+# Sir John Donne re-enactment
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
@@ -10,8 +10,6 @@
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)  
 *Showing the landing / home page*
 </details>
-
-## Table of Contents
 
 ## Table of Contents
 
@@ -70,7 +68,7 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 ---
 ## User Stories and Related Goals
 
-The following user stories describe the main users of the Sir John Donne Re-enactment website. Each story focuses on user needs, the context of use, and conceptual goals. Implementation details and feature benefits are explored later in the User Goals Mapping and Benefits Table.
+The following user stories describe the main users of the Sir John Donne re-enactment website. Each story focuses on user needs, the context of use, and conceptual goals. Implementation details and feature benefits are explored later in the User Goals Mapping and Benefits Table.
 
 ### Story 1: Site Owner – M. Bass
 
@@ -84,7 +82,7 @@ As the site owner, M. Bass needs a website that presents the re-enactment profes
 
 ### Story 2: Visitors – First-Time
 
-First-time visitors come to the site seeking to understand the purpose of the Sir John Donne Re-enactment, who it is for, and how to explore it. Their primary need is clarity and easy orientation.
+First-time visitors come to the site seeking to understand the purpose of the Sir John Donne re-enactment, who it is for, and how to explore it. Their primary need is clarity and easy orientation.
 
 **Goals:**  
 - Immediately understand the site’s purpose and historical context.  
@@ -121,43 +119,43 @@ Visitors with visual, motor, or cognitive impairments require an inclusive websi
 
 ### Target Audience
 
-- Visitors attending historical re-enactment events
-- Students and educators interested in early modern history
-- Members of the public interested in historical interpretation
+- Visitors attending historical re-enactment events.
+- Students and educators interested in early modern history.
+- Members of the public interested in historical interpretation.
 
 ### First Time Visitor Goals
 
-- Understand the purpose of the site immediately
-- Quickly identify who the site is for
-- Navigate easily between pages
-- Access important information quickly
-- Be able to scan content easily through clear layout and headings
-- Learn about Sir John Donne
-- Understand the historical items displayed in the Re-enactment tent
-- Engage with visual content to support learning
-- Trust the accuracy and credibility of the information presented
-- Identify clear next steps (e.g. attending events or making contact)
-- Access content easily across different devices and abilities
-- Feel confident that the information is accurate and trustworthy
-- Understand the historical items displayed in the re-enactment tent
-- Discover further resources about re-enactment and historical interpretation
+- Understand the purpose of the site immediately.
+- Quickly identify who the site is for.
+- Navigate easily between pages.
+- Access important information quickly.
+- Be able to scan content easily through clear layout and headings.
+- Learn about Sir John Donne.
+- Understand the historical items displayed in the re-enactment tent.
+- Engage with visual content to support learning.
+- Trust the accuracy and credibility of the information presented.
+- Identify clear next steps (e.g. attending events or making contact).
+- Access content easily across different devices and abilities.
+- Feel confident that the information is accurate and trustworthy.
+- Understand the historical items displayed in the re-enactment tent.
+- Discover further resources about re-enactment and historical interpretation.
 
 ### Returning Visitor Goals
 
-- Find new or updated information
-- Navigate directly to sections of interest
-- Find out about future events
-- Revisit specific content quickly (e.g. gallery or events)
-- Know how to contact site owner / historical re-enactment group
+- Find new or updated information.
+- Navigate directly to sections of interest.
+- Find out about future events.
+- Revisit specific content quickly (e.g. gallery or events).
+- Know how to contact site owner / historical re-enactment group.
 
 ### Site Owner Goals
 
-- Present information clearly
-- Provide a clean and responsive design
-- Ensure accessibility across devices
-- Provide educational material about Sir John Donne
-- Support public engagement at re-enactment events
-- Offer an accessible digital resource that complements the physical Re-enactment display
+- Present information clearly.
+- Provide a clean and responsive design.
+- Ensure accessibility across devices.
+- Provide educational material about Sir John Donne.
+- Support public engagement at re-enactment events.
+- Offer an accessible digital resource that complements the physical re-enactment display.
 
 ### Future Features and Goals
 
@@ -189,7 +187,7 @@ An accent colour of blue (#066DDC) is used for interactive elements such as butt
 Originally #066DDC was chosen, however when I was given the image that was made into the favicon [Wolf favicon](assets/favicon/web-app-manifest-512x512.png) image it was decided that we would use that 'color' throughout as a more accurate colour.
 
 ### Colour Scheme Rationale  
-The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne.  
+The colour scheme was chosen to create a clear and accessible visual design, with sufficient contrast between foreground and background elements to support readability. The selected colours are inspired by the **livery and clothing worn by medieval soldiers and retainers**, linking the design to the historical context of Sir John Donne and it was important to the site owner this was reflected.
 
 The burgundy reflects tones commonly found in period garments _(see the colour inspiration  below)_ , while the parchment background evokes materials such as aged paper and cloth.  
 <details> <summary><strong> </strong> The colour inspiration (Click to expand)</summary>
@@ -571,7 +569,7 @@ Planned improvements for future versions of the site include:
 - FAQ section to answer common visitor questions.
 
 - 360° tour photo / images in the tent.
-Interactive 360° view inside the Re-enactment tent allowing users to explore the medieval tent and click objects and learn more about them.
+Interactive 360° view inside the re-enactment tent allowing users to explore the medieval tent and click objects and learn more about them.
 
 External Feature Ideas:
 - QR codes displayed at the re-enactment site that link directly to relevant sections of the website
@@ -954,7 +952,7 @@ Images used in this project were sourced from:
 
 ## Reflections
 
-During the development of the **Sir John Donne Re-enactment** website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
+During the development of the **Sir John Donne re-enactment** website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
 
 ### Key Reflections and Limitations
 
