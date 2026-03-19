@@ -676,31 +676,57 @@ Future features, such as the Historic Timeline and 360° Tent Tour, will require
 
 ### Responsive Design
 
-The layout uses responsive design principles to ensure the site functions effectively across mobile, tablet, and desktop devices.
+Responsive design was tested across a range of screen sizes, including desktop, tablet, and mobile devices.
 
-<!-- TODO: Explain your testing strategy -->
-Desktop view:
-![Desktop Layout](assets/images/readme/responsive-desktop.png)
-<!-- TODO: Explain your testing strategy -->
-Mobile view:
-![Mobile Layout](assets/images/readme/responsive-mobile.png)
+The layout adapts using flexible layouts, media queries, and responsive images to ensure usability across all devices.
+
+Visual examples of responsive behaviour are shown in the [Features section](#landing--home-page), including full-page layouts for different screen sizes.
+
+| Device Type | Result |
+|------------|--------|
+| Desktop | Layout displays correctly |
+| Tablet | Layout adapts with no issues |
+| Mobile | Fully responsive with hamburger navigation |
 
 ### Manual Testing
 
-<!-- TODO: Add responsive mockup image -->
-- separate .md file??
-<!-- TODO: Add responsive mockup image -->
+
+<!-- TODO: ???????  -->
 - Navigation links
 - Form submission
 - Responsive layout on different screen sizes
 - The website layout adapts to different screen sizes including mobile devices.
 
+
+
+<details> <summary><strong>Manual Testing Table </strong> (Click to expand)</summary>
+
+### Manual / Functional Testing
+
 | Feature | Action | Expected Result | Result |
-| --- | --- | --- | --- |
-| Navigation | Click each link | Correct page loads | P?ass |
-| Contact Form | Submit form | Redirect to thank you page | Pa?ss |
-| Gallery | View images | Images load correctly | Pa?ss |
-| Responsive layout | Resize browser | Layout adapts correctly | P??ass |
+|---------|--------|----------------|--------|
+| Navigation | Click each link | Correct page loads | **Passed** |
+| Contact Form | Enter email without "@" | Form shows validation error / prevents submission | **Passed** |
+| Contact Form | Enter valid email | Form accepts input | **Passed**  |
+| Contact Form | Submit form | Redirect to *Message Sent* page | **Passed** |
+| Gallery | Load page | Images display correctly | **Passed** |
+| Responsive Layout | Resize browser (desktop/tablet/mobile) | Layout adapts correctly | **Passed** |
+| Responsive Layout | Hamburger menu | Menu opens and navigates correctly | **Passed**  |
+| Favicon | Open site in browser | Favicon displays in tab and bookmarks | **Passed**  |
+| Social Media Links | Click each social media icon | Opens correct social media page | **Passed**  |
+| 404 Page | Navigate to unknown URL | 404 page displays with link back to Home | **Passed**  |
+| Typography | Check headings / body | Fonts render correctly, hierarchy maintained | **Passed**  |
+| Accessibility | Screen reader test | All meaningful content read correctly | **WAVE implemented Below** |
+| Accessibility | Contrast test | All text meets WCAG AA/AAA contrast ratio | **Passed** |
+| SEO | Page title / meta description | Each page has correct SEO info | TBC <!-- TODO: verify meta info --> |
+| Performance | Lighthouse test | Score acceptable for accessibility, SEO, best practices | TBC <!-- TODO: run Lighthouse --> |
+| External Links | Click external links | Opens in new tab / correct destination | **Passed** |
+| Broken Links | Check all links | No broken links (internal/external) | **Passed**  |
+| Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
+| Images | Lazy loading / formats | Images load quickly and display correctly | **Passed** |
+| Security | HTTPS / SSL | Site served securely over HTTPS | **Passed** |
+
+</details><br>
 
 ### Cross-Browser Testing
 
