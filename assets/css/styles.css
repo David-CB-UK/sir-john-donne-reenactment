@@ -23,11 +23,35 @@ main {
 }
 
 footer {
-    flex-shrink: 0;      /* prevent footer from shrinking */
-    margin-top: 0;       /* remove any extra spacing */
-    padding: 1rem 0;     /* keep padding inside */
+    flex-shrink: 0;
+    padding: 1rem 0;
+    font-size: 0.9rem;
 }
 
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* better than relying on wrap spacing */
+}
+
+.footer-left,
+.footer-right {
+    font-size: 0.85rem;
+    color: #5f1a37;
+}
+
+/* Footer links */
+.footer-right a {
+    color: #167fca;
+    transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+    color: #5f1a37;  
+}
 /* Header */
 header {
     background-color: #f1e9d2;
@@ -506,6 +530,13 @@ footer {
 
     #logo-image {
         height: 50px;        /* smaller logo */
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
     }
 
     /* Homepage */
