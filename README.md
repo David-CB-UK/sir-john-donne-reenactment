@@ -295,24 +295,27 @@ The main content sections explain the historical context of the re-enactment.
 
 <details> <summary><strong>Gallery Page</strong> (Click to expand)</summary>
 
-![Gallery]()
+![Gallery](assets/images/readme-images/features-gallery.png)
 </details> <br>
 
-<!-- TODO: Describe your gallery or content display -->
-- Displays supporting images related to the re-enactment display and historical items.
 
-Features:
+**Features:**
+- Displays supporting images related to the Sir John Donne re-enactment and historical items
+- Provides clear visual context for objects and displays featured in the living-history tent
+- Supports a structured and consistent layout with headings and captions for each image
+- Fully responsive layout ensures images are accessible on desktop, tablet, and mobile devices
 
-Displays supporting images related to the re-enactment and historical items.
+**User Benefit**: Visitors can visually explore historical items, gaining a better understanding of the re-enactment setup. Images support learning by providing immediate visual references and context for first-time and returning visitors. Gallery layout prioritises clarity and ease of navigation between images
 
-Helps visitors visually identify items and understand context.
+**Notes**:
+- Future enhancements could include lightbox functionality for larger image views or interactive descriptions
+- Consistency with the site’s typography and colour scheme maintains a cohesive user experience
 
+### Events page
 
-### Events List page
-
-Events Page
 <details> <summary><strong>Events Page</strong> (Click to expand)</summary>
 
+![Events page](assets/images/readme-images/features-events.png)
 
 </details> <br>
 
