@@ -15,13 +15,33 @@
 
 1. [Project Overview](#project-overview)
 2. [User Experience](#user-experience)
+   - [User Stories](#user-stories-and-related-goals)
+   - [UX Goals](#user-experience-goals)
 3. [Design](#design)
+   - [Colour Scheme](#the-colour-scheme)
+   - [Typography](#typography)
+   - [Accessibility](#accessibility)
+   - [Wireframes & Skeletons](#skeleton-layout--wireframes)
 4. [Features](#features)
-5. [Technologies Used](#technologies-used)
-6. [Project Structure](#project-structure)
-7. [Testing](#testing)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
+   - [Navigation Bar](#navigation-bar)
+   - [Landing / Home Page](#landing--home-page)
+   - [Gallery Page](#gallery-page)
+   - [Events Page](#events-page)
+   - [Contact Page](#contact-page)
+   - [Message Sent Page](#message-sent-page)
+   - [404 Page](#404-error-page)
+5. [User Goals Mapping](#user-goals-mapping)
+6. [Technologies Used](#technologies-used)
+7. [Project Structure](#project-structure)
+8. [Testing](#testing)
+   - [Manual Testing](#manual-testing)
+   - [Cross-Browser Testing](#cross-browser-testing)
+   - [Validator Testing](#validator-testing)
+   - [Accessibility / WAVE](#wave---web-accessibility-evaluation-tools)
+   - [Unfixed Bugs](#unfixed-bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Reflections](#reflections)
 
 ---
 
@@ -41,8 +61,56 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 [Back to top](#sir-john-donne-re-enactment) 
 
 ---
+## User Stories and Related Goals
 
-## User Experience
+The following user stories describe the main users of the Sir John Donne Re-enactment website. Each story focuses on user needs, the context of use, and conceptual goals. Implementation details and feature benefits are explored later in the User Goals Mapping and Benefits Table.
+
+### Story 1: Site Owner – M. Bass
+
+As the site owner, M. Bass needs a website that presents the re-enactment professionally, accurately, and engagingly. He requires a platform where both first-time and returning visitors can easily access historical content, visual materials, and information about re-enactment events. The website must also be maintainable and flexible for future updates.
+
+**Goals:**  
+- Provide a clear presentation of historical content.  
+- Ensure responsive design for desktop, tablet, and mobile devices.  
+- Implement intuitive navigation and consistent styling.  
+- Allow room for future enhancements, such as interactive timelines, galleries, and messaging systems, to improve visitor engagement and educational value.
+
+### Story 2: Visitors – First-Time
+
+First-time visitors come to the site seeking to understand the purpose of the Sir John Donne Re-enactment, who it is for, and how to explore it. Their primary need is clarity and easy orientation.
+
+**Goals:**  
+- Immediately understand the site’s purpose and historical context.  
+- Access key information efficiently through clear headings, summaries, and visual cues.  
+- Navigate seamlessly between pages without confusion.  
+- Build trust in the accuracy and credibility of content.  
+- Engage visually with historical items, supporting learning and exploration.  
+- Use the site comfortably across devices and accessibility needs.
+
+### Story 3: Visitors – Returning
+
+Returning visitors want fast access to updated information, galleries, events, and other specific content. They are familiar with the layout and expect consistent, predictable navigation.
+
+**Goals:**  
+- Quickly locate new or updated content, including upcoming events.  
+- Access previously viewed information without repetitive navigation.  
+- Engage with refreshed gallery items and re-visit historical content.  
+- Benefit from reliable, consistent layout and functionality across devices.
+
+### Story 4: Visitors with Accessibility Needs
+
+Visitors with visual, motor, or cognitive impairments require an inclusive website that works with assistive technologies. They need clear structure, readable content, and keyboard-friendly navigation.
+
+**Goals:**  
+- Ensure semantic HTML structure and meaningful headings for screen readers.  
+- Use alt text for images and sufficient contrast for readability.  
+- Avoid complex interactions that could impede accessibility.  
+- Provide a responsive and inclusive experience that works across devices and input methods.  
+- Plan future enhancements to include accessible interactive content.
+
+> *Note:* User Experience goals (see next section) are derived from these user stories._
+
+## User Experience Goals
 
 ### Target Audience
 
@@ -185,7 +253,8 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 
 
 <details>
-<summary><strong>Skeleton Layout / Wireframe Images</strong> (Click to expand)</summary>
+  <summary><mark><strong>Skeleton Layout / Wireframe Images</strong> (Click to expand)</mark></summary>
+
 
 **Skeleton Home Page**  
 ![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
@@ -227,6 +296,8 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
   - A mobile-first approach was considered during planning to support responsiveness.  
   - Consistent structure across all pages improves usability and user familiarity.  
   - The 404 page was included to maintain user experience in the event of navigation errors.
+
+[Back to top](#sir-john-donne-re-enactment)
 
 ---
 
@@ -353,7 +424,7 @@ Features:
 - Explains historical context.
 - Introduces the purpose of the website; being a re-enactment and living history site.
 - Provides a clear entry point for visitors.
-- encourages users to ecplore the site.
+- encourages users to explore the site.
 
 The landing page introduces users to the Sir John Donne re-enactment project.
 It provides a clear visual introduction to the theme of the website and encourages users to explore further sections.
@@ -410,7 +481,7 @@ Links are intended to direct users to the relevant live event pages for each loc
 </details> <br>
 
 Users can submit messages via a sign-up/contact form. 
-The form requiers an @ symbol or will show the message is missing.
+The form requires an @ symbol or will show the message is missing.
 
 <details> <summary><strong>Error Message</strong> (Click to expand)</summary>
 
@@ -468,7 +539,7 @@ As a result, I removed it in favour of the *Message Sent* page, which I coded my
 **Features**:
 
 - The 404 page appears when a user attempts to access a page that does not exist on the website;  clearly informing the user that the page they requested does not exist.
-- The page informs the user that the requested page could not be found and provides clear navigation (through a a visible link/button) back to Home page.
+- The page informs the user that the requested page could not be found and provides clear navigation (through a visible link/button) back to Home page.
 - Uses the same header, footer, and site layout as other pages for consistency.
 - Responsive design ensures the page works on desktop, tablet, and mobile devices.
 - the 404 page maintains the same design elements to reinforce confidence.
@@ -485,7 +556,6 @@ As a result, I removed it in favour of the *Message Sent* page, which I coded my
 
 ### Features Left to Implement
 
-<!-- TODO: List future pplanned features -->
 Planned improvements for future versions of the site include:
 
 - Historic Timeline / Timeline of Sir John Donne’s life.
@@ -499,80 +569,73 @@ Interactive 360° view inside the Re-enactment tent allowing users to explore th
 External Feature Ideas:
 - QR codes displayed at the re-enactment site that link directly to relevant sections of the website
 
-## User Goals Mapping
-
-The following features were designed to meet the needs of the target audience and user goals:
-
-- **Navigation Bar**
-  - Supports:
-    - First-time visitors: navigate easily between pages
-    - Returning visitors: quickly access specific sections
-    - All users: maintain awareness of location within the site
-    - All users: supports keyboard navigation and accessibility
-
-- **Landing / Home Page**
-  - Supports:
-    - First-time visitors: understand the purpose of the site immediately
-    - First-time visitors: learn about Sir John Donne
-    - All users: establish trust through clear and structured content
-    - All users: encourages exploration via visual hierarchy and prominent content sections
-
-- **Gallery Page**
-  - Supports:
-    - First-time visitors: understand the historical items displayed
-    - Target audience: engage with visual content to support learning
-    - All users: future enhancements could include interactive descriptions or lightbox functionality to further engagement
-
-- **Events Page**
-  - Supports:
-    - Returning visitors: find new or updated information
-    - Returning visitors: discover future events
-    - All users: identify clear next steps for attending events
-    - All users: plan attendance easily with clear information and external links
-
-- **Contact Page / Message Sent**
-  - Supports:
-    - Returning visitors: contact the site owner or re-enactment group
-    - All users: receive immediate visual feedback on form submission, building confidence that messages are received
-    - All users: access a structured and clear form layout
-
-- **404 Error Page**
-  - Supports:
-    - First-time and returning visitors: quickly recover from navigation errors
-    - All users: experience a fun, engaging, and playful page while maintaining trust
-    - All users: maintain consistent site branding, layout, and design
-    - Site owner goal: reinforce brand consistency and user engagement even on error pages
-
-- **Clear Content Structure**
-  - Supports:
-    - First-time visitors: access important information quickly
-    - All users: understand content easily and logically
-
-- **Responsive Design**
-  - Supports:
-    - Site owner goal: ensure accessibility across devices
-    - All users: access content on mobile, tablet, and desktop devices seamlessly
-
-- **Accessibility Features**
-  - Supports:
-    - Site owner goal: provide an inclusive experience
-    - All users: access content regardless of ability, including semantic HTML, alt text, sufficient contrast, and responsive layout
+[Back to top](#sir-john-donne-re-enactment)
 
 ---
 
-## User Benefit Summary Table
+## User Goals Mapping
 
-| Page / Feature        | Key Goals Supported                                           | User Benefits                                                                 |
-|----------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------|
-| Navigation Bar        | First-time & returning visitors, accessibility               | Easy navigation, clear location awareness, keyboard-friendly                 |
-| Landing / Home Page   | First-time visitors, all users                                | Immediate understanding of purpose, visual engagement, trust building        |
-| Gallery Page          | First-time visitors, target audience                          | Visual exploration of historical items, supports learning                     |
-| Events Page           | Returning visitors, all users                                  | Easy discovery of events, plan attendance, access relevant info quickly      |
-| Contact / Message Sent| Returning visitors, all users                                  | Submit enquiries easily, receive immediate feedback, trust in site           |
-| 404 Error Page        | First-time & returning visitors, all users, site owner       | Recover from errors quickly, engaging experience, maintains branding         |
-| Clear Content Structure | First-time & all users                                        | Access information quickly, content is logical and easy to understand        |
-| Responsive Design     | Site owner & all users                                         | Seamless experience on desktop, tablet, mobile devices                        |
-| Accessibility Features| Site owner & all users                                         | Inclusive design, usable by people with visual/motor impairments, screen reader friendly |
+The following section maps implemented features to user stories and goals, showing how each design choice supports the needs of first-time visitors, returning visitors, and site owner objectives. Future enhancements are also noted. Each feature links back to the relevant user story: (Story 1: Site Owner, Story 2: First-Time Visitors, Story 3: Returning Visitors, Story 4: Accessibility)
+
+- **Navigation Bar** ([Story 1: Site Owner](#story-1-site-owner-m-bass), [Story 2: First-Time Visitors](#story-2-visitors-first-time), [Story 3: Returning Visitors](#story-3-visitors-returning), [Story 4: Accessibility](#story-4-visitors-with-accessibility-needs))  
+  - First-time visitors: easily move between pages and understand the site structure.  
+  - Returning visitors: quickly reach familiar sections.  
+  - All users: maintain awareness of location within the site.  
+  - Accessibility: keyboard navigation and screen reader support.  
+  - Site Owner: consistent branding across pages.
+
+- **Landing / Home Page** ([Story 2](#story-2-visitors-first-time), [Story 3](#story-3-visitors-returning))  
+  - First-time visitors: understand site purpose and historical context.  
+  - All users: structured content builds trust and encourages exploration.  
+  - All users: visual hierarchy and prominent content sections support scanning and engagement.
+
+- **Gallery Page** ([Story 2](#story-2-visitors-first-time), [Target Audience](#user-experience))  
+  - First-time visitors and target audience: engage visually with historical items.  
+  - Returning visitors: explore new or updated images.  
+  - All users: future enhancements may include interactive lightbox or descriptive content.  
+
+- **Events Page** ([Story 3](#story-3-visitors-returning), [Story 2](#story-2-visitors-first-time))  
+  - Returning visitors: locate upcoming events and external venue information.  
+  - First-time visitors: discover opportunities to attend re-enactments.  
+  - All users: plan visits efficiently with clear information and actionable next steps.  
+
+- **Contact / Message Sent Page** ([Story 3](#story-3-visitors-returning), [Story 1](#story-1-site-owner-m-bass))  
+  - Returning visitors: submit enquiries or connect with site owner.  
+  - All users: clear form feedback builds confidence, structured layout ensures easy use.  
+  - Future: integrate backend functionality for full messaging.  
+
+- **404 Error Page** ([Story 2](#story-2-visitors-first-time), [Story 3](#story-3-visitors-returning), [Story 1](#story-1-site-owner-m-bass))  
+  - All visitors: recover quickly from navigation errors.  
+  - Site Owner: maintain branding and engagement even on error pages.  
+  - All users: playful/fun design improves user experience while maintaining trust.  
+
+- **Clear Content Structure** ([Story 2](#story-2-visitors-first-time), [Story 4](#story-4-visitors-with-accessibility-needs))  
+  - First-time visitors: quickly locate key information.  
+  - All users: consistent layout improves comprehension.  
+
+- **Responsive Design** ([Story 1](#story-1-site-owner-m-bass), [Story 2](#story-2-visitors-first-time), [Story 3](#story-3-visitors-returning))  
+  - All users: seamless experience across desktop, tablet, and mobile devices.  
+  - Site Owner: accessible and professional presentation.  
+
+- **Accessibility Features** ([Story 4](#story-4-visitors-with-accessibility-needs), [Story 1](#story-1-site-owner-m-bass))  
+  - All users: inclusive experience for visitors with visual, motor, or cognitive impairments.  
+  - Site Owner: meets accessibility standards and legal guidance.  
+  - Supports semantic HTML, meaningful headings, alt text for images, sufficient contrast, and keyboard navigation.  
+
+### User Benefit Summary Table
+(Story 1: Site Owner, Story 2: First-Time Visitors, Story 3: Returning Visitors, Story 4: Accessibility)
+
+| Page / Feature         | Key Goals Supported                                     | User Benefits                                                                 | Linked User Stories |
+|-----------------------|---------------------------------------------------------|-------------------------------------------------------------------------------|------------------|
+| Navigation Bar         | First-time & returning visitors, accessibility         | Easy navigation, clear location awareness, keyboard-friendly                 | 1, 2, 3, 4       |
+| Landing / Home Page    | First-time visitors, all users                          | Immediate understanding of purpose, visual engagement, trust building, clear hierarchy | 2, 3             |
+| Gallery Page           | First-time visitors, target audience                    | Visual exploration of historical items, supports learning, future interactive potential | 2, Target Audience|
+| Events Page            | Returning visitors, first-time visitors, all users     | Discover events quickly, plan attendance, access relevant info, take next steps | 2, 3             |
+| Contact / Message Sent | Returning visitors, all users                            | Submit enquiries easily, receive immediate feedback, structured and clear form layout, trust in site | 1, 3             |
+| 404 Error Page         | First-time & returning visitors, all users, site owner | Recover from errors quickly, engaging and playful experience, maintains branding | 1, 2, 3          |
+| Clear Content Structure| First-time & all users                                  | Access information quickly, content is logical, readable, and easy to understand | 2, 4             |
+| Responsive Design      | Site owner & all users                                  | Seamless experience on desktop, tablet, mobile devices                        | 1, 2, 3          |
+| Accessibility Features | Site owner & all users                                  | Inclusive design, usable by people with visual/motor/cognitive impairments, screen reader friendly | 1, 4             |
 
 <br>
 
@@ -751,6 +814,19 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 
 - TODO No errors found using???? [W3C HTML Validator](https://validator.w3.org/)
 
+| Page | Outcome |
+|---|---|
+|Home page| Document checking completed. No errors or warnings to show.  However a trailing slash was noted in the _Info_ section.|
+|Gallery Page| |
+|Events Page | |
+|Contact Page | |
+|Message Sent Page||
+|404 Page | |
+
+| Page re-tested | Outcome |
+|---|---|
+| Gallery Page| |
+
 #### CSS
 
 <!-- TODO  --> 
@@ -845,8 +921,6 @@ Live site link:
 - Duckett, J. (2011) *HTML and CSS: Design and Build  Websites*. Indianapolis: John Wiley & Sons.  
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
--
-
 ### Content
 
 - [Code Drip](https://www.youtube.com/watch?v=LHyU-V2U2cI&utm_source=chatgpt.com) 
@@ -865,3 +939,46 @@ Images used in this project were sourced from:
 
 [Back to top](#sir-john-donne-re-enactment)
 
+## Reflections
+
+During the development of the **Sir John Donne Re-enactment** website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
+
+### Key Reflections and Limitations
+
+1. **Contact Page Functionality**
+   - The contact page has a lot of unused whitespace on screens larger than mobile devices.
+   - Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires JavaScript, which I have not learned yet.
+   - The current solution uses a *Message Sent* page to simulate successful submission and provide clear user feedback.
+   - In a future deployment, I would like to implement a fully functional messaging system with a backend and pop-up display as described above.
+   - I initially experimented with [Web2phone](https://web2phone.co.uk/) to allow email/WhatsApp messages, but the external code could not be styled consistently with the site, so the simpler simulation was adopted.
+
+2. **Interactive Features**
+   - Planned features such as a **360° tent tour**, **interactive timeline**, **lightbox gallery**, and **collapsible content panels** cannot be implemented fully with HTML and CSS alone.
+   - CSS-only alternatives (sliders, hover effects) were considered but are either inaccessible, limited, or impractical for a robust user experience.
+   - The current site design achieves clarity, structure, and responsiveness while maintaining usability, with interactive enhancements planned for future versions.
+
+3. **Gallery and Visual Content**
+   - The gallery presents images clearly across devices, supporting learning and exploration.
+   - More advanced interactivity (click-to-zoom, lightbox navigation) would require JavaScript and is planned for future versions.
+
+4. **Layout and Responsiveness**
+   - Some pages, particularly the contact page, have unused whitespace on larger screens. This is more noticeable on desktop and laptop device screens.
+   - The layout was intentionally simplified to maintain readability and a consistent design across all devices using only HTML and CSS.
+   - Responsive behaviour was implemented using flexible layouts, media queries, and percentage-based widths to ensure content adapts to different screen sizes.
+   - Scrolling is not required on most laptop and PC screen sizes; however, minor layout shifts may appear on certain viewport widths due to HTML/CSS limitations.
+   - Interactive alternatives (such as pop-ups, collapsible panels, or dynamic resizing) would require JavaScript. Implementing these purely in HTML/CSS is either extremely limited or impractical, so they were deferred to future enhancements.
+   - The design choices reflect a **mobile-first approach**, prioritising usability on smaller devices while still providing a functional and visually coherent layout on larger screens.
+   - Overall, the current implementation strikes a balance between accessibility, simplicity, and responsiveness within the constraints of HTML and CSS.
+
+5. **Accessibility and Design**
+   - Despite technical limitations, the site meets WCAG AA/AAA standards, uses semantic HTML, provides alt text for images, and ensures responsive layouts across desktop, tablet, and mobile devices.
+   - These choices maximise user experience within the constraints of HTML/CSS and ensure the site remains inclusive and accessible.
+
+### Planned Future Enhancements
+- **Historic Timeline:** Interactive visual timeline of Sir John Donne’s life.
+- **FAQ Section:** To answer common visitor questions efficiently.
+- **360° Tent Tour:** Allowing visitors to explore objects inside the re-enactment tent interactively.
+- **QR Codes at Events:** Direct visitors to relevant website pages on-site.
+- **Lightbox Gallery:** Clickable images for more detailed views and descriptions.
+
+[Back to top](#sir-john-donne-re-enactment)
