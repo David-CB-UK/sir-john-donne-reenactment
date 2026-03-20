@@ -881,10 +881,7 @@ A more elegant solution in the future might be a horizontally scrolling layout, 
 ### Validator Testing
 
 #### HTML
-
-<!-- TODO  -->
-
-- TODO No errors found using???? [W3C HTML Validator](https://validator.w3.org/)
+ [W3C HTML Validator](https://validator.w3.org/) was used to check each page, any errors found were corrected and resubmitted to ensure all passed the validator checks.
 
 | Page re-tested | Notes | Outcome |
 |---|---|---|
@@ -898,10 +895,10 @@ A more elegant solution in the future might be a horizontally scrolling layout, 
 
 | Page re-tested | Notes | Outcome |
 |---|---|---|
-|Home page| Removed Trailing slash on all pages and re-tested | **Passed**|
-|Gallery Page| Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
-|Events Page | Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
-|Message Sent Page | Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+|Home page| Removed Trailing slash on all pages and re-tested. No errors or warnings to show.| **Passed**|
+|Gallery Page| Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+|Events Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+|Message Sent Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 
   <!-- TODO: added acti e page visuale colour and underline from feedback-->
 
@@ -909,7 +906,21 @@ A more elegant solution in the future might be a horizontally scrolling layout, 
 
 <!-- TODO  --> 
 
-- TODO No errors found using??? [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to check the [CSS Styles Sheet](assets/css/styles.css) three errors were found:
+
+  - **.active:**	Value Error : border-bottom Too many values or values are not recognized : 1px solid inherit 
+  -	**#contact-form:** Value Error : background-color rgbt(241,237,227,0.8) is not a background-color value : rgbt(241,237,227,0.8)
+  - **#home-zigzag:** 	anchor-center is not a align-items value : anchor-center
+
+These were corrected and then resubmitted to the validator and the [CSS Styles Sheet](assets/css/styles.css) subequently **Passed** this validator check.
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 ### Lighthouse Testing
 

@@ -157,7 +157,7 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid inherit;
+    border-bottom: 1px solid currentColor; /* uses the current text color */
     color: #167fca;
 }
 
@@ -455,7 +455,7 @@ body.error-page * {
 #contact-form {
     align-items: flex-start;
     flex-direction: column;
-    background-color: rgbt(241, 237, 227, 0.8); /* keeps text fully visible */
+    background-color: rgb(241, 237, 227, 0.8); /* keeps text fully visible */
     padding: 0rem; 
     gap: 0.4rem;
 }
@@ -749,7 +749,7 @@ footer {
     }
 
     /*no background on very small screens - contact / msg sent page */
-    .contact-bg::before {
+        .contact-bg::before {
         background-image: none;  /* remove background */
         backdrop-filter: none;    /* optional: remove blur */
     }
@@ -880,7 +880,7 @@ footer {
 
     #home-zigzag {
         /* also alighs right-image on home*/
-        align-items: anchor-center; /* align top */
+        align-items: center; /* valid value for flexbox */
     }
 
     .zigzag-text {
