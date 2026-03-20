@@ -72,6 +72,13 @@ header {
     /* Openreplay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;     /*note shadow box different on different screen sizes to fix */
 }
+
+/* Header and Footer for image background on  */
+header, footer {
+    position: relative;       /* create new stacking context */
+    z-index: 1;          
+}
+
 /* Logo Text in header */
 #logo {
     margin: 0;            /* removes the h1, h2, h3, h4 offset */
@@ -124,7 +131,6 @@ p {
 /* Navbar styles with dropdown menus */
 nav {
     position: absolute;
-    background-color: inherit;
     width: 50%; /* align drop menu to right side of screen */
     right: 0;
     padding: 0 1rem;
@@ -202,6 +208,7 @@ main {
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
     padding-top: 50px;   /* pushes content below fixed header */
+    z-index: 0; /* fixes the background image on contact pages */
 }
 
 main > .events, .gallery-intro-wrapper {
@@ -493,19 +500,6 @@ body.error-page * {
     margin-bottom: 1rem;  /* space before next input */
 }
 
-/* Contact PAge Background */
-.contact-bg {
-    position: relative;
-    background-image: url('../images/red-and-blue-pavillion-tents.webp'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center; /* centers form horizontally */
-    align-items: center;     /* vertical centering if page is tall */
-    padding: 1rem 1rem; /* reduce top padding */
-}
-
 .contact-bg::before {
     content: "";
     position: absolute;
@@ -516,6 +510,12 @@ body.error-page * {
     background-color: rgba(255, 255, 255, 0.12); /* white overlay at 30% opacity */
     z-index: 1; /* behind the form */
     border-radius: 12px; /* rounded edges */
+    backdrop-filter: blur(2px); /* blurs the backgroud image */
+    background-image: url('../images/background-caste.png'); 
+    background-size: cover;     /* stretch to cover full viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;               /* behind everything including header/footer */
 }
 
 /* Form Container*/
