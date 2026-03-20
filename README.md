@@ -815,7 +815,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Typography | Check headings / body | Fonts render correctly, hierarchy maintained | **Passed**  |
 | Accessibility | Screen reader test | All meaningful content read correctly | **WAVE implemented Below** |
 | Accessibility | Contrast test | All text meets WCAG AA/AAA contrast ratio | **Passed** |
-| SEO | Page title / meta description | Each page has correct SEO info | TBC <!-- TODO: verify meta info --> |
+| SEO | Page title / meta description | Each page has correct and individual SEO info | _Failed_ every page the same |
 | Performance | Lighthouse test | Score acceptable for accessibility, SEO, best practices | TBC <!-- TODO: run Lighthouse --> |
 | External Links | Click external links | Opens in new tab / correct destination | **Passed** |
 | Broken Links | Check all links | No broken links (internal/external) | **Passed**  |
@@ -832,7 +832,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Feature | Action taken | Expected Result | Result |
 |---------|--------|----------------|--------|
 | Responsive Layout| CSS (@media changed) to enable navigation hover on all screen sizes | Hover animation appears|**Passed**  |
-
+|SEO| Changed all pages so header title is only H1 on index page|Each page has correct and individual SEO info|| <!--TODO: -->|
 </details><br>
 
 ### Cross-Browser Testing
