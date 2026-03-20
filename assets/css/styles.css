@@ -22,6 +22,7 @@ footer {
     flex-shrink: 0;
     padding: 0; /*removed 0.1reme to reduce footer size*/
     font-size: 0.9rem;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -201,8 +202,6 @@ main {
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
     padding-top: 50px;   /* pushes content below fixed header */
-    /* to fix missing footer on AmIResponsive - 100px = approx header + footer height */
-    min-height: calc(100vh - 100px); 
 }
 
 main > .events, .gallery-intro-wrapper {
@@ -446,21 +445,27 @@ body.error-page * {
     align-items: center;
 }
 
-#contact-form h1 {
-    text-align: center;
-    margin: 0 0 1.5rem 0;   /* removes left margin + adds space below */
-    width: 100%;            /* ensures proper centering in flex */
-}
-
-#contact-form > h2 {
-    margin-bottom: 20px;
-} 
-
 #contact-form {
     align-items: flex-start;
     flex-direction: column;
     display: flex
+    background-color: rgba(241, 237, 227, 0.8); /* keeps text fully visible */
+    padding: 2rem; 
 }
+
+#contact-form h1 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;   /* removes left margin + adds space below */
+    width: 100%;            /* ensures proper centering in flex */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#contact-form > h2 {
+    margin-bottom: 20px;
+    
+} 
 
 #contact-form .text-input {
     width: 250px;       /* fixed width for text inputs */
@@ -473,11 +478,65 @@ body.error-page * {
     align-items: center; /* centers label, textarea, and button */
 }
 /* Style contact forms to site colors*/
-#contact-form input:focus,
-#contact-form textarea:focus {
+#contact-form input:focus, #contact-form textarea:focus {
     outline: none;
     border: 2px solid #5f1a37;
     box-shadow: 0 0 6px rgba(95, 26, 55, 0.5);
+}
+
+#contact-form label {
+    font-weight: bold;
+    display: block;      /* ensures label is on its own line */
+    margin-top: 1rem;    /* spacing above each label */
+}
+
+/* Add spacing for inputs */
+#contact-form input.text-input {
+    margin-top: 0.4rem;   /* space below label */
+    margin-bottom: 1rem;  /* space before next input */
+}
+
+/* Slightly reduce form transparency */
+.form-container {
+    background-color: rgba(241, 237, 227, 0.95); /* slightly less transparent */
+}
+/* Contact PAge Background */
+.contact-bg {
+    position: relative;
+    background-image: url('../images/red-and-blue-pavillion-tents.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* centers form horizontally */
+    align-items: center;     /* vertical centering if page is tall */
+    padding: 1rem 1rem; /* reduce top padding */
+}
+
+.contact-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.12); /* white overlay at 30% opacity */
+    z-index: 0; /* behind the form */
+    border-radius: 12px; /* rounded edges */
+}
+
+/* Form Container*/
+.form-container {
+  padding: 1rem 2.5rem;
+  border-radius: 10px; /* rounded borders*/
+  max-width: 85%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
+}
+
+/* Message text area */
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
 }
 
 /* Message Sent Contact Page */
@@ -663,24 +722,24 @@ footer {
         margin-bottom: 0.3rem;
     }
 
-/* Event Image Container */
-.event-image {
-    width: 100%;             /* full width of its column/flex item */
-    max-width: 400px;        /* prevents stretching too wide on large screens */
-    aspect-ratio: 1 / 1;     /* forces square */
-    overflow: hidden;        /* crop excess */
-    border-radius: 6px;
-    margin: 0 auto;          /* center horizontally */
-    flex-shrink: 0;          /* prevent shrinking if inside flex row */
-}
+    /* Event Image Container */
+    .event-image {
+        width: 100%;             /* full width of its column/flex item */
+        max-width: 400px;        /* prevents stretching too wide on large screens */
+        aspect-ratio: 1 / 1;     /* forces square */
+        overflow: hidden;        /* crop excess */
+        border-radius: 6px;
+        margin: 0 auto;          /* center horizontally */
+        flex-shrink: 0;          /* prevent shrinking if inside flex row */
+    }
 
-/* Image itself */
-.event-image img {
-    width: 100%;
-    height: 100%;            /* fill the square container */
-    object-fit: cover;       /* crop/scale image correctly */
-    display: block;
-}
+    /* Image itself */
+    .event-image img {
+       width: 100%;
+       height: 100%;            /* fill the square container */
+      object-fit: cover;       /* crop/scale image correctly */
+      display: block;
+    }
 
     .event-map {
         flex: none;
