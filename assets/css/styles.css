@@ -71,10 +71,15 @@ header {
     /* Openreplay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;     /*note shadow box different on different screen sizes to fix */
 }
-
+/* Logo Text in header */
 #logo {
     margin: 0;            /* removes the h1, h2, h3, h4 offset */
     line-height: 1;       /* to keep it tight vertically */
+    font-family: 'Macondo', cursive;
+    color: #5f1a37;
+    margin-left: 1rem;
+    font-size: 2em;
+    
 }
 
 header a {
