@@ -821,11 +821,8 @@ footer {
         transform: scale(1.3);  /* grows bigger */
         text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
     }
-}
 
-/* Media query: Larger devices (laptops and desktops, 992 px and up) */
-@media screen and (min-width: 992px) {
-
+/* removed 'Media query Larger devices (laptops and desktops, 992 px and up)' added to (min-width: 768px)*/
     main {
         margin-top: 0;
         padding-top: 55px;

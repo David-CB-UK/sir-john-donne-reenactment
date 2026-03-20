@@ -364,9 +364,10 @@ The navigation bar appears on all pages, and provides easy navigation between th
 _The original footer._
 </details> <br>
 
-<details> <summary><strong>Updated Navigation Bar</strong> (Click to expand)</summary>
+<details> <summary><strong>Updated Navigation Bar</strong> (Click to expand)</summary><br>
 
 ![Footer](assets/images/readme-images/features-updated-footer.png)
+
 _The updated footer following feedback as noted below._
 </details> <br>
 
