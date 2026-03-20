@@ -886,23 +886,22 @@ A more elegant solution in the future might be a horizontally scrolling layout, 
 
 - TODO No errors found using???? [W3C HTML Validator](https://validator.w3.org/)
 
-| Page | Outcome |
-|---|---|
-|Home page| Document checking completed. No errors or warnings to show.  However a trailing slash was noted in the _Info_ section.|
-|Gallery Page| |
-|Events Page | |
-|Contact Page | |
-|Message Sent Page||
-|404 Page | |
+| Page re-tested | Notes | Outcome |
+|---|---|---|
+|Home page| Document checking completed. No errors or warnings to show.  However a trailing slash was noted in the _Info_ section.|_Passed_
+|Gallery Page| Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).| _Fail_|
+|Events Page |Error: No p element in scope but a p end tag seen.| _Fail_|
+|Contact Page | Document checking completed. No errors or warnings to show.|**Passed**|
+|Message Sent Page|Error: End tag div seen, but there were open elements. & Unclosed element form. | _Fail_|
+|404 Page | Document checking completed. No errors or warnings to show.|**Passed**|
 
-| Page re-tested | Outcome |
-|---|---|
-|Home page| |
-|Gallery Page| |
-|Events Page | |
-|Contact Page | |
-|Message Sent Page||
-|404 Page | |
+
+| Page re-tested | Notes | Outcome |
+|---|---|---|
+|Home page| Removed Trailing slash on all pages and re-tested | **Passed**|
+|Gallery Page| Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+|Events Page | Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+|Message Sent Page | Re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 
   <!-- TODO: added acti e page visuale colour and underline from feedback-->
 
