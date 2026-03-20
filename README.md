@@ -793,16 +793,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Tablet | Layout adapts with no issues |
 | Mobile | Fully responsive with hamburger navigation |
 
-### Manual Testing
-
-
-<!-- TODO: ???????  -->
-- Navigation links
-- Form submission
-- Responsive layout on different screen sizes
-- The website layout adapts to different screen sizes including mobile devices.
-
-
+<br>
 
 <details> <summary><strong>Manual Testing Table </strong> (Click to expand)</summary>
 
@@ -817,6 +808,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Gallery | Load page | Images display correctly | **Passed** |
 | Responsive Layout | Resize browser (desktop/tablet/mobile) | Layout adapts correctly | **Passed** |
 | Responsive Layout | Hamburger menu | Menu opens and navigates correctly | **Passed**  |
+| Responsive Layout| Navigation hover working on all screen sizes | Hover animation appears | _Failed_ on smaller PC screens |
 | Favicon | Open site in browser | Favicon displays in tab and bookmarks | **Passed**  |
 | Social Media Links | Click each social media icon | Opens correct social media page | **Passed**  |
 | 404 Page | Navigate to unknown URL | 404 page displays with link back to Home | **Passed**  |
@@ -830,6 +822,16 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
 | Images | Lazy loading / formats | Images load quickly and display correctly | **Passed** |
 | Security | HTTPS / SSL | Site served securely over HTTPS | **Passed** |
+
+</details><br>
+
+<details> <summary><strong>Retesting - Manual Testing Table </strong> (Click to expand)</summary>
+
+### Manual / Functional Testing
+
+| Feature | Action taken | Expected Result | Result |
+|---------|--------|----------------|--------|
+| Responsive Layout| CSS (@media changed) to enable navigation hover on all screen sizes | Hover animation appears|**Passed**  |
 
 </details><br>
 
@@ -1016,7 +1018,7 @@ Images used in this project were sourced from:
 
 ## Reflections
 
-During the development of the **Sir John Donne re-enactment** website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
+During the development of the Sir John Donne re-enactment website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
 
 ### Key Reflections and Limitations
 
