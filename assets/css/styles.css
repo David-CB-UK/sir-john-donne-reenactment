@@ -436,7 +436,7 @@ body.error-page * {
 
 /* Contact Page */
 #contact-us {
-    padding-top: 50px;   /* pushes content below fixed header */
+    padding-top: 5px;   /* pushes content below fixed header */
     margin: 10px;
     align-self: center;
     display: flex;
@@ -448,9 +448,9 @@ body.error-page * {
 #contact-form {
     align-items: flex-start;
     flex-direction: column;
-    display: flex
-    background-color: rgba(241, 237, 227, 0.8); /* keeps text fully visible */
-    padding: 2rem; 
+    background-color: rgbt(241, 237, 227, 0.8); /* keeps text fully visible */
+    padding: 0rem; 
+    gap: 0.4rem;
 }
 
 #contact-form h1 {
@@ -464,11 +464,10 @@ body.error-page * {
 
 #contact-form > h2 {
     margin-bottom: 20px;
-    
 } 
 
 #contact-form .text-input {
-    width: 250px;       /* fixed width for text inputs */
+    width: 95%;       /* fixed width for text inputs */
     padding: 8px;
 }
 
@@ -487,19 +486,13 @@ body.error-page * {
 #contact-form label {
     font-weight: bold;
     display: block;      /* ensures label is on its own line */
-    margin-top: 1rem;    /* spacing above each label */
 }
 
 /* Add spacing for inputs */
 #contact-form input.text-input {
-    margin-top: 0.4rem;   /* space below label */
     margin-bottom: 1rem;  /* space before next input */
 }
 
-/* Slightly reduce form transparency */
-.form-container {
-    background-color: rgba(241, 237, 227, 0.95); /* slightly less transparent */
-}
 /* Contact PAge Background */
 .contact-bg {
     position: relative;
@@ -521,16 +514,19 @@ body.error-page * {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.12); /* white overlay at 30% opacity */
-    z-index: 0; /* behind the form */
+    z-index: 1; /* behind the form */
     border-radius: 12px; /* rounded edges */
 }
 
 /* Form Container*/
 .form-container {
-  padding: 1rem 2.5rem;
-  border-radius: 10px; /* rounded borders*/
-  max-width: 85%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
+    padding: 1.6rem 2.5rem;
+    border-radius: 6px; /* rounded borders*/
+    max-width: 85%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
+    z-index: 10;  /* bring form layour above to be clickable */
+     /* Slightly reduce form transparency */
+    background-color: rgba(241, 237, 227, 0.95); /* slightly less transparent */
 }
 
 /* Message text area */
@@ -541,10 +537,9 @@ body.error-page * {
 
 /* Message Sent Contact Page */
 #message-sent {
-    width: 90%;
+    width: 95%;
     text-align: center;
     font-size: 110%;
-    padding: 1rem 0.8rem;
     border-radius: 6px;
     border: 2px solid transparent;
     background-color: rgba(241, 237, 227, 0.77);
@@ -554,7 +549,9 @@ body.error-page * {
     box-shadow: 0px 6px 12px rgb(6, 109, 220, 0.51);
     color: #5f1a37;
     max-width: 400px;
-    margin: 2rem auto;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.15);
 }
 
 /* Footer */
