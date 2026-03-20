@@ -510,7 +510,6 @@ body.error-page * {
     background-color: rgba(255, 255, 255, 0.12); /* white overlay at 30% opacity */
     z-index: 1; /* behind the form */
     border-radius: 12px; /* rounded edges */
-    backdrop-filter: blur(2px); /* blurs the backgroud image */
     background-image: url('../images/background-caste.png'); 
     background-size: cover;     /* stretch to cover full viewport */
     background-position: center;
@@ -526,7 +525,7 @@ body.error-page * {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
     z-index: 10;  /* bring form layour above to be clickable */
      /* Slightly reduce form transparency */
-    background-color: rgba(241, 237, 227, 0.95); /* slightly less transparent */
+    background-color: rgba(241, 237, 227, 0.97); /* make box slightly transparent */
 }
 
 /* Message text area */
@@ -748,6 +747,12 @@ footer {
     display: block;    
     text-align: center;  /* centers inline-block button */
     }
+
+    /*no background on very small screens - contact / msg sent page */
+    .contact-bg::before {
+        background-image: none;  /* remove background */
+        backdrop-filter: none;    /* optional: remove blur */
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -790,9 +795,14 @@ footer {
     }
 
     #cover-text {
-        width: 90%;        
+        width: 95%;        
         padding: 1rem 0.6rem;   
         box-sizing: border-box; /* ensures padding is inside width */
+    }
+    
+    .contact-bg::before {
+        height: 100vh; /* full viewport height */
+        top: 0;
     }
 }
 

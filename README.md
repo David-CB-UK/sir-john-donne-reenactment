@@ -517,10 +517,25 @@ Links are intended to direct users to the relevant live event pages for each loc
 <details> <summary><strong>Contact Page</strong> (Click to expand)</summary>
 
 ![Contact Page](assets/images/readme-images/features-contact.png)
+_Original image prior to update_
+</details> <br>
+
+<details> <summary><strong>Updated Contact Page</strong> (Click to expand)</summary>
+
+![Contact Page](assets/images/readme-images/features-updated-contact.png)
+_Image of updated page following feedback_
 </details> <br>
 
 Users can submit messages via a sign-up/contact form. 
-The form requires an @ symbol for validation in the email address field or it will show an error message.
+The form need to be completed and requires an @ symbol for validation in the email address field or it will show an error message as can be seen below.
+
+Based on feedback about excessive empty space around the form, the layout was updated (and the update copied to the message-sent form):
+
+The form was placed inside a container with a subtle background and rounded edges, giving it a more “pop-up” appearance and improving visual structure.
+
+A background image was added on larger screens to reduce the empty space and enhance the visual appeal.
+
+On smaller screens, the background image was removed to prevent overspill and maintain readability, keeping the focus on the boxed form.
 
 <details> <summary><strong>Error Message</strong> (Click to expand)</summary>
 
@@ -540,13 +555,21 @@ The form requires an @ symbol for validation in the email address field or it wi
 - Future improvements could include backend integration or styled email notifications.  
 - Consistent typography and colour scheme aligns with overall site design.
 - The contact page has a lot of unused whitespace on screens larger than mobile devices.
-- Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires JavaScript, which I have not learned yet.
+- The page has significant whitespace on larger screens; the background image helps fill this without overwhelming the form.
+- Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires JavaScript, which I have not learnt yet.
 
 ### Message Sent Page
 
 <details> <summary><strong>Message Sent Page</strong> (Click to expand)</summary>
 
 ![Contact Page](assets/images/readme-images/features-message-sent.png)
+_Original image prior to update_
+</details> <br>
+
+<details> <summary><strong>Updated Message Sent Page</strong> (Click to expand)</summary>
+
+![Contact Page](assets/images/readme-images/features-updated-message-sent.png)
+_Image of updated page following feedback_
 </details> <br>
 
 **Description:**  
@@ -712,6 +735,7 @@ The following table lists the key tools, resources, and references used during t
 | [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format.|
 | [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Used to convert .JPG images to WebP format.|
 | [To WebP](https://towebp.io) | Used to bulk convert .JPG images to WebP.|
+| [Pexels](https://www.pexels.com/photo/ruins-of-kilchurn-castle-6727042/)| The [Background Castle](assets/images/background-caste.png) image was sourced from this free / open source website.|
 | [Squoosh](https://squoosh.app/) | Used to compress image sizes without losing quality.|
 | [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website.|
 | [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation.|
@@ -759,8 +783,7 @@ project-root
 ---
 
 ## Testing
-
-<!-- TODO: Explain your testing strategy -->
+Current testing focuses on existing pages and features, including navigation, forms, gallery, and responsiveness.
 The website was tested across multiple screen sizes including:
 
 - Desktop
@@ -769,11 +792,8 @@ The website was tested across multiple screen sizes including:
 
 The website was tested to ensure all features function correctly.
 
-### Testing Strategy
-
-Current testing focuses on existing pages and features, including navigation, forms, gallery, and responsiveness. 
-
-Future features, such as the Historic Timeline and 360° Tent Tour, will require additional interactive testing once implemented. Planned tests will include:
+Future features, such as the Historic Timeline and 360° Tent Tour, will require additional interactive testing once implemented. 
+Planned tests will include:
 
 - Interactive timeline, events respond correctly to user input
 - 360° tour, allows smooth rotation and object selection
@@ -792,6 +812,14 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Desktop | Layout displays correctly |
 | Tablet | Layout adapts with no issues |
 | Mobile | Fully responsive with hamburger navigation |
+
+Feedback from users highlighted that the gallery page sometimes shows gaps at the bottom. 
+<details><summary><strong>Gallery Page Gap Example</strong> (Click to expand)</summary>
+
+![Events page](assets/images/readme-images/testing-gallery.png)
+</details> <br>
+This occurs because the layout is responsive: the number of columns adjusts to the screen width. On small screens, this isn’t noticeable since there are only one or two columns. However, on wider screens, images flow from top-left to bottom-right, and because the images have varying heights and widths, uneven gaps can appear. Although I did try to adapt the photo this just change where the bottom gap would appear.
+A more elegant solution in the future might be a horizontally scrolling layout, potentially implemented with JavaScript, especially if additional images are added.
 
 <br>
 
@@ -951,7 +979,9 @@ The feedback confirmed that the site is generally easy to navigate and accessibl
 ### Unfixed Bugs
 
 <!-- TODO  -->
-- Minor layout shifts on very small screens???
+
+- Minor layout shifts on very small screens.
+- Potential gaps at the bottom of the Gallery Page depending on screen sizes.
 
 [Back to top](#sir-john-donne-re-enactment)
 
