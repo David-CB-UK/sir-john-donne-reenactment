@@ -490,6 +490,7 @@ body.error-page * {
 /* Footer */
 footer {
     background-color: #f0e4c9; /* very slightly darker than header and body */
+    padding-right: 20px; /*add padding right of 'contact link' */
     border-top: 1px solid rgba(95,26,55,0.2); box-shadow: 0px -2px 6px rgba(95,26,55,0.15);
 }
 
@@ -547,6 +548,8 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        /* to stop 'contct' touching bottom and give gap on mobile */
+        padding-bottom: 30px;
     }
 
     /* Homepage */

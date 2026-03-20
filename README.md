@@ -193,9 +193,13 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 <details> <summary><strong> </strong> The colour inspiration (Click to expand)</summary>
 
 ![Colour inspiration](assets/images/bosworth-battlefield.webp)
-*Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne.*
-</details><br>
+Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne; the colour scheme was chosen in collaboration with the site owner (see [Story 1](#story-1-site-owner-m-bass)) to reflect historically accurate tones while maintaining accessibility.
 
+This supports:
+- **Story 1:** authentic historical presentation  
+- **Story 2:** clear visual hierarchy for first-time users  
+- **Story 4:** sufficient contrast for readability  
+</details><br>
 
 A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme, in collaboration with the site owner.
 <details> <summary><strong> </strong> Original colour palette (Click to expand)</summary>
@@ -213,7 +217,14 @@ The visual colour palette was later updated as noted above.
 
 ### Typography
 
-Fonts were chosen by the site owner who reviewed a range of options using Google Fonts. <!--TODO: -->
+Fonts were selected through a collaborative decision-making process with the site owner (M. Bass) (see [Story 1: Site Owner](#story-1-site-owner-m-bass)), who required the website to reflect a historical, medieval aesthetic while remaining clear, readable, and accessible across all devices.
+
+This decision supports key user needs:
+- _Story 1 (Site Owner):_ presenting an authentic and professional historical identity  
+- _Story 2 (First-Time Visitors):_ ensuring content is easy to read and understand  
+- _Story 4 (Accessibility):_ maintaining readability for users with varying needs and devices  
+
+To achieve this, a range of typefaces were reviewed using Google Fonts. The final selection balances decorative styling for visual impact with highly legible fonts for longer text content, particularly on smaller screens and across different devices.
 
 #### Heading Font – Macondo  
 The heading font used is *Macondo*, applied to all heading elements (H1–H4). This decorative serif-style font was selected to reflect the historical and medieval theme of the website. Its distinctive style helps headings stand out clearly from body text, improving visual hierarchy and reinforcing the overall aesthetic.
@@ -327,30 +338,47 @@ The features below were implemented to address the UX and design goals described
 <details> <summary><strong>Navigation Bar</strong> (Click to expand)</summary>
 
 ![Navigation Bar](assets/images/readme-images/features-navigation.png)
-
+_The original navigation bar._
 </details> <br>
 
-  <!-- TODO: added active uodated page visuale colour and underline-->
+<details> <summary><strong>Updated Navigation Bar</strong> (Click to expand)</summary>
+
+![Navigation Bar](assets/images/readme-images/features-updated-navigation.png)
+_The updated navigation bar following feedback as noted below._
+</details> <br>
 
 The navigation bar appears on all pages, and provides easy navigation between the main sections: Home, Gallery, Events, Contact. There is a responsive hamburger (drop down) menu on small screens.
 
 **User Benefit:**  This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
-**Notes / Feedback:** A logo or icon was suggested. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
+**Notes / Feedback:** 
+- A logo or icon was suggested. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
+- Peer feedback highlighted that the current page was not visually distinct in the navigation bar _(See updated version above)_, to address this, active page styling was implemented using a blue colour and underline to clearly indicate the user’s location.
+- A minor CSS issue affecting decorative `✦` elements during hover states was identified and resolved during implementation.
 
 ### Footer
 <!-- TODO: footer image -->
 <details> <summary><strong>Footer</strong> (Click to expand)</summary>
 
 ![Footer](assets/images/readme-images/features-footer.png)
-
+_The original footer._
 </details> <br>
+
+<details> <summary><strong>Updated Navigation Bar</strong> (Click to expand)</summary>
+
+![Footer](assets/images/readme-images/features-updated-footer.png)
+_The updated footer following feedback as noted below._
+</details> <br>
+
 
 The footer is present on all pages except the 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
 
 Due to varying screen sizes, the footer is not always immediately visible and may require the user to scroll to the bottom of the page to access it.
 
 **User Benefit:** Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
+
+**Feedback**
+- A spelling error in the footer was identified during user feedback testing and has since been corrected, improving accuracy and presentation.
 
 ### Favicon & App Icons
 
@@ -891,6 +919,32 @@ To add??
 - CONTACT PAGE 2???
 - 404 Page ????
 
+
+### User Feedback Testing
+
+Feedback was gathered from a small group of users, including peers and family members, to evaluate usability, clarity, and overall user experience.
+
+Participants were asked to:
+- Navigate the site and locate key information  
+- Use the contact form  
+- View the site on different devices  
+- Provide general feedback on design, readability, and usability  
+
+#### Summary of Feedback
+
+| Feedback | Action Taken |
+|---------|-------------|
+| Navigation was clear and easy to use | No changes required |
+| Headings were visually distinctive but readable | Typography choice validated |
+| A spelling error in the footer was identified by a family member | The spelling error was corrected, improving professionalism and accuracy |
+| Navigation did not clearly indicate the current page (peer feedback) | Active page styling was added (blue text and underline) to improve navigation clarity |
+| Contact page felt too empty on larger screens | Considered layout improvements (see Reflections) |
+| Headings were visually distinctive but readable | Typography choice validated |
+
+#### Outcome
+
+The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability, layout acessability.
+
 ### Unfixed Bugs
 
 <!-- TODO  -->
@@ -990,7 +1044,14 @@ During the development of the **Sir John Donne re-enactment** website, I careful
    - The design choices reflect a **mobile-first approach**, prioritising usability on smaller devices while still providing a functional and visually coherent layout on larger screens.
    - Overall, the current implementation strikes a balance between accessibility, simplicity, and responsiveness within the constraints of HTML and CSS.
 
-5. **Accessibility and Design**
+5. **User Feedback Reflection**
+   - User feedback highlighted areas for improvement, particularly around layout and the use of space on larger screens.
+   - The contact page, for example, was identified as having unused whitespace on desktop devices.
+   - A pop-up solution was considered to address this; however, it was not implemented due to current limitations (no JavaScript).
+   - This feedback informed planned future enhancements and reinforced the importance of efficient layout design.
+   - Overall, feedback validated key design decisions, including typography, navigation clarity, and accessibility, while also identifying areas for further improvement.
+
+6. **Accessibility and Design**
    - Despite technical limitations, the site meets WCAG AA/AAA standards, uses semantic HTML, provides alt text for images, and ensures responsive layouts across desktop, tablet, and mobile devices.
    - These choices maximise user experience within the constraints of HTML/CSS and ensure the site remains inclusive and accessible.
 
