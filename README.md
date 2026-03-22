@@ -2,7 +2,6 @@
 
 [Live Site](https://david-cb-uk.github.io/sir-john-donne-reenactment/) | [Repository](https://github.com/David-CB-UK/sir-john-donne-reenactment)
 
-<!-- TODO: change mockup image -->
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-range-of-pages.webp)  
 
 <details><summary> View Responsive Homepage Mockup (Click to expand)</summary>
@@ -10,6 +9,8 @@
 ![Responsive Selection Mockup](assets/images/readme-images/responsive-mockup-homepage.webp)  
 *Showing the landing / home page*
 </details>
+
+---
 
 ## Table of Contents
 
@@ -294,8 +295,7 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 ### Key Features of the Wireframes
 
 - **Header / Navigation:**  
-  Positioned consistently at the top of each page to provide clear and accessible navigation. Designed with simplicity in mind to ensure ease of use on both desktop and mobile devices.
-  <!-- TODO: added acti e page visuale colour and underline-->
+  Positioned consistently at the top of each page to provide clear and accessible navigation. Designed with simplicity in mind to ensure ease of use on both desktop and mobile devices. The active page is clearly indicated using a blue highlight, with an underline on larger screens, to enhance user awareness.
 
 - **Hero / Landing Section:**  
   A prominent introductory area on the homepage, intended to immediately communicate the purpose of the site and engage users visually.
@@ -349,6 +349,11 @@ _The updated navigation bar following feedback as noted below._
 
 The navigation bar appears on all pages, and provides easy navigation between the main sections: Home, Gallery, Events, Contact. There is a responsive hamburger (drop down) menu on small screens.
 
+_Navigation Bar Styling Fix:_
+The navigation bar links were carefully styled to maintain consistent colors across Edge, Chrome, and Safari. The active page is now clearly indicated with a distinct blue color and underline on larger screens, improving user awareness of their current location.
+
+While these adjustments ensure a consistent appearance on major browsers, it is possible that some less common browsers, older versions, or mobile browsers may still apply their own default styles, potentially affecting link colors or hover states. Explicit CSS rules were used to minimise this, after safari's browser was taking on the nav bar colour styling, yet slight variations may occur in edge cases due to browser-specific rendering or operating system accessibility settings.
+
 **User Benefit:**  This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
 **Notes / Feedback:** 
@@ -357,13 +362,12 @@ The navigation bar appears on all pages, and provides easy navigation between th
 - A minor CSS issue affecting decorative `✦` elements during hover states was identified and resolved during implementation.
 
 ### Footer
-<!-- TODO: footer image -->
+
 <details> <summary><strong>Footer</strong> (Click to expand)</summary>
 
 ![Footer](assets/images/readme-images/features-footer.png)
 _The original footer._
-</details> <br>
-
+</details> 
 <details> <summary><strong>Updated Navigation Bar</strong> (Click to expand)</summary><br>
 
 ![Footer](assets/images/readme-images/features-updated-footer.png)
@@ -740,7 +744,6 @@ This project was built exclusively using HTML and CSS. No external libraries, fr
 
 ### Tools
 
-<!-- TODO: List tools and frameworks -->
 The following table lists the key tools, resources, and references used during the development of this website.
 
 | Resource | Purpose / How It Was Used |
@@ -773,8 +776,6 @@ The following table lists the key tools, resources, and references used during t
 
 ## Project Structure
 
-<!-- TODO: Add responsive mockup image -->
-
 ```text
 project-root
 │
@@ -793,7 +794,7 @@ project-root
 │   │
 │   └── images
 │       ├── site-images
-│       └── readme (images / resources)
+│       └── readme-images (images / resources)
 │
 └── README.md
 ```
@@ -877,20 +878,31 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 
 ### Cross-Browser Testing
 
-<!-- TODO: Add responsive mockup image -->
-- Chrome
-- Edge
-- Safari
+The website was tested across multiple browsers, including Chrome, Safari, and Edge, to ensure consistent functionality and appearance.
 
-<!-- TODO: Add responsive mockup image -->
+<details> <summary><strong>Cross-Browser Testing Testing Table </strong> (Click to expand)</summary>
 
 | Feature | Action | Expected Result | Result |
 | --- | --- | --- | --- |
-| Chrome | Check each page  | Pages all load correctly | **Passed**|
-| Edge | Check each page  | Pages all load correctly | **Passed**|
+| Chrome | Check each page  | Pages all load correctly | **Passed** |
+| Chrome | Nav links working  | All link correct and working | **Passed** |
+| Chrome | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
+| Chrome | Event links checked | All links open in new tab to correct destinantion | **Passed** |
+| Chrome | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Chrome | Message sent button working | Return to home page when clicked | **Passed** |
 | Safari | Check each page  | Pages all load correctly | **Passed**|
-
-
+| Safari | Nav links working  | All link correct and working | **Passed** |
+| Safari | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
+| Safari | Event links checked | All links open in new tab to correct destinantion | **Passed** |
+| Safari | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Safari | Message sent button working | Return to home page when clicked | **Passed** |
+| Edge | Check each page  | Pages all load correctly | **Passed**|
+| Edge | Nav links working  | All link correct and working | **Passed** |
+| Edge | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
+| Edge | Event links checked | All links open in new tab to correct destinantion | **Passed** |
+| Edge | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Edge | Message sent button working | Return to home page when clicked | **Passed** |
+</details><br>
 
 ### Validator Testing
 
@@ -914,11 +926,8 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 |Events Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 |Message Sent Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 
-  <!-- TODO: added active page visuale colour and underline from feedback-->
 
 #### CSS
-
-<!-- TODO  --> 
 
  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to check the [CSS Styles Sheet](assets/css/styles.css) three errors were found:
 
@@ -989,7 +998,7 @@ Participants were asked to:
 
 | Feedback | Action Taken |
 |---------|-------------|
-| Navigation was clear and easy to use | No changes required |
+| Navigation was clear and easy to use | No major changes required; however, the styling was enhanced so that the active page is highlighted with a visual colour and underline, helping users quickly identify which page they are on. |
 | Headings were visually distinctive but readable | Typography choice validated |
 | A spelling error in the footer was identified by a family member | The spelling error was corrected, improving professionalism and accuracy |
 | Navigation did not clearly indicate the current page (peer feedback) | Active page styling was added (blue text and underline) to improve navigation clarity |
@@ -1007,14 +1016,11 @@ Feedback from users highlighted that the gallery page sometimes shows gaps at th
 This occurs because the layout is responsive: the number of columns adjusts to the screen width. On small screens, this isn’t noticeable since there are only one or two columns. However, on wider screens, images flow from top-left to bottom-right, and because the images have varying heights and widths, uneven gaps can appear. Although I did try to adapt the photo this just change where the bottom gap would appear.
 A more elegant solution in the future might be a horizontally scrolling layout, potentially implemented with JavaScript, especially if additional images are added.
 
-
 #### Outcome
 
 The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability and layout acessability.
 
 ### Unfixed Bugs
-
-<!-- TODO  -->
 
 - Minor layout shifts on very small screens.
 - Potential gaps at the bottom of the Gallery Page depending on screen sizes.
@@ -1026,7 +1032,6 @@ The feedback confirmed that the site is generally easy to navigate and accessibl
 
 ## Deployment
 
-<!-- TODO Explain how your site is deployed -->
 The project was deployed using **GitHub Pages**.
 
 Steps:
@@ -1047,8 +1052,6 @@ Live site link:
 ---
 
 ## Credits
-
-<!-- TODO: Add your content sources -->
 
 - [Code Institute](https://codeinstitute.net/)  
   Course learning materials and walkthrough lessons were used as guidance during the development of this project.
@@ -1072,7 +1075,6 @@ Live site link:
 
 ### Media
 
-<!-- TODO: Add your media sources -->
 Images used in this project were sourced from:
 
 - Re-enactor Mike Bass's own photographs.
