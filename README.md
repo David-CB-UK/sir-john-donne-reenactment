@@ -572,14 +572,20 @@ Overall, these refinements ensure stronger visual consistency with the establish
 
 <details> <summary><strong>Message Sent Page</strong> (Click to expand)</summary>
 
-![Contact Page](assets/images/readme-images/features-message-sent.png)
+![Sent Message Page](assets/images/readme-images/features-message-sent.png)
 _Original image prior to update_
 </details> <br>
 
 <details> <summary><strong>Updated Message Sent Page</strong> (Click to expand)</summary>
 
-![Contact Page](assets/images/readme-images/features-updated-message-sent.png)
+![Sent Message Page 2](assets/images/readme-images/features-updated-message-sent.png)
 _Image of updated page following feedback_
+</details> <br>
+
+<details> <summary><strong>Updated Message Sent Page version 3</strong> (Click to expand)</summary>
+
+![Sent Message Page 3](assets/images/readme-images/features-updatedv3-message-sent.png)
+_Image of updated page following changes to contact form and prevent scrolling on larger screens_
 </details> <br>
 
 **Description:**  
@@ -984,6 +990,7 @@ Participants were asked to:
 | Contact page felt too empty on larger screens | Considered layout improvements (see Reflections) |
 | Headings were visually distinctive but readable | Typography choice validated |
 | Gaps at the bottom of Gallery Page | Attempted to change photo order, however this was ineffective |
+| Scroll bar appeared on contact page| Adappted padding and margin to prevent this|
 
 Feedback from users highlighted that the gallery page sometimes shows gaps at the bottom. 
 <details><summary><strong>Gallery Page Gap Example</strong> (Click to expand)</summary>
@@ -1005,7 +1012,7 @@ The feedback confirmed that the site is generally easy to navigate and accessibl
 
 - Minor layout shifts on very small screens.
 - Potential gaps at the bottom of the Gallery Page depending on screen sizes.
-- Vertical scrolling appears on some screen larger screen heights.  
+- Vertical scrolling appears on some screen larger screen heights that may not have been tested.  
 
 [Back to top](#sir-john-donne-re-enactment)
 

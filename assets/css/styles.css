@@ -541,16 +541,27 @@ body.error-page * {
     font-size: 110%;
     border-radius: 6px;
     border: 2px solid transparent;
-    background-color: rgba(241, 237, 227, 0.77);
+    background-color: rgba(241, 237, 227, 0.97);
     border-radius: 6px;
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    box-shadow: 0px 6px 12px rgb(6, 109, 220, 0.51);
     color: #5f1a37;
     max-width: 400px;
-    margin-top: 1rem;
-    padding-top: 1rem;
+    margin-top: 0;
+    padding: 16px;
     border-top: 1px solid rgba(0,0,0,0.15);
+    margin-top: 0rem;  /* override H2 styleing */
+      
+}
+
+/* Only for message-sent page */
+.message-sent-page .form-container {
+    padding: 0;                 /* removes 1.6rem 2.5rem */
+    border-radius: 0;           /* removes 6px radius */
+    max-width: none;            /* removes 85% width limit */
+    box-shadow: none;           /* removes shadow */
+    z-index: auto;              /* resets stacking */
+    background-color: transparent;  /* removes outer box color */
 }
 
 /* Footer */
