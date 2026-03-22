@@ -526,16 +526,26 @@ _Original image prior to update_
 _Image of updated page following feedback_
 </details> <br>
 
-Users can submit messages via a sign-up/contact form. 
-The form need to be completed and requires an @ symbol for validation in the email address field or it will show an error message as can be seen below.
+<details> <summary><strong>Updated Contact Page Version 3</strong> (Click to expand)</summary>
+
+![Contact Page](assets/images/readme-images/features-updatedv2-contact.png)
+_Image of updated page following further  reflection and additinal feedback_
+</details> <br>
+
+Users can submit messages via a sign-up/contact form; the form needs to be completed and requires an @ symbol for validation in the email address field or it will show an error message as can be seen below.
 
 Based on feedback about excessive empty space around the form, the layout was updated (and the update copied to the message-sent form):
 
 The form was placed inside a container with a subtle background and rounded edges, giving it a more “pop-up” appearance and improving visual structure.
 
-A background image was added on larger screens to reduce the empty space and enhance the visual appeal.
+A background image was introduced on larger screens to reduce unused space and enhance overall visual appeal. From a UX perspective, this reduces excessive negative space and creates a more visually balanced and engaging layout for users on wider viewports. The selected image—a ruined castle—reinforces the medieval theme of the site, supporting visual storytelling and ensuring thematic consistency across pages. This directly supports relevant user stories, such as users wanting an immersive and visually engaging experience that reflects the historical theme.
 
-On smaller screens, the background image was removed to prevent overspill and maintain readability, keeping the focus on the boxed form.
+Furthermore, the inclusion of the background image improves visual hierarchy by allowing the form container to stand out more prominently. This establishes a clear focal point, making the form appear more like a modal or pop-up element rather than an isolated component on an otherwise empty page. As a result, user attention is more effectively directed towards the primary interactive element, supporting user stories focused on ease of interaction and clarity when completing tasks such as submitting a contact form.
+Upon evaluation, the original image appeared overly harsh and visually dominant, which risked distracting from key content and reducing readability. To address this, the image was refined using [Canva](https://www.canva.com/online-whiteboard/wireframes/), with adjustments made to colour balance, contrast, saturation, sharpness, and temperature. These changes softened the visual impact, reduced potential visual strain, and improved accessibility by maintaining sufficient contrast between foreground content and background elements. This aligns with user needs for readable, comfortable interfaces that do not hinder task completion.
+
+On smaller screens, the background image was removed to prevent content overflow and maintain readability, ensuring the focus remains on the form. This responsive adjustment further supports usability by prioritising clarity and efficient interaction on mobile devices.
+
+Overall, these refinements ensure stronger visual consistency with the established colour palette and styling of the navigation, footer, and other pages, contributing to a cohesive, accessible, and user-centred design that clearly reflects and supports the defined user stories.
 
 <details> <summary><strong>Error Message</strong> (Click to expand)</summary>
 
@@ -728,7 +738,7 @@ The following table lists the key tools, resources, and references used during t
 | [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration.|
 | [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.|
 | [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
-|[Canva](https://www.canva.com/online-whiteboard/wireframes/)| These skeleton wireframes were created using Canva, a tool for designing and arranging website layouts quickly and visually.|
+|[Canva](https://www.canva.com/online-whiteboard/wireframes/)| These skeleton wireframes were created using Canva, a tool for designing and arranging website layouts quickly and visually. It was also used to change the visual style of the background castle picture |
 | [Real Favicongenerator Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens.|
 | [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website.|
 | [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling.|
@@ -812,14 +822,6 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Desktop | Layout displays correctly |
 | Tablet | Layout adapts with no issues |
 | Mobile | Fully responsive with hamburger navigation |
-
-Feedback from users highlighted that the gallery page sometimes shows gaps at the bottom. 
-<details><summary><strong>Gallery Page Gap Example</strong> (Click to expand)</summary>
-
-![Events page](assets/images/readme-images/testing-gallery.png)
-</details> <br>
-This occurs because the layout is responsive: the number of columns adjusts to the screen width. On small screens, this isn’t noticeable since there are only one or two columns. However, on wider screens, images flow from top-left to bottom-right, and because the images have varying heights and widths, uneven gaps can appear. Although I did try to adapt the photo this just change where the bottom gap would appear.
-A more elegant solution in the future might be a horizontally scrolling layout, potentially implemented with JavaScript, especially if additional images are added.
 
 <br>
 
@@ -981,10 +983,21 @@ Participants were asked to:
 | Navigation did not clearly indicate the current page (peer feedback) | Active page styling was added (blue text and underline) to improve navigation clarity |
 | Contact page felt too empty on larger screens | Considered layout improvements (see Reflections) |
 | Headings were visually distinctive but readable | Typography choice validated |
+| Gaps at the bottom of Gallery Page | Attempted to change photo order, however this was ineffective |
+
+Feedback from users highlighted that the gallery page sometimes shows gaps at the bottom. 
+<details><summary><strong>Gallery Page Gap Example</strong> (Click to expand)</summary>
+
+![Events page](assets/images/readme-images/testing-gallery.png)
+</details> <br>
+
+This occurs because the layout is responsive: the number of columns adjusts to the screen width. On small screens, this isn’t noticeable since there are only one or two columns. However, on wider screens, images flow from top-left to bottom-right, and because the images have varying heights and widths, uneven gaps can appear. Although I did try to adapt the photo this just change where the bottom gap would appear.
+A more elegant solution in the future might be a horizontally scrolling layout, potentially implemented with JavaScript, especially if additional images are added.
+
 
 #### Outcome
 
-The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability, layout acessability.
+The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability and layout acessability.
 
 ### Unfixed Bugs
 
@@ -992,6 +1005,7 @@ The feedback confirmed that the site is generally easy to navigate and accessibl
 
 - Minor layout shifts on very small screens.
 - Potential gaps at the bottom of the Gallery Page depending on screen sizes.
+- Vertical scrolling appears on some screen larger screen heights.  
 
 [Back to top](#sir-john-donne-re-enactment)
 
