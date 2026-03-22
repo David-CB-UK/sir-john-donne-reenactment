@@ -224,7 +224,7 @@ main > .events, .gallery-intro-wrapper {
     width: 100%;
     background:
         linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.25)),
-        url("../images/display-and-bell-tentv2.webp") no-repeat;
+        url("../images/display-and-bell-tent.webp") no-repeat;
     background-size: cover;
     background-position: 30%; /* keepsopen off center */
     display: flex;
