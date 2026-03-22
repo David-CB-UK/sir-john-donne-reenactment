@@ -795,6 +795,12 @@ footer {
         padding: 4px 12px;
         font-size: 0.85rem;
     }
+
+    /* Improve image loading times on extra small phones */
+    .zigzag-image-tall {
+        width: 300px;
+        max-height: 400px;
+    }
 }
 
 /* Mobile hero cover text fix for very small screen*/
@@ -813,6 +819,12 @@ footer {
     .contact-bg::before {
         height: 100vh; /* full viewport height */
         top: 0;
+    }
+
+    /* Improve image loading on small phones */
+    .zigzag-image-tall {
+        width: 360px;  /* shrink for smaller screens */
+        max-height: 480px;  /* optional, keep proportional */
     }
 }
 
