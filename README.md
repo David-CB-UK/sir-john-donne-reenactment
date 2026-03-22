@@ -21,29 +21,29 @@
    - [Colour Scheme](#the-colour-scheme)
    - [Typography](#typography)
    - [Accessibility](#accessibility)
-   - [Skeleton Layout / Wireframe Images (Click to expand)](#skeleton-layout--wireframe-images)
+   - [Skeleton Layout / Wireframe Images](#skeleton-layout--wireframe-images)
 4. [Features](#features)
-   - [Navigation Bar (Click to expand)](#navigation-bar)
-   - [Landing / Home Page (Click to expand)](#landing--home-page)
-   - [Gallery Page (Click to expand)](#gallery-page)
-   - [Events Page (Click to expand)](#events-page)
-   - [Contact Page (Click to expand)](#contact-page)
-   - [Message Sent Page (Click to expand)](#message-sent-page)
-   - [404 Page (Click to expand)](#404-error-page)
-   - [Footer (Click to expand)](#footer)
-   - [Favicon & App Icons (Click to expand)](#favicon--app-icons)
-     - [Classic Favicon (Click to expand)](#classic-favicon)
-     - [Google Search Results (Click to expand)](#google-search-results)
-     - [Android Icons (Click to expand)](#android-icons)
-     - [Apple Touch Icons (Click to expand)](#apple-touch-icons)
+   - [Navigation Bar](#navigation-bar)
+   - [Landing / Home Page](#landing--home-page)
+   - [Gallery Page](#gallery-page)
+   - [Events Page](#events-page)
+   - [Contact Page](#contact-page)
+   - [Message Sent Page ](#message-sent-page)
+   - [404 Page](#404-error-page)
+   - [Footer](#footer)
+   - [Favicon & App Icons](#favicon--app-icons)
+     - [Classic Favicon ](#classic-favicon)
+     - [Google Search Results](#google-search-results)
+     - [Android Icons](#android-icons)
+     - [Apple Touch Icons](#apple-touch-icons)
 5. [User Goals Mapping](#user-goals-mapping)
 6. [Technologies Used](#technologies-used)
 7. [Project Structure](#project-structure)
 8. [Testing](#testing)
-   - [Manual / Functional Testing Table (Click to expand)](#manual-testing-table)
+   - [Manual / Functional Testing Table](#manual-testing-table)
    - [Cross-Browser Testing](#cross-browser-testing)
    - [Validator Testing](#validator-testing)
-   - [WAVE - Web Accessibility Evaluation Tools (Click to expand)](#wave---web-accessibility-evaluation-tools)
+   - [WAVE - Web Accessibility Evaluation Tools](#wave---web-accessibility-evaluation-tools)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Reflections](#reflections)
@@ -66,6 +66,7 @@ The goal of the project is to create a **simple, accessible**, and **responsive*
 [Back to top](#sir-john-donne-re-enactment) 
 
 ---
+
 ## User Stories and Related Goals
 
 The following user stories describe the main users of the Sir John Donne re-enactment website. Each story focuses on user needs, the context of use, and conceptual goals. Implementation details and feature benefits are explored later in the User Goals Mapping and Benefits Table.
@@ -272,7 +273,6 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 
 <details>
   <summary><mark><strong>Skeleton Layout / Wireframe Images</strong> (Click to expand)</mark></summary>
-
 
 **Skeleton Home Page**  
 ![Skeleton Home/landing Page](assets/images/readme-images/skeleton-home-landing-page.webp)
@@ -609,12 +609,16 @@ As a result, I removed it in favour of the *Message Sent* page, which I coded my
 
 ## 404 Error Page
 
-404 Error Page
 <details> <summary><strong>404 Error Page</strong> (Click to expand)</summary>
 
 ![404 Page](assets/images/readme-images/features-404.png)
 
 </details> <br>
+
+A custom 404 page was implemented to handle invalid or non-existent URLs. 
+It provides users with clear feedback, possible reasons for the error, and navigation options to return to key areas of the site.
+
+Due to GitHub Pages being a static hosting platform, server-side handling of malformed or restricted paths is not configurable. However, the 404 page ensures a consistent and user-friendly recovery experience.
 
 **Features**:
 
@@ -882,9 +886,11 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 
 | Feature | Action | Expected Result | Result |
 | --- | --- | --- | --- |
-| Chrome | ?? | Pages all load correctly| **Passed** |
-| Edge | ?? | ?? | P/F?? |
-| Safari | ?? | Pages all load correctly | **Passed**|
+| Chrome | Check each page  | Pages all load correctly | **Passed**|
+| Edge | Check each page  | Pages all load correctly | **Passed**|
+| Safari | Check each page  | Pages all load correctly | **Passed**|
+
+
 
 ### Validator Testing
 
@@ -908,7 +914,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 |Events Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 |Message Sent Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 
-  <!-- TODO: added acti e page visuale colour and underline from feedback-->
+  <!-- TODO: added active page visuale colour and underline from feedback-->
 
 #### CSS
 
