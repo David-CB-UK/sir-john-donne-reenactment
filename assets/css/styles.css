@@ -207,7 +207,6 @@ main {
     background-color: #f1e9d2;  /* #f1e9d2 used here to make the main content area different from header and footer */
     /* Make main element take up any surplus to push footer down  */
     flex: 1 0 auto;
-    padding-top: 50px;   /* pushes content below fixed header */
     z-index: 0; /* fixes the background image on contact pages */
 }
 
@@ -913,7 +912,6 @@ footer {
 /* removed 'Media query Larger devices (laptops and desktops, 992 px and up)' added to (min-width: 768px)*/
     main {
         margin-top: 0;
-        padding-top: 55px;
     }
     #nav-menu a {
         position: relative;
