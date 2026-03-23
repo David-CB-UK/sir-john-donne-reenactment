@@ -14,6 +14,8 @@
 
 ## Table of Contents
 
+## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [User Experience](#user-experience)
    - [User Stories](#user-stories-and-related-goals)
@@ -29,22 +31,22 @@
    - [Gallery Page](#gallery-page)
    - [Events Page](#events-page)
    - [Contact Page](#contact-page)
-   - [Message Sent Page ](#message-sent-page)
-   - [404 Page](#404-error-page)
+   - [Message Sent Page](#message-sent-page)
+   - [404 Page](#404-page)
    - [Footer](#footer)
    - [Favicon & App Icons](#favicon--app-icons)
-     - [Classic Favicon ](#classic-favicon)
-     - [Google Search Results](#google-search-results)
-     - [Android Icons](#android-icons)
-     - [Apple Touch Icons](#apple-touch-icons)
 5. [User Goals Mapping](#user-goals-mapping)
 6. [Technologies Used](#technologies-used)
 7. [Project Structure](#project-structure)
 8. [Testing](#testing)
-   - [Manual / Functional Testing Table](#manual-testing-table)
+   - [Manual / Functional Testing Table](#manual--functional-testing-table)
    - [Cross-Browser Testing](#cross-browser-testing)
    - [Validator Testing](#validator-testing)
    - [WAVE - Web Accessibility Evaluation Tools](#wave---web-accessibility-evaluation-tools)
+   - [Lighthouse](#lighthouse)
+     - [Performance Optimization Summary](#performance-optimization-summary)
+     - [Accessibility Testing Comparison](#accessibility-testing-comparison)
+     - [User Feedback Testing](#user-feedback-testing)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Reflections](#reflections)
@@ -748,30 +750,29 @@ The following table lists the key tools, resources, and references used during t
 
 | Resource | Purpose / How It Was Used |
 |----------|---------------------------|
-| [GitHub](https://github.com/) | Used for hosting and managing code repositories, version control, and collaboration.|
-| [Google Fonts](https://fonts.google.com/) | Used to import the website’s typography, including DM Sans, Macondo, and Raleway fonts via CSS @import for headings, body text, and stylistic elements.|
-| [Coolors](https://coolors.co/) | Coolors was used to develop and refine a visual colour palette, helping to establish the final hex colour scheme alongside M Bass. |
-|[Canva](https://www.canva.com/online-whiteboard/wireframes/)| These skeleton wireframes were created using Canva, a tool for designing and arranging website layouts quickly and visually. It was also used to change the visual style of the background castle picture |
-| [Real Favicongenerator Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Used to create website favicons, including .png, .ico, .svg, and Apple touch icons for browser tabs, bookmarks, and mobile home screens.|
-| [Font Awesome](https://fontawesome.com/) | Used to source icons and interface elements throughout the website.|
-| [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a visual reference for implementing Instagram gradient styling.|
-| [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Used to convert RGBA 'color' values to hexadecimal format.|
-| [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Used to convert .JPG images to WebP format.|
-| [To WebP](https://towebp.io) | Used to bulk convert .JPG images to WebP.|
-| [Pexels](https://www.pexels.com/photo/ruins-of-kilchurn-castle-6727042/)| The [Background Castle](assets/images/background-caste.png) image was sourced from this free / open source website.|
-| [Squoosh](https://squoosh.app/) | Used to compress image sizes without losing quality.|
-| [VS Code](https://code.visualstudio.com) | Used as the main code editor for developing the website.|
-| [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation.|
-| [MDN](https://developer.mozilla.org/) | Used for HTML & CSS referencing and syntax documentation. |
-| [Google Maps](https://www.google.com/maps/) | Used to generate embedded iframe code for interactive maps, allowing visitors to view the location directly on the website. |
-|[Web2phone](https://web2phone.co.uk/)|I initially implemented this to allow email and WhatsApp messages to be sent and received without backend functionality; although this was functional, the solution relied entirely on external code, which could not be styled to match the rest of the site and was removed in favour of the _message sent_ page solution. |
-| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Used to create responsive mockup images of the site on different devices. | 
-| [Chat GPT](https://chatgpt.com/)| Used as a supporting learning tool for HTML/CSS guidance, debugging, content structuring, and spelling and grammar refinement. It was also used to generate a custom 404 page image from a custom prompt. All generated outputs were critically reviewed, modified, and integrated independently to ensure originality and alignment with project requirements. |
-| [Am I Responsive](TBC)   |     | 
-| [Lighthouse](TBC)   |     | 
-| [WAVE](https://wave.webaim.org)| WAVE (Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
-
-
+| [GitHub](https://github.com/) | Hosting and managing code repositories, version control, and collaboration. |
+| [Google Fonts](https://fonts.google.com/) | Imported website typography (DM Sans, Macondo, Raleway) via CSS @import for headings, body text, and stylistic elements. |
+| [Coolors](https://coolors.co/) | Developed and refined the visual colour palette, establishing the final hex colour scheme. |
+| [Canva](https://www.canva.com/online-whiteboard/wireframes/) | Created skeleton wireframes for layouts and modified visual styles, including the background castle image. |
+| [Real Favicon Generator](https://realfavicongenerator.net/your-favicon-is-ready) | Generated website favicons (.png, .ico, .svg) and Apple touch icons for browser tabs, bookmarks, and mobile home screens. |
+| [Font Awesome](https://fontawesome.com/) | Sourced icons and interface elements throughout the website. |
+| [Gradient Page](https://gradient.page/ui-gradients/instagram) | Used as a reference for implementing Instagram-style gradient visuals. |
+| [OpenReplay](https://openreplay.com/tools/rgba-to-hex/) | Converted RGBA color values to hexadecimal format for consistent CSS styling. |
+| [Free Convert](https://www.freeconvert.com/jpg-to-webp/download) | Converted individual .JPG images to WebP format for faster loading. |
+| [To WebP](https://towebp.io) | Bulk converted .JPG images to WebP format. |
+| [Pexels](https://www.pexels.com/photo/ruins-of-kilchurn-castle-6727042/) | Source of the [background castle image](assets/images/background-caste.png) used on the site. |
+| [Squoosh](https://squoosh.app/) | Compressed image sizes without losing visual quality. |
+| [VS Code](https://code.visualstudio.com) | Primary code editor for website development. |
+| [Obsidian](https://obsidian.md) | Used for Markdown planning, note-taking, and documentation. |
+| [MDN](https://developer.mozilla.org/) | Referenced for HTML and CSS syntax, guidance, and examples. |
+| [Google Maps](https://www.google.com/maps/) | Generated iframe code for embedding interactive maps on the site. |
+| [Web2phone](https://web2phone.co.uk/) | Initially implemented for sending/receiving email and WhatsApp without a backend. Removed later due to styling limitations; replaced with the _message sent_ page. |
+| [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Created responsive mockup images of the website on different devices. |
+| [Chat GPT](https://chatgpt.com/) | Supported learning for HTML/CSS guidance, debugging, content structuring, spelling/grammar refinement, and generating a custom 404 page image. All outputs were critically reviewed and adapted. |
+| [W3C HTML Validator](https://validator.w3.org/) | Validated HTML for errors and standards compliance. |
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | Validated CSS syntax and standards compliance. |
+| [WAVE](https://wave.webaim.org) | Evaluated website accessibility to ensure content is usable by individuals with disabilities. |
+| [Lighthouse](https://developers.google.com/web/tools/lighthouse) | Audited website performance, accessibility, SEO, and best practices. |
 
 ## Project Structure
 
@@ -924,6 +925,12 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
 |Events Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 |Message Sent Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 
+- [Home Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2F)
+- [Gallery Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html)
+- [Events Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fevents.html)
+- [Contact Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fcontact.html)
+- [Message Sent Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fmessage-sent.html)
+- [404 Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2F404.html)
 
 #### CSS
 
@@ -979,7 +986,7 @@ WAVE testing identified one alert: a redundant link, occurring because both the 
 <details> <summary><strong> </strong> WAVE - 404 updated(Click to expand)</summary>
 
 ![WAVE - WAVE - 404 updated ](assets/images/readme-images/wave-404-updated.png)
-</details>
+</details><br>
 
 Following WAVE feedback and accessibility review, adjustments were made to maintain visual style while ensuring sufficient contrast and clear UX cues:
 
@@ -1010,6 +1017,15 @@ This table summarises the improvements made to the website using image optimisat
 | Both    | Best Practices              | 100              | 100             | No change; passed all audits |
 | Both    | SEO                         | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | Improved through better meta tags, mobile performance, and optimised loading behaviour |
 
+<details> <summary><strong> </strong> Lighthouse Desktop Updated (Click to expand)</summary>
+
+![Lighthouse Desktop Updated](assets/images/readme-images/lighthouse-destop.png)
+</details>
+
+<details> <summary><strong> </strong> Lighthouse Mobile Updated (Click to expand)</summary>
+
+![Lighthouse Mobile Updated](assets/images/readme-images/lighthouse-mobile.png)
+</details><br>
 **Key Optimizations Implemented:**
 
 - Optimised hero and large images using `.webp` format and responsive sizing  
