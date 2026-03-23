@@ -768,7 +768,7 @@ The following table lists the key tools, resources, and references used during t
 | [Google Maps](https://www.google.com/maps/) | Generated iframe code for embedding interactive maps on the site. |
 | [Web2phone](https://web2phone.co.uk/) | Initially implemented for sending/receiving email and WhatsApp without a backend. Removed later due to styling limitations; replaced with the _message sent_ page. |
 | [Yujin Yeoh](https://yujinyeoh.com/website-mockup-generator?laptop=on&tablet=on&mobile=on&desktop=on&width=1024&preset=preset1&urlScreenshot=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html) | Created responsive mockup images of the website on different devices. |
-| [Chat GPT](https://chatgpt.com/) | Supported learning for HTML/CSS guidance, debugging, content structuring, spelling/grammar refinement, and generating a custom 404 page image. All outputs were critically reviewed and adapted. |
+| [Chat GPT](https://chatgpt.com/) | Supported learning for HTML/CSS guidance, debugging, content structuring, spelling/grammar refinement, and generating a custom 404 page image. All outputs were critically reviewed and adapted. It was also used to review and comapare lighthouse scores. |
 | [W3C HTML Validator](https://validator.w3.org/) | Validated HTML for errors and standards compliance. |
 | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | Validated CSS syntax and standards compliance. |
 | [WAVE](https://wave.webaim.org) | Evaluated website accessibility to ensure content is usable by individuals with disabilities. |
@@ -1000,43 +1000,56 @@ All colour adjustments were tested with contrast ratio tools to ensure complianc
 
 These refinements ensure the site is both visually appealing and accessible, enhancing the overall user experience for all visitors.
 
-## Lighthouse
-
-### Performance Optimization Summary
+## Lighthouse Performance Optimisation Summary
 
 This table summarises the improvements made to the website using image optimisation, preload strategies, eager loading, responsive images, and performance-focused techniques. Metrics are based on Google PageSpeed Insights / Lighthouse results.
 
-| Device  | Metric                     | Before Optimization | After Optimization | Notes on Changes |
-|---------|----------------------------|------------------|-----------------|----------------|
-| Desktop | Performance Score          | 88               | 96              | Reduced image sizes, optimized LCP image, prioritised critical resources |
-|         | First Contentful Paint (FCP)| 0.8 s            | 0.8 s           | No significant change; initial paint already fast |
-|         | Largest Contentful Paint (LCP)| 2.3 s          | 1.1 s           | LCP image optimized using preload, eager loading, and `fetchpriority="high"` |
-|         | Cumulative Layout Shift (CLS)| 0.025           | 0.084           | Slight increase due to layout adjustments, but remains within acceptable limits |
-| Mobile  | Performance Score          | 66               | 74              | Image sizes optimized, critical resources prioritised |
-|         | First Contentful Paint (FCP)| 3.5 s            | 3.3 s           | Slight improvement from optimized resource delivery |
-|         | Largest Contentful Paint (LCP)| 13.0 s         | 5.1 s           | Significant improvement from preload, eager loading, and responsive images |
-|         | Cumulative Layout Shift (CLS)| 0               | 0.005           | Very minor shift after layout adjustments |
-| Both    | Accessibility               | 100              | 100             | No change |
-| Both    | Best Practices              | 100              | 100             | No change; passed all audits |
-| Both    | SEO                         | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | Improved through better meta tags, mobile performance, and optimised loading behaviour |
+| Device | Metric | Before Optimization | After Optimization | Final Optimized | Notes on Changes |
+|--------|--------|--------------------|--------------------|------------------|------------------|
+| **Desktop** | Performance Score | 88 | 96 | **98** | Continued refinement of image delivery, reduced render-blocking resources |
+| | First Contentful Paint (FCP) | 0.8 s | 0.8 s | **0.8 s** | Already highly optimised; remained stable |
+| | Largest Contentful Paint (LCP) | 2.3 s | 1.1 s | **0.9 s** | Further improvements from refined preload strategy and image optimisation |
+| | Total Blocking Time (TBT) | — | — | **0 ms** | Eliminated blocking scripts; highly responsive |
+| | Cumulative Layout Shift (CLS) | 0.025 | 0.084 | **0.002** | Significant improvement through layout stabilisation and sizing fixes |
+| | Speed Index (SI) | — | — | **0.8 s** | Fast visual load performance |
+| **Mobile** | Performance Score | 66 | 74 | **77** | Incremental gains from ongoing optimisation |
+| | First Contentful Paint (FCP) | 3.5 s | 3.3 s | **3.3 s** | Stable improvement from optimised loading |
+| | Largest Contentful Paint (LCP) | 13.0 s | 5.1 s | **4.6 s** | Major improvement from responsive images and prioritisation |
+| | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts impacting interactivity |
+| | Cumulative Layout Shift (CLS) | 0 | 0.005 | **0.005** | Remains very stable |
+| | Speed Index (SI) | — | — | **3.3 s** | Improved perceived load speed |
+| **Both** | Accessibility | 100 | 100 | **100** | Maintained full compliance |
+| **Both** | Best Practices | 100 | 100 | **100** | No issues identified |
+| **Both** | SEO | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | **Desktop: 98<br>Mobile: 77** | Improvements align with performance and metadata enhancements |
 
-<details> <summary><strong> </strong> Lighthouse Desktop Updated (Click to expand)</summary>
+<details> <summary><strong> </strong> Lighthouse Scores - Desktop (Updated) (Click to expand)</summary>
 
-![Lighthouse Desktop Updated](assets/images/readme-images/lighthouse-destop.png)
+![Lighthouse Desktop Updated](assets/images/readme-images/lighthouse-destop.webp)
 </details>
 
-<details> <summary><strong> </strong> Lighthouse Mobile Updated (Click to expand)</summary>
+<details> <summary><strong> </strong> Lighthouse Scores - Mobile (Updated) (Click to expand)</summary>
 
-![Lighthouse Mobile Updated](assets/images/readme-images/lighthouse-mobile.png)
+![Lighthouse Mobile Updated](assets/images/readme-images/lighthouse-mobile.webp)
 </details><br>
-**Key Optimizations Implemented:**
 
-- Optimised hero and large images using `.webp` format and responsive sizing  
-- Used `<link rel="preload">` to prioritise the LCP hero image  
-- Added `loading="eager"` and `fetchpriority="high"` for above-the-fold content  
-- Reduced render-blocking impact by prioritising critical resources  
+---
+
+### **Key Optimisations Implemented:**
+
+- Optimised hero and large images using **WebP format** and responsive sizing  
+- Implemented `<link rel="preload">` to prioritise the LCP hero image  
+- Applied `loading="eager"` and `fetchpriority="high"` for above-the-fold content  
+- Reduced render-blocking resources to improve initial load performance  
+- Eliminated blocking time (**0 ms TBT**) by minimising script impact  
 - Applied efficient image compression with minimal quality loss  
-- Maintained accessibility, semantic HTML, and SEO best practices  
+- Improved layout stability by defining image dimensions and reducing CLS  
+- Maintained accessibility, semantic HTML, and SEO best practices throughout  
+
+---
+
+### **Performance Reflection**
+
+Final optimisation demonstrates an iterative performance improvement process, with measurable gains across Core Web Vitals—particularly Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS)—while maintaining full accessibility and best practice compliance.
 
 ### Accessibility Testing Comparison
 
