@@ -122,6 +122,8 @@ p {
     cursor: pointer;
     display: inline-block;
     text-decoration: none; /* removes underline on links */
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .button:hover {
