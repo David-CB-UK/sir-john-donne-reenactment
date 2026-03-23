@@ -857,7 +857,6 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Accessibility | Screen reader test | All meaningful content read correctly | **WAVE implemented Below** |
 | Accessibility | Contrast test | All text meets WCAG AA/AAA contrast ratio | **Passed** |
 | SEO | Page title / meta description | Each page has correct and individual SEO info | _Failed_ every page the same |
-| Performance | Lighthouse test | Score acceptable for accessibility, SEO, best practices | TBC <!-- TODO: run Lighthouse --> |
 | External Links | Click external links | Opens in new tab / correct destination | **Passed** |
 | Broken Links | Check all links | No broken links (internal/external) | **Passed**  |
 | Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
@@ -947,11 +946,11 @@ These were corrected and then resubmitted to the validator and the [CSS Styles S
 
 ### WAVE - Web Accessibility Evaluation Tools
 
-WAVE identified one alert: a *redundant link*. This occurs because both the logo and the "Home" navigation link direct users to the homepage. No errors were found.
+Originally, all pages passed both WCAG AA and AAA standards, with a contrast ratio of 8.59:1 and no contrast issues identified. Following feedback, some changes were implemented, including styling the active page link with a different colour and underline, and highlighting the "Contact Us" link in the footer. These adjustments initially caused insufficient contrast in these elements. Further refinements were made to maintain the visual style while ensuring accessibility and a good UX.
 
-All pages passed both WCAG AA and AAA standards, with a contrast ratio of 8.59:1 and no contrast issues identified.
+The features and structure review highlighted one minor issue on the Gallery page, where a heading level skipped from H2 to H4. This was corrected to H3 to maintain a logical heading hierarchy for screen readers.
 
-The features and structure review highlighted one minor issue on the Gallery page, where a heading level skipped from H2 to H4. This was subsequently corrected to H3.
+WAVE testing identified one alert: a redundant link, occurring because both the logo and the "Home" navigation link point to the homepage. No other errors were found. After adjustments, all pages continued to pass WCAG AA and AAA standards, maintaining a contrast ratio of 8.59:1 with no contrast issues.
 
 <details> <summary><strong> </strong> WAVE - Home Page (Click to expand)</summary>
 
@@ -983,15 +982,17 @@ The features and structure review highlighted one minor issue on the Gallery pag
 ![WAVE - WAVE - 404 updated ](assets/images/readme-images/wave-404-updated.png)
 </details>
 
+Following WAVE feedback and accessibility review, adjustments were made to maintain visual style while ensuring sufficient contrast and clear UX cues:
 
+The active page link was styled with a different colour and underlined to indicate the current page. Its contrast was checked and adjusted to meet WCAG AA standards without losing the intended visual emphasis.
+The "Contact Us" link in the footer was originally too low in contrast. The colour was updated to improve readability while keeping the footer’s aesthetic consistent with the site’s palette.
+Button and link hover states were reviewed to ensure interactive elements are clearly distinguishable, maintaining accessibility across all devices and screen sizes.
+All colour adjustments were tested with contrast ratio tools to ensure compliance with both WCAG AA and AAA standards.
 
-<!-- To add -->
-To add??
-- CONTACT PAGE 2???
-- 404 Page ????
+These refinements ensure the site is both visually appealing and accessible, enhancing the overall user experience for all visitors.
 
 ## Lighthouse
-<!--TODO-->
+
 ### Performance Optimization Summary
 
 This table summarises the improvements made to the website using image optimisation, preload strategies, eager loading, responsive images, and performance-focused techniques. Metrics are based on Google PageSpeed Insights / Lighthouse results.
