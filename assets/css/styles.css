@@ -37,6 +37,7 @@ footer {
 .footer-left, .footer-right {
     font-size: 0.85rem;
     color: #5f1a37;
+    font-size: medium;
 }
 
 .footer-left {
@@ -50,8 +51,10 @@ footer {
 /* Footer links */
 .footer-right a {
     justify-self: start; 
-    color: #066DDC;
+    color:  #0f6bb3;
     transition: color 0.3s ease;
+    font-size: medium;
+    font-weight: 800;
 }
 
 .footer-right a:hover {
@@ -160,7 +163,7 @@ nav {
 
 .active {
     border-bottom: 1px solid currentColor; /* uses the current text color */
-    color: #066DDC;
+    color: #167fca;
 }
 
 /* Navbar toggling */
@@ -333,7 +336,7 @@ body.error-page * {
 }
 
 .star-hero {
-    color: #066DDC; 
+    color: #0f6bb3;
 }
 
 /* Gallery Page - Masonry Layout */
