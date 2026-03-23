@@ -872,7 +872,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Feature | Action taken | Expected Result | Result |
 |---------|--------|----------------|--------|
 | Responsive Layout| CSS (@media changed) to enable navigation hover on all screen sizes | Hover animation appears|**Passed**  |
-|SEO| Changed all pages so header title is only H1 on index page|Each page has correct and individual SEO info|| <!--TODO: -->|
+|SEO| Changed all pages so header title is only H1 on index page|Each page has correct and individual SEO info|| **Passed** |
 </details><br>
 
 ### Cross-Browser Testing
