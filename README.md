@@ -872,7 +872,7 @@ Visual examples of responsive behaviour are shown in the [Features section](#lan
 | Feature | Action taken | Expected Result | Result |
 |---------|--------|----------------|--------|
 | Responsive Layout| CSS (@media changed) to enable navigation hover on all screen sizes | Hover animation appears|**Passed**  |
-|SEO| Changed all pages so header title is only H1 on index page|Each page has correct and individual SEO info|| **Passed** |
+|SEO| Changed all pages so header title is only H1 on index page|Each page has correct and individual SEO info| **Passed** |
 </details><br>
 
 ### Cross-Browser Testing
@@ -908,6 +908,8 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
 #### HTML
  [W3C HTML Validator](https://validator.w3.org/) was used to check each page, any errors found were corrected and resubmitted to ensure all passed the validator checks.
 
+<details> <summary><strong> </strong> W3C Testing Table (Click to expand)</summary>
+
 | Page re-tested | Notes | Outcome |
 |---|---|---|
 |Home page| Document checking completed. No errors or warnings to show.  However a trailing slash was noted in the _Info_ section.|_Passed_
@@ -924,6 +926,7 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
 |Gallery Page| Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 |Events Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
 |Message Sent Page | Addressed issue highlighted and re-tested: Document checking completed. No errors or warnings to show.|**Passed**|
+</details><br>
 
 - [Home Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2F)
 - [Gallery Page HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdavid-cb-uk.github.io%2Fsir-john-donne-reenactment%2Fgallery.html)
