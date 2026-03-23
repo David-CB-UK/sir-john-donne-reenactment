@@ -1019,7 +1019,7 @@ A structural issue was identified on the Gallery page, where a heading level ski
 
 Lighthouse accessibility scores remained at 100 across all pages. Minor differences between WAVE and Lighthouse results are expected, as each tool uses different testing methodologies. WAVE focuses more on semantic structure and assistive technology compatibility, while Lighthouse evaluates automated best practices and scoring metrics.
 
-Using both tools ensured a more comprehensive accessibility review.
+Using both tools ensured a more comprehensive accessibility review, highlighting the importance of combining automated tools with manual review.
 
 ### User Feedback Testing
 

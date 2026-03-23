@@ -115,14 +115,14 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color:#167fca;    
+    background-color: #0f6bb3; /* darker version of the blue for accessibility  */  
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
     text-decoration: none; /* removes underline on links */
-    font-size: 18px;
+    font-size: 18.66px;
     font-weight: 400;
 }
 
