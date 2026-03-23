@@ -982,30 +982,44 @@ To add??
 <!--TODO-->
 ### Performance Optimization Summary
 
-This table summarizes the improvements made to the website using image optimization, eager loading, responsive images, and other performance techniques. Metrics are based on Google PageSpeed Insights / Lighthouse results.
+This table summarises the improvements made to the website using image optimisation, preload strategies, eager loading, responsive images, and performance-focused techniques. Metrics are based on Google PageSpeed Insights / Lighthouse results.
 
 | Device  | Metric                     | Before Optimization | After Optimization | Notes on Changes |
 |---------|----------------------------|------------------|-----------------|----------------|
-| Desktop | Performance Score          | 88               | 96              | Reduced image sizes, optimized LCP image, deferred non-critical resources |
+| Desktop | Performance Score          | 88               | 96              | Reduced image sizes, optimized LCP image, prioritised critical resources |
 |         | First Contentful Paint (FCP)| 0.8 s            | 0.8 s           | No significant change; initial paint already fast |
-|         | Largest Contentful Paint (LCP)| 2.3 s          | 1.1 s           | LCP image set to `loading="eager"` and `fetchpriority="high"` |
-|         | Cumulative Layout Shift (CLS)| 0.025           | 0.084           | Minimal shift from layout adjustments, acceptable |
-| Mobile  | Performance Score          | 66               | 74              | Image sizes optimized, critical requests prioritized |
-|         | First Contentful Paint (FCP)| 3.5 s            | 3.3 s           | Slight improvement from optimized resources |
-|         | Largest Contentful Paint (LCP)| 13.0 s         | 5.1 s           | Eager loading of hero image, responsive images applied |
-|         | Cumulative Layout Shift (CLS)| 0               | 0.005           | Very minor shift after adjustments |
-| Both    | Accessibility               | 100              | 100             | No change; accessibility was already strong |
+|         | Largest Contentful Paint (LCP)| 2.3 s          | 1.1 s           | LCP image optimized using preload, eager loading, and `fetchpriority="high"` |
+|         | Cumulative Layout Shift (CLS)| 0.025           | 0.084           | Slight increase due to layout adjustments, but remains within acceptable limits |
+| Mobile  | Performance Score          | 66               | 74              | Image sizes optimized, critical resources prioritised |
+|         | First Contentful Paint (FCP)| 3.5 s            | 3.3 s           | Slight improvement from optimized resource delivery |
+|         | Largest Contentful Paint (LCP)| 13.0 s         | 5.1 s           | Significant improvement from preload, eager loading, and responsive images |
+|         | Cumulative Layout Shift (CLS)| 0               | 0.005           | Very minor shift after layout adjustments |
+| Both    | Accessibility               | 100              | 100             | No change |
 | Both    | Best Practices              | 100              | 100             | No change; passed all audits |
-| Both    | SEO                         | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | Improved by optimizing image sizes, loading behavior, and HTML elements |
+| Both    | SEO                         | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | Improved through better meta tags, mobile performance, and optimised loading behaviour |
 
 **Key Optimizations Implemented:**
 
-- Optimized hero image and other large images for responsive display.  
-- Added `loading="eager"` and `fetchpriority="high"` for the LCP hero image.  
-- Compressed images without significant loss of quality.  
-- Deferred non-critical CSS and JavaScript to reduce blocking.  
-- Used efficient caching and font-display strategies.  
-- Maintained accessibility, semantic HTML, and SEO best practices.  
+- Optimised hero and large images using `.webp` format and responsive sizing  
+- Used `<link rel="preload">` to prioritise the LCP hero image  
+- Added `loading="eager"` and `fetchpriority="high"` for above-the-fold content  
+- Reduced render-blocking impact by prioritising critical resources  
+- Applied efficient image compression with minimal quality loss  
+- Maintained accessibility, semantic HTML, and SEO best practices  
+
+### Accessibility Testing Comparison
+
+Accessibility testing was carried out using both WAVE and Lighthouse to provide a broader evaluation.
+
+WAVE identified one alert relating to a *redundant link*, where both the logo and "Home" navigation link direct to the homepage. This is not considered a critical issue, as it does not negatively impact usability and is common practice for navigation design.
+
+All pages passed WCAG AA and AAA contrast standards, with a contrast ratio of 8.59:1 and no contrast errors identified.
+
+A structural issue was identified on the Gallery page, where a heading level skipped from H2 to H4. This was corrected to maintain a logical heading hierarchy.
+
+Lighthouse accessibility scores remained at 100 across all pages. Minor differences between WAVE and Lighthouse results are expected, as each tool uses different testing methodologies. WAVE focuses more on semantic structure and assistive technology compatibility, while Lighthouse evaluates automated best practices and scoring metrics.
+
+Using both tools ensured a more comprehensive accessibility review.
 
 ### User Feedback Testing
 
