@@ -50,7 +50,7 @@ footer {
 /* Footer links */
 .footer-right a {
     justify-self: start; 
-    color: #167fca;
+    color: #066DDC;
     transition: color 0.3s ease;
 }
 
@@ -115,7 +115,7 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color: #0f6bb3; /* darker version of the blue for accessibility  */  
+    background-color: #0f6bb3; /* darker version of the blue for accessibility */  
     color: white;
     border: none;
     border-radius: 5px;
@@ -160,7 +160,7 @@ nav {
 
 .active {
     border-bottom: 1px solid currentColor; /* uses the current text color */
-    color: #167fca;
+    color: #066DDC;
 }
 
 /* Navbar toggling */

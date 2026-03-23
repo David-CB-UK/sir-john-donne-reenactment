@@ -965,13 +965,25 @@ The features and structure review highlighted one minor issue on the Gallery pag
 
 <details> <summary><strong> </strong> WAVE - Events Page (Click to expand)</summary>
 
-![WAVE - Home Page](assets/images/readme-images/wave-events.webp)
+![WAVE - Events Page ](assets/images/readme-images/wave-events.webp)
 </details>
 
 <details> <summary><strong> </strong> WAVE - Contact Page (Click to expand)</summary>
 
-![WAVE - Home Page](assets/images/readme-images/wave-contact.webp)
+![WAVE - Contact Page](assets/images/readme-images/wave-contact.webp)
 </details>
+
+<details> <summary><strong> </strong> WAVE - 404 (Click to expand)</summary>
+
+![WAVE - WAVE - 404 ](assets/images/readme-images/wave-404.png)
+</details>
+
+<details> <summary><strong> </strong> WAVE - 404 updated(Click to expand)</summary>
+
+![WAVE - WAVE - 404 updated ](assets/images/readme-images/wave-404-updated.png)
+</details>
+
+
 
 <!-- To add -->
 To add??
