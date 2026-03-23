@@ -51,7 +51,7 @@ footer {
 /* Footer links */
 .footer-right a {
     justify-self: start; 
-    color:  #0f6bb3;
+    color:  #0C69B0;
     transition: color 0.3s ease;
     font-size: medium;
     font-weight: 800;
@@ -118,7 +118,7 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color: #0f6bb3; /* darker version of the blue for accessibility */  
+    background-color: #0C69B0; /* darker version of the blue for accessibility */  
     color: white;
     border: none;
     border-radius: 5px;
@@ -163,7 +163,7 @@ nav {
 
 .active {
     border-bottom: 1px solid currentColor; /* uses the current text color */
-    color: #167fca;
+    color: #0C69B0;
 }
 
 /* Navbar toggling */
@@ -336,7 +336,7 @@ body.error-page * {
 }
 
 .star-hero {
-    color: #0f6bb3;
+    color: #0C69B0;
 }
 
 /* Gallery Page - Masonry Layout */
@@ -944,7 +944,7 @@ footer {
         bottom: -3px;
         width: 0;
         height: 2px;
-        background-color:#167fca;        
+        background-color:#0C69B0;        
         transition: all 0.3s ease;
         transform: translateX(-50%);
     }
@@ -958,7 +958,7 @@ footer {
         position: absolute;
         opacity: 0;
         transition: opacity 0.3s ease;
-        color:#167fca;        
+        color:#0C69B0;        
         font-size: 0.55rem;
     }
 
@@ -979,7 +979,7 @@ footer {
     }
 
     #nav-menu a:hover {
-        color:#167fca;    }
+        color:#0C69B0;    }
 
     /* Hero section */
     #hero {
