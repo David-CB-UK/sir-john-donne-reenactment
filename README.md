@@ -770,7 +770,6 @@ The following table lists the key tools, resources, and references used during t
 | [Am I Responsive](TBC)   |     | 
 | [Lighthouse](TBC)   |     | 
 | [WAVE](https://wave.webaim.org)| WAVE (Web Accessibility Evaluation Tools) help to make web content more accessible to individuals with disabilities.|
-| [TBC](TBC)   |     | 
 
 
 
