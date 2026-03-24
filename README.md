@@ -14,8 +14,6 @@
 
 ## Table of Contents
 
-## Table of Contents
-
 1. [Project Overview](#project-overview)
 2. [User Experience](#user-experience)
    - [User Stories](#user-stories-and-related-goals)

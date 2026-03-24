@@ -766,7 +766,7 @@ footer {
     /*no background on very small screens - contact / msg sent page */
         .contact-bg::before {
         background-image: none;  /* remove background */
-        backdrop-filter: none;    /* optional: remove blur */
+        backdrop-filter: none;    /* optional - to remove blur */
     }
 }
 
