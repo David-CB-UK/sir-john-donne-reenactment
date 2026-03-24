@@ -484,16 +484,24 @@ The main content sections explain the historical context of the re-enactment.
 
 
 **Features:**
-- Displays supporting images related to the Sir John Donne re-enactment and historical items.
-- Provides clear visual context for objects and displays featured in the living-history tent.
-- Supports a structured and consistent layout with headings and captions for each image.
-- Fully responsive layout ensures images are accessible on desktop, tablet, and mobile devices.
+- Displays supporting images of the Sir John Donne re-enactment and historical items.  
+- Provides clear visual context for objects and displays featured in the living-history tent.  
+- Uses a structured layout with headings and captions for each image.  
+- Fully responsive layout ensures images are accessible on desktop, tablet, and mobile devices.  
+- Styled with design inspiration from Pinterest.
 
-**User Benefit**: Visitors can visually explore historical items, gaining a better understanding of the re-enactment setup. Images support learning by providing immediate visual references and context for first-time and returning visitors. Gallery layout prioritises clarity and ease of navigation between images
+**User Benefit:**  
+Visitors can visually explore historical items, gaining a better understanding of the re-enactment setup. Images support learning by providing immediate visual references and context for first-time and returning visitors. The gallery layout prioritises clarity and ease of navigation between images.
 
-**Notes**:
-- Future enhancements could include lightbox functionality for larger image views or interactive descriptions
-- Consistency with the site’s typography and colour scheme maintains a cohesive user experience
+**Notes:**
+- Future enhancements could include lightbox functionality for larger image views or interactive descriptions.  
+- Consistency with the site’s typography and colour scheme maintains a cohesive user experience.  
+
+A carousel was considered for the gallery page but not implemented due to usability, accessibility, and technical limitations within a HTML and CSS-only approach. Research from ([Yale University](https://yalesites.yale.edu/community/requests/better-alternatives-to-carousels-how-yalesites-prioritizes-user-experience)) shows that users often ignore carousel content due to “banner blindness”, with interaction typically focused on the first slide. This reduces the effectiveness of presenting multiple images.
+
+Furthermore accessibility guidance from the [World Wide Web Consortium (W3C)](www.w3.org/WAI/tutorials/carousels/) states that moving content must be controllable and keyboard accessible. CSS-only carousels (e.g. using scroll-snap) have limited ability to provide pause controls or issues with auto-rotating content, full keyboard interaction, or communicate changes to assistive technologies, risking non-compliance with accessibility guidelines.
+
+Additionally, as ([Can I Use?](https://caniuse.com/?search=carousel)) notes some CSS features used in carousels have inconsistent behaviour across browsers and may not be supported at all, espcially on older browsers. Therefore a masonry-style multi-column layout (using CSS columns) was chosen, allowing images to flow naturally into responsive columns while remaining fully visible and accessible.
 
 ### Events page
 
@@ -547,6 +555,7 @@ The form was placed inside a container with a subtle background and rounded edge
 A background image was introduced on larger screens to reduce unused space and enhance overall visual appeal. From a UX perspective, this reduces excessive negative space and creates a more visually balanced and engaging layout for users on wider viewports. The selected image—a ruined castle—reinforces the medieval theme of the site, supporting visual storytelling and ensuring thematic consistency across pages. This directly supports relevant user stories, such as users wanting an immersive and visually engaging experience that reflects the historical theme.
 
 Furthermore, the inclusion of the background image improves visual hierarchy by allowing the form container to stand out more prominently. This establishes a clear focal point, making the form appear more like a modal or pop-up element rather than an isolated component on an otherwise empty page. As a result, user attention is more effectively directed towards the primary interactive element, supporting user stories focused on ease of interaction and clarity when completing tasks such as submitting a contact form.
+
 Upon evaluation, the original image appeared overly harsh and visually dominant, which risked distracting from key content and reducing readability. To address this, the image was refined using [Canva](https://www.canva.com/online-whiteboard/wireframes/), with adjustments made to colour balance, contrast, saturation, sharpness, and temperature. These changes softened the visual impact, reduced potential visual strain, and improved accessibility by maintaining sufficient contrast between foreground content and background elements. This aligns with user needs for readable, comfortable interfaces that do not hinder task completion.
 
 On smaller screens, the background image was removed to prevent content overflow and maintain readability, ensuring the focus remains on the form. This responsive adjustment further supports usability by prioritising clarity and efficient interaction on mobile devices.
@@ -572,7 +581,7 @@ Overall, these refinements ensure stronger visual consistency with the establish
 - Consistent typography and colour scheme aligns with overall site design.
 - The contact page has a lot of unused whitespace on screens larger than mobile devices.
 - The page has significant whitespace on larger screens; the background image helps fill this without overwhelming the form.
-- Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires JavaScript, which I have not learnt yet.
+- Implementing a pop-up window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, but this requires **_but this requires JavaScript_** (which I have not learnt yet). Implementing a true pop-up/modal window that appears when the "Contact Us" button is clicked would provide a more compact and interactive design, yet CSS-only pop-ups are limited by browser support and can have accessibility issues ([Boring Reliability](https://www.boringreliability.dev/wcag/accessible-modal-dialog); [AccessUse](https://accessuse.eu/en/modal-dialogs.html)).
 
 ### Message Sent Page
 
@@ -1146,8 +1155,20 @@ Live site link:
 - Community support  
   Community forums and discussions were referenced when resolving development issues.
 
+- [AccessUse](https://accessuse.eu/en/modal-dialogs.html) (2026) _Modal dialogs_ 
+
+- [Boring Reliability](https://www.boringreliability.dev/wcag/accessible-modal-dialog) (n.d.) _Accessible Modal Dialog_
+
+- [Can I Use](https://caniuse.com/?search=carousel) (n.d.)
+  Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+
 - Duckett, J. (2011) *HTML and CSS: Design and Build  Websites*. Indianapolis: John Wiley & Sons.  
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
+
+- [World Wide Web Consortium (W3C)](www.w3.org/WAI/tutorials/carousels/)
+  W3C dicusses Strategies, standards & resources to make the Web accessible to people with disabilities
+
+- [Yale University](https://yalesites.yale.edu/community/requests/better-alternatives-to-carousels-how-yalesites-prioritizes-user-experience) (2026) *Better Alternatives to Carousels: How Yale Sites Prioritizes User Experience*
 
 ### Content
 
