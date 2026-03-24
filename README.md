@@ -1188,7 +1188,7 @@ Images used in this project were sourced from:
 
 ## Reflections
 
-During the development of the Sir John Donne re-enactment website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_I have not yet learnt JavaScript_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
+During the development of the Sir John Donne re-enactment website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_At this stage in my learning, my development is focused on HTML and CSS_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
 
 ### Key Reflections and Limitations
 
@@ -1227,6 +1227,8 @@ During the development of the Sir John Donne re-enactment website, I carefully c
 6. **Accessibility and Design**
    - Despite technical limitations, the site meets WCAG AA/AAA standards, uses semantic HTML, provides alt text for images, and ensures responsive layouts across desktop, tablet, and mobile devices.
    - These choices maximise user experience within the constraints of HTML/CSS and ensure the site remains inclusive and accessible.
+
+Overall, I believe this project represents a strong outcome, particularly as it is the first website I have developed, independently, without following a step-by-step walkthrough. It demonstrates my ability to apply HTML and CSS to create a fully responsive, accessible, and structured website. While there are clear areas for future enhancement, the project reflects a solid understanding of core web development principles and provides a strong foundation for further learning, particularly in JavaScript and backend development.
 
 ### Planned Future Enhancements
 - **Historic Timeline:** Interactive visual timeline of Sir John Donne’s life.
