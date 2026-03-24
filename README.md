@@ -212,12 +212,10 @@ A visual colour palette was created using [Coolors](https://coolors.co/) to pres
 *Original colour palette: Colour palette generated using Coolors, based on historically inspired tones.*
 </details><br>
 
-
 The visual colour palette was later updated as noted above.
 
 ![Colour palette created using Coolors](assets/images/readme-images/coolorsv2.webp)
 *Updated palette: Colour palette generated using Coolors, based on historically inspired tones.*
-
 
 ### Typography
 
@@ -377,9 +375,6 @@ _The original footer._
 _The updated footer following feedback as noted below._
 </details> <br>
 
-
-The footer is present on all pages except the 404 page. The footer contains navigation links, contact info, and related resources; M. Bass currently does not use any social media, therefore I have included examples of the most popular social media links, with each link opening to the respective main site webpage.
-
 Due to varying screen sizes, the footer is not always immediately visible and may require the user to scroll to the bottom of the page to access it.
 
 **User Benefit:** Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
@@ -520,6 +515,12 @@ Additionally, as ([Can I Use?](https://caniuse.com/?search=carousel)) notes some
 Links are intended to direct users to the relevant live event pages for each location, such as the [Barnet Medieval Festival](https://barnetmedievalfestival.wordpress.com/). In cases where a specific event page is not available, such as [Nottingham Castle](https://www.nottinghamcastle.org.uk/whats-on/), users are instead directed to the venue’s main “What’s On” or landing page.
 
 **User Benefit**: Visitors can quickly find relevant events, understand where and when the re-enactment will take place, and plan their attendance. This supports both first-time and returning visitors in engaging with the Sir John Donne site.
+
+### External Links Security and Privacy
+
+For all links that open in a new tab (`target="_blank"`), I used `rel="noopener"`. This prevents the newly opened page from accessing the original window via `window.opener`, which protects against a type of security risk called *tabnabbing*.  
+
+I chose **not** to include `rel="noreferrer"` because these links point to related or partner sites, and allowing referral information to be sent helps them see traffic from my site. This balances **security** with **useful analytics and partner visibility**.
 
 **Notes / Feedback:**  
 - External links open to official venue or event pages for accurate information.
