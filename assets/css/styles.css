@@ -600,7 +600,7 @@ footer {
 
     /* header */
     #logo {
-        font-size: 1.2rem;   /* smaller text on smaller screeens */
+        font-size: 1.2rem;   /* smaller text on smaller screens */
         line-height: 1.2;    /* tight line spacing */
     }
 
@@ -613,7 +613,7 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
-        /* to stop 'contct' touching bottom and give gap on mobile */
+        /* to stop 'contact' touching bottom and give gap on mobile */
         padding-bottom: 30px;
     }
 
@@ -750,7 +750,7 @@ footer {
     /*no background on very small screens - contact / msg sent page */
         .contact-bg::before {
         background-image: none;  /* remove background */
-        backdrop-filter: none;    /* optional - to remove blur */
+        backdrop-filter: none;    /* to remove blur */
     }
 }
 
@@ -883,14 +883,14 @@ footer {
     }
 
     .zigzag-image img {
-        max-width: 125px;  /* uniform imagea width change left image height */
+        max-width: 125px;  /* uniform image width change left image height */
         width: 100%;
         height: auto;      /* to keep aspect ratio */
         border-radius: 6px;
     }
 
     #home-zigzag {
-        /* also alighs right-image on home*/
+        /* also aligns right-image on home*/
         align-items: center; /* valid value for flexbox */
     }
 
@@ -1011,7 +1011,7 @@ footer {
 }
 
 @media screen and (min-width: 1600px) {
-    /* to accomidate seeing footer on largest screens */
+    /* to accommodate seeing footer on largest screens */
     #hero {
         height: 55vh;   /* slightly shorter hero */
         max-height: 350px;  /* cap max height */
