@@ -182,7 +182,7 @@ These goals directly informed the design and feature implementation of the websi
 The primary colour is a deep burgundy (#5F1A37), used for headings and key interface elements. This colour provides strong contrast against the background, improving readability while also reinforcing the historical theme of the website.
 
 ### Secondary Colour – #F1E9D2  
-The secondary colour is a parchment-style beige (#F1E9D2), used as the main background colour. This creates a neutral and visually comfortable base, supporting accessibility by reducing eye strain and allowing content to remain clear and legible.
+The secondary colour is a parchment-style beige (#F1E9D2), used as the main background coloorganisedur. This creates a neutral and visually comfortable base, supporting accessibility by reducing eye strain and allowing content to remain clear and legible.
 
 ### Accent Colour – #167FCA  
 An accent colour of blue (#167FCA) is used for interactive elements such as buttons, navigation highlights, and hover states. This ensures that clickable elements are easily identifiable, improving usability and user experience.
@@ -198,9 +198,11 @@ The burgundy reflects tones commonly found in period garments _(see the colour i
 Colour inspiration: derived from historical livery and materials associated with the period of Sir John Donne; the colour scheme was chosen in collaboration with the site owner (see [Story 1](#story-1-site-owner-m-bass)) to reflect historically accurate tones while maintaining accessibility.
 
 This supports:
+
 - **Story 1:** authentic historical presentation  
 - **Story 2:** clear visual hierarchy for first-time users  
 - **Story 4:** sufficient contrast for readability  
+
 </details><br>
 
 A visual colour palette was created using [Coolors](https://coolors.co/) to present and refine the selected hex colour scheme, in collaboration with the site owner.
@@ -220,6 +222,7 @@ The visual colour palette was later updated as noted above.
 Fonts were selected through a collaborative decision-making process with the site owner (M. Bass) (see [Story 1: Site Owner](#story-1-site-owner-m-bass)), who required the website to reflect a historical, medieval aesthetic while remaining clear, readable, and accessible across all devices.
 
 This decision supports key user needs:
+
 - _Story 1 (Site Owner):_ presenting an authentic and professional historical identity  
 - _Story 2 (First-Time Visitors):_ ensuring content is easy to read and understand  
 - _Story 4 (Accessibility):_ maintaining readability for users with varying needs and devices  
@@ -319,9 +322,11 @@ The wireframes were initially created as hand-sketched notes in collaboration wi
 ---
 
 ## Features
+
 The features below were implemented to address the UX and design goals described above. The website currently includes the following pages:
 
 **Main Navigation Pages**
+
 - Home
 - Gallery
 - Events
@@ -355,6 +360,7 @@ While these adjustments ensure a consistent appearance on major browsers, it is 
 **User Benefit:**  This feature enables visitors to navigate between pages without needing to return to the previous page using the browser back button. It improves usability across desktop and mobile devices.
 
 **Notes / Feedback:** 
+
 - A logo or icon was suggested. The existing [favicon](assets/favicon/web-app-manifest-512x512.png) was already a suitable and readily available symbol, and it was adapted for use in this role.
 - Peer feedback highlighted that the current page was not visually distinct in the navigation bar _(See updated version above)_, to address this, active page styling was implemented using a blue colour and underline to clearly indicate the user’s location.
 - A minor CSS issue affecting decorative `✦` elements during hover states was identified and resolved during implementation.
@@ -378,6 +384,7 @@ Due to varying screen sizes, the footer is not always immediately visible and ma
 **User Benefit:** Provides consistent access to key information and navigation across the site, ensuring usability even when content extends beyond the initial viewport.
 
 **Feedback**
+
 - A spelling error in the footer was identified during user feedback testing and has since been corrected, improving accuracy and presentation.
 
 ### Favicon & App Icons
@@ -390,10 +397,12 @@ The website includes multiple icon formats to ensure a consistent and profession
 ![Classic favicon](assets/images/browser-tabs.png)
 
 **Details:**  
+
 - `favicon.ico` supports legacy browsers and Windows shortcuts (16x16, 32x32, 48x48).  
 - `favicon-32x32.png` supports modern browsers and standard tabs.
 
 **User Benefit:**  
+
 - Provides clear identification of the site in browser tabs and bookmarks.  
 - Improves usability by allowing users to quickly locate the site among multiple open tabs.  
 - Ensures compatibility with older and modern browsers.  
@@ -408,6 +417,7 @@ The website includes multiple icon formats to ensure a consistent and profession
 - Search results display the favicon next to the page listing.  
 
 **User Benefit:**  
+
 - Increases brand recognition in search results.  
 - Enhances credibility and trust, as a branded icon signals a maintained and professional site.  
 
@@ -418,10 +428,12 @@ The website includes multiple icon formats to ensure a consistent and profession
 ![Android Icons](assets/images/readme-images/android.png)
 
 **Details:**  
+
 - `android-chrome-192x192.png` – for Android home screen and Progressive Web Apps (PWA).  
 - `android-chrome-512x512.png` – for Android splash screen and high-resolution displays.
 
 **User Benefit:**  
+
 - Allows users to add the website as a home screen shortcut for quick access.  
 - Supports mobile engagement and PWA functionality.  
 - Provides crisp and scalable images on high-density screens.  
@@ -434,9 +446,11 @@ The website includes multiple icon formats to ensure a consistent and profession
 ![Apple Touch](assets/images/readme-images/apple-touch-icon.png)
 
 **Details:**  
+
 - `apple-touch-icon.png` (180x180) is used for iOS home screens and Safari bookmarks.
 
 **User Benefit:**  
+
 - Users can easily save and access the site from an iPhone or iPad home screen.  
 - Ensures the site appears clearly and professionally on iOS devices.  
 - Improves mobile UX by providing a visually consistent experience across platforms.  
@@ -477,6 +491,7 @@ The main content sections explain the historical context of the re-enactment.
 
 
 **Features:**
+
 - Displays supporting images of the Sir John Donne re-enactment and historical items.  
 - Provides clear visual context for objects and displays featured in the living-history tent.  
 - Uses a structured layout with headings and captions for each image.  
@@ -484,9 +499,11 @@ The main content sections explain the historical context of the re-enactment.
 - Styled with design inspiration from Pinterest.
 
 **User Benefit:**  
+
 Visitors can visually explore historical items, gaining a better understanding of the re-enactment setup. Images support learning by providing immediate visual references and context for first-time and returning visitors. The gallery layout prioritises clarity and ease of navigation between images.
 
 **Notes:**
+
 - Future enhancements could include lightbox functionality for larger image views or interactive descriptions.  
 - Consistency with the site’s typography and colour scheme maintains a cohesive user experience.  
 
@@ -494,16 +511,17 @@ A carousel was considered for the gallery page but not implemented due to usabil
 
 Furthermore accessibility guidance from the [World Wide Web Consortium (W3C)](www.w3.org/WAI/tutorials/carousels/) states that moving content must be controllable and keyboard accessible. CSS-only carousels (e.g. using scroll-snap) have limited ability to provide pause controls or issues with auto-rotating content, full keyboard interaction, or communicate changes to assistive technologies, risking non-compliance with accessibility guidelines.
 
-Additionally, as ([Can I Use?](https://caniuse.com/?search=carousel)) notes some CSS features used in carousels have inconsistent behaviour across browsers and may not be supported at all, espcially on older browsers. Therefore a masonry-style multi-column layout (using CSS columns) was chosen, allowing images to flow naturally into responsive columns while remaining fully visible and accessible.
+Additionally, as ([Can I Use?](https://caniuse.com/?search=carousel)) notes some CSS features used in carousels have inconsistent behaviour across browsers and may not be supported at all, especially on older browsers. Therefore a masonry-style multi-column layout (using CSS columns) was chosen, allowing images to flow naturally into responsive columns while remaining fully visible and accessible.
 
 ### Events page
 
 <details><summary><strong>Events Page</strong> (Click to expand)</summary>
 
 ![Events page](assets/images/readme-images/features-events.png)
-</details> <br>
+</details> <br>especially
 
 **Features:**
+
 - Lists upcoming historical re-enactment events, including location, date, and brief description.
 - Provides links to venue pages or live event information where available.
 - Helps users discover opportunities to experience the re-enactment display in person.
@@ -521,6 +539,7 @@ For all links that open in a new tab (`target="_blank"`), I used `rel="noopener"
 I chose **not** to include `rel="noreferrer"` because these links point to related or partner sites, and allowing referral information to be sent helps them see traffic from my site. This balances **security** with **useful analytics and partner visibility**.
 
 **Notes / Feedback:**  
+
 - External links open to official venue or event pages for accurate information.
 - Consistent design ensures events list is visually aligned with other site pages.  
 - Future enhancements could include calendar integration or interactive maps.
@@ -542,7 +561,7 @@ _Image of updated page following feedback_
 <details> <summary><strong>Updated Contact Page Version 3</strong> (Click to expand)</summary>
 
 ![Contact Page](assets/images/readme-images/features-updatedv2-contact.png)
-_Image of updated page following further  reflection and additinal feedback_
+_Image of updated page following further  reflection and additional feedback_
 </details> <br>
 
 Users can submit messages via a sign-up/contact form; the form needs to be completed and requires an @ symbol for validation in the email address field or it will show an error message as can be seen below.
@@ -551,7 +570,7 @@ Based on feedback about excessive empty space around the form, the layout was up
 
 The form was placed inside a container with a subtle background and rounded edges, giving it a more “pop-up” appearance and improving visual structure.
 
-A background image was introduced on larger screens to reduce unused space and enhance overall visual appeal. From a UX perspective, this reduces excessive negative space and creates a more visually balanced and engaging layout for users on wider viewports. The selected image—a ruined castle—reinforces the medieval theme of the site, supporting visual storytelling and ensuring thematic consistency across pages. This directly supports relevant user stories, such as users wanting an immersive and visually engaging experience that reflects the historical theme.
+A background image was introduced on larger screens to reduce unused space and enhance overall visual appeal. From a UX perspective, this reduces excessive negative space and creates a more visually balanced and engaging layout for users on wider screens. The selected image—a ruined castle—reinforces the medieval theme of the site, supporting visual storytelling and ensuring thematic consistency across pages. This directly supports relevant user stories, such as users wanting an immersive and visually engaging experience that reflects the historical theme.
 
 Furthermore, the inclusion of the background image improves visual hierarchy by allowing the form container to stand out more prominently. This establishes a clear focal point, making the form appear more like a modal or pop-up element rather than an isolated component on an otherwise empty page. As a result, user attention is more effectively directed towards the primary interactive element, supporting user stories focused on ease of interaction and clarity when completing tasks such as submitting a contact form.
 
@@ -893,21 +912,21 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
 | --- | --- | --- | --- |
 | Chrome | Check each page  | Pages all load correctly | **Passed** |
 | Chrome | Nav links working  | All link correct and working | **Passed** |
-| Chrome | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
-| Chrome | Event links checked | All links open in new tab to correct destinantion | **Passed** |
-| Chrome | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Chrome | Footer links Checked | All links open in new tab to correct destination | **Passed** |
+| Chrome | Event links checked | All links open in new tab to correct destination | **Passed** |
+| Chrome | Forms working | Error appears if not completed correctly, message sent appears when completed | **Passed**destination |
 | Chrome | Message sent button working | Return to home page when clicked | **Passed** |
 | Safari | Check each page  | Pages all load correctly | **Passed**|
 | Safari | Nav links working  | All link correct and working | **Passed** |
-| Safari | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
-| Safari | Event links checked | All links open in new tab to correct destinantion | **Passed** |
-| Safari | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Safari | Footer links Checked | All links open in new tab to correct destination | **Passed** |
+| Safari | Event links checked | All links open in new tab to correct destination | **Passed** |
+| Safari | Forms working | Error appears if not completed correctly, message sent appears when completed | **Passed** |
 | Safari | Message sent button working | Return to home page when clicked | **Passed** |
 | Edge | Check each page  | Pages all load correctly | **Passed**|
 | Edge | Nav links working  | All link correct and working | **Passed** |
-| Edge | Footer links Checked | All links open in new tab to correct destinantion | **Passed** |
-| Edge | Event links checked | All links open in new tab to correct destinantion | **Passed** |
-| Edge | Forms working | Error apears if not completed correctly, message sent appears when completed | **Passed** |
+| Edge | Footer links Checked | All links open in new tab to correct destination | **Passed** |
+| Edge | Event links checked | All links open in new tab to correct destination | **Passed** |
+| Edge | Forms working | Error appears if not completed correctly, message sent appears when completed | **Passed** |
 | Edge | Message sent button working | Return to home page when clicked | **Passed** |
 </details><br>
 
@@ -921,7 +940,7 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
 | Page re-tested | Notes | Outcome |
 |---|---|---|
 |Home page| Document checking completed. No errors or warnings to show.  However a trailing slash was noted in the _Info_ section.|_Passed_
-|Gallery Page| Warning: Consider using the h1 element as a top-level heading only — or else use the headingoffset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).| _Fail_|
+|Gallery Page| Warning: Consider using the h1 element as a top-level heading only — or else use the heading offset attribute (otherwise, all h1 elements are treated as top-level headings by many screen readers and other tools).| _Fail_|
 |Events Page |Error: No p element in scope but a p end tag seen.| _Fail_|
 |Contact Page | Document checking completed. No errors or warnings to show.|**Passed**|
 |Message Sent Page|Error: End tag div seen, but there were open elements. & Unclosed element form. | _Fail_|
@@ -951,10 +970,10 @@ The website was tested across multiple browsers, including Chrome, Safari, and E
   -	**#contact-form:** Value Error : background-color rgbt(241,237,227,0.8) is not a background-color value : rgbt(241,237,227,0.8)
   - **#home-zigzag:** 	anchor-center is not a align-items value : anchor-center
 
-These were corrected and then resubmitted to the validator and the [CSS Styles Sheet](assets/css/styles.css) subequently **Passed** this validator check.
+These were corrected and then resubmitted to the validator and the [CSS Styles Sheet](assets/css/styles.css) subsequently **Passed** this validator check.
 
 <p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">subsequently
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
@@ -1094,7 +1113,7 @@ Participants were asked to:
 | Contact page felt too empty on larger screens | Considered layout improvements (see Reflections) |
 | Headings were visually distinctive but readable | Typography choice validated |
 | Gaps at the bottom of Gallery Page | Attempted to change photo order, however this was ineffective |
-| Scroll bar appeared on contact page| Adappted padding and margin to prevent this|
+| Scroll bar appeared on contact page| adapted padding and margin to prevent this|
 
 Feedback from users highlighted that the gallery page sometimes shows gaps at the bottom. 
 <details><summary><strong>Gallery Page Gap Example</strong> (Click to expand)</summary>
@@ -1107,12 +1126,12 @@ A more elegant solution in the future might be a horizontally scrolling layout, 
 
 #### Outcome
 
-The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability and layout acessability.
+The feedback confirmed that the site is generally easy to navigate and accessible. Minor adjustments were made to improve readability and layout accessibility.
 
 ### Unfixed Bugs
 
 - Minor layout shifts on very small screens.
-- Potential gaps at the bottom of the Gallery Page depending on screen sizes.
+- Potential gaps at the bottom of the Gallery Page depending on screen sizes.accessibility
 - Vertical scrolling appears on some screen larger screen heights that may not have been tested.  
 
 [Back to top](#sir-john-donne-re-enactment)
@@ -1165,7 +1184,7 @@ Live site link:
   Used as a general reference for HTML and CSS concepts when structuring and styling the website.
 
 - [World Wide Web Consortium (W3C)](www.w3.org/WAI/tutorials/carousels/)
-  W3C dicusses Strategies, standards & resources to make the Web accessible to people with disabilities
+  W3C discusses Strategies, standards & resources to make the Web accessible to people with disabilities
 
 - [Yale University](https://yalesites.yale.edu/community/requests/better-alternatives-to-carousels-how-yalesites-prioritizes-user-experience) (2026) *Better Alternatives to Carousels: How Yale Sites Prioritizes User Experience*
 
@@ -1188,7 +1207,7 @@ Images used in this project were sourced from:
 
 ## Reflections
 
-During the development of the Sir John Donne re-enactment website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skillset — **_At this stage in my learning, my development is focused on HTML and CSS_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
+During the development of the Sir John Donne re-enactment website, I carefully considered additional interactive features that could enhance user experience. However, due to my current skill set — **_At this stage in my learning, my development is focused on HTML and CSS_** — some features could not be implemented using only HTML and CSS. Despite this, all design and layout decisions were made to maximise usability, accessibility, and responsiveness within these constraints.
 
 ### Key Reflections and Limitations
 
