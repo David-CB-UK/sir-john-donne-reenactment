@@ -43,6 +43,7 @@
    - [WAVE - Web Accessibility Evaluation Tools](#wave---web-accessibility-evaluation-tools)
    - [Lighthouse](#lighthouse)
      - [Performance Optimization Summary](#performance-optimization-summary)
+     - [Lighthouse Optimization Reflections](#lighthouse-optimization-reflections)
      - [Accessibility Testing Comparison](#accessibility-testing-comparison)
      - [User Feedback Testing](#user-feedback-testing)
 9. [Deployment](#deployment)
@@ -1058,6 +1059,30 @@ This table summarises the improvements made to the website using image optimisat
 
 ![Lighthouse Mobile Updated](assets/images/readme-images/lighthouse-mobile.webp)
 </details><br>
+
+### Lighthouse Optimization Reflections
+
+During the optimization process for this site, I observed that not all changes had a positive effect on performance scores. While the desktop performance remained high, mobile scores fluctuated significantly depending on adjustments such as image re-optimization, font imports, and CSS tweaks.  
+
+For example, reverting to commit `965802f7b9d55ed1f7048825b81bc43d06a4f0a9` restored mobile performance to **77** and desktop to **99**, demonstrating a stable baseline. Subsequent “optimizations” sometimes caused mobile scores to drop to 72–74, despite improving other metrics like best practices.  
+
+This experience highlights two key lessons:
+
+- **Diminishing returns**: Beyond a certain point, additional optimizations can reduce overall performance rather than improve it.  
+- **The importance of version control**: Using Git allowed reverting to the best-performing state easily, showing how tracking changes helps maintain performance while experimenting with improvements.  
+
+Ultimately, balancing optimization with usability and stability proved more effective than chasing perfect scores.
+
+### Lighthouse Optimization Reflections
+
+| Commit / Version | Mobile Performance | Desktop Performance | Notes |
+|-----------------|-----------------|------------------|-------|
+| 965802f7b9d55ed1f7048825b81bc43d06a4f0a9 | 77 | 98 | Original “optimized wolf” version |
+| Latest Tweaks   | 74 | 84 | Tweaks lowered mobile performance |
+| Rollback Attempt | 73 | 98 | Desktop recovered, mobile still lower |
+| Current Version | 77 | 99 | Fully reverted; best balance achieved |
+
+*Reflection:* Tweaking images, fonts, or small CSS changes beyond this point did not meaningfully improve Lighthouse scores, indicating diminishing returns. Mobile FCP and LCP remain the main constraints.
 
 ---
 
