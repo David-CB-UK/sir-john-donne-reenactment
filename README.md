@@ -1047,7 +1047,7 @@ This table summarises the improvements made to the website using image optimisat
 | | Speed Index (SI) | — | — | **3.3 s** | Improved perceived load speed |
 | **Both** | Accessibility | 100 | 100 | **100** | Maintained full compliance |
 | **Both** | Best Practices | 100 | 100 | **100** | No issues identified |
-| **Both** | SEO | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | **Desktop: 98<br>Mobile: 77** | Improvements align with performance and metadata enhancements |
+| **Both** | SEO | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | **Desktop: 99<br>Mobile: 77** | Improvements align with performance and metadata enhancements |
 
 <details> <summary><strong> </strong> Lighthouse Scores - Desktop (Updated) (Click to expand)</summary>
 
