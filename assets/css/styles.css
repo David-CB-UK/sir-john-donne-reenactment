@@ -1,4 +1,4 @@
-/* Google fonts import - Maacondo, DM Sans, Raleway */
+/* Google fonts import - Macondo, DM Sans, Raleway */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Variables */
@@ -30,7 +30,7 @@ body {
 
 footer {
     flex-shrink: 0;
-    padding: 0; /*removed 0.1reme to reduce footer size*/
+    padding: 0; /*removed 0.1 rem to reduce footer size*/
     font-size: 0.9rem;
     margin-top: auto;
 }
@@ -72,7 +72,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Openreplay used here see README.md */
+    /* Open replay used here see README.md */
     box-shadow: rgba(6, 109, 220, 0.12) 0px 2px 4px 0px, rgba(6, 109, 220, 0.32) 0px 2px 16px 0px;     /*note shadow box different on different screen sizes to fix */
 }
 
@@ -97,7 +97,7 @@ header a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 2px;
-    color var(--primary-color);
+    color: var(--primary-color);
 }
 
 h1, h2, h3, h4 {
@@ -227,7 +227,7 @@ main > .events, .gallery-intro-wrapper {
         linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.25)),
         url("../images/display-and-bell-tent.webp") no-repeat;
     background-size: cover;
-    background-position: 30%; /* keepsopen off center */
+    background-position: 30%; /* keeps open off center */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,7 +316,7 @@ body.error-page main {
     border-radius: 6px;
     border-top: 2px solid rgba(95,26,55,0.5); 
     box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
-    color var(--primary-color);
+    color: var(--primary-color);
 }
 
 body.error-page * {
@@ -329,7 +329,7 @@ body.error-page * {
 
 .star {
     font-size: 0.7em;  /* Makes '✦' smaller than the normal text */
-    color var(--primary-color);
+    color: var(--primary-color);
 }
 
 .star-hero {
@@ -544,7 +544,7 @@ body.error-page * {
     background-color: rgba(241, 237, 227, 0.97);
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    color var(--primary-color);
+    color: var(--primary-color);
     max-width: 400px;
     padding: 16px;
     border-top: 1px solid rgba(0,0,0,0.15);
@@ -668,7 +668,7 @@ footer {
         border-radius: 6px;
         border-top: 2px solid rgba(95,26,55,0.5);
         box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
-        color var(--primary-color);
+        color: var(--primary-color);
         text-align: center;
     }
 
