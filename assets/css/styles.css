@@ -1,7 +1,18 @@
 /* Google fonts import - Maacondo, DM Sans, Raleway */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterisk wildcard selector to overrride default styles added by the browser */
+/* CSS Variables */
+:root {
+    --primary-heading-font: 'Macondo', cursive; /* Headings etc */
+    --secondary-font: 'raleway', sans-serif;
+    --primary-text-font:'DM Sans', sans-serif;  /*  --highlight-color: ;*/
+    --primary-color: #5f1a37;
+    --secondary-color: #1169AC; 
+    --primary-button-color: #1169AC; /* initial button colour */
+    --nav-menu-color:#1169AC;  /* navigation colours and underlining colour*/
+}
+
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #000000;
-    font-family: 'raleway', sans-serif;
+    font-family: var(--secondary-font);
 }
 
 footer {
@@ -35,20 +45,20 @@ footer {
 }
 
 .footer-left, .footer-right {
-    color: #5f1a37;
+    color: var(--primary-color);
     font-size: medium;
 }
 
 /* Footer links */
 .footer-right a {
-    color:  #1169AC;
+    color: var(--secondary-color);
     transition: color 0.3s ease;
     font-size: medium;
     font-weight: 800;
 }
 
 .footer-right a:hover {
-    color: #5f1a37;  
+    color: var(--primary-color); 
 }
 /* Header */
 header {
@@ -76,8 +86,8 @@ header, footer {
 #logo {
     margin: 0;            /* removes the h1, h2, h3, h4 offset */
     line-height: 1;       /* to keep it tight vertically */
-    font-family: 'Macondo', cursive;
-    color: #5f1a37;
+    font-family: var(--primary-heading-font);
+    color: var(--primary-color);
     margin-left: 1rem;
     font-size: 2em;
     
@@ -87,12 +97,12 @@ header a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 2px;
-    color: #5f1a37
+    color var(--primary-color);
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Macondo', cursive;
-    color: #5f1a37;
+    font-family: var(--primary-heading-font);
+    color: var(--primary-color);
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -105,7 +115,7 @@ p {
 .button {
     padding: 5px 20px;
     margin: 6px;
-    background-color: #1169AC; /* darker version of the blue for accessibility */  
+    background-color: var(--primary-button-color); /* darker version of the blue for accessibility */  
     color: white;
     border: none;
     border-radius: 5px;
@@ -117,7 +127,7 @@ p {
 }
 
 .button:hover {
-    background-color: #5f1a37;
+    background-color: var(--primary-color);
 }
 
 /* Navbar styles with dropdown menus */
@@ -150,7 +160,7 @@ nav {
 
 .active {
     border-bottom: 1px solid currentColor; /* uses the current text color */
-    color: #1169AC;
+    color: var(--secondary-color);
 }
 
 /* Navbar toggling */
@@ -306,7 +316,7 @@ body.error-page main {
     border-radius: 6px;
     border-top: 2px solid rgba(95,26,55,0.5); 
     box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
-    color: #5f1a37
+    color var(--primary-color);
 }
 
 body.error-page * {
@@ -319,7 +329,7 @@ body.error-page * {
 
 .star {
     font-size: 0.7em;  /* Makes '✦' smaller than the normal text */
-    color: #5f1a37; 
+    color var(--primary-color);
 }
 
 .star-hero {
@@ -534,7 +544,7 @@ body.error-page * {
     background-color: rgba(241, 237, 227, 0.97);
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    color: #5f1a37;
+    color var(--primary-color);
     max-width: 400px;
     padding: 16px;
     border-top: 1px solid rgba(0,0,0,0.15);
@@ -658,7 +668,7 @@ footer {
         border-radius: 6px;
         border-top: 2px solid rgba(95,26,55,0.5);
         box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
-        color: #5f1a37;
+        color var(--primary-color);
         text-align: center;
     }
 
@@ -913,7 +923,7 @@ footer {
     #social-networks a:hover {
         text-shadow: 0 0 8px currentColor; /* glow matches the icon's own color */
     }
-    
+
 /* removed 'Media query Larger devices (laptops and desktops, 992 px and up)' added to (min-width: 768px)*/
     main {
         margin-top: 0;
@@ -932,7 +942,7 @@ footer {
         bottom: -3px;
         width: 0;
         height: 2px;
-        background-color:#1169AC;        
+        background-color: var(--nav-menu-color);        
         transition: all 0.3s ease;
         transform: translateX(-50%);
     }
@@ -946,7 +956,7 @@ footer {
         position: absolute;
         opacity: 0;
         transition: opacity 0.3s ease;
-        color:#1169AC;        
+        color: var(--nav-menu-color);
         font-size: 0.55rem;
     }
 
@@ -967,7 +977,8 @@ footer {
     }
 
     #nav-menu a:hover {
-        color:#1169AC;    }
+        color: var(--nav-menu-color);    
+    }
 
     /* Hero section */
     #hero {
