@@ -1037,11 +1037,6 @@ footer {
         height: 70px;      /* taller header on large screens */
     }
 
-    main {
-        padding-top: 70px; /* match new header height */
-    }
-
-
     /* Reduce zigzag row gap slightly on large screens */
     #home-zigzag {
         margin: 1rem auto;  /* less vertical spacing */
