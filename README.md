@@ -800,6 +800,7 @@ The following table lists the key tools, resources, and references used during t
 | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | Validated CSS syntax and standards compliance. |
 | [WAVE](https://wave.webaim.org) | Evaluated website accessibility to ensure content is usable by individuals with disabilities. |
 | [Lighthouse](https://developers.google.com/web/tools/lighthouse) | Audited website performance, accessibility, SEO, and best practices. |
+| [Autoprefixer] (https://autoprefixer.github.io/)| Autoprefixer is a PostCSS plugin which parses the CSS and adds vendor prefixes|
 
 ## Project Structure
 
