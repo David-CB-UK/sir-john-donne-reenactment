@@ -1033,21 +1033,21 @@ This table summarises the improvements made to the website using image optimisat
 
 | Device | Metric | Before Optimization | After Optimization | Final Optimized | Notes on Changes |
 |--------|--------|--------------------|--------------------|------------------|------------------|
-| **Desktop** | Performance Score | 88 | 96 | **98** | Continued refinement of image delivery, reduced render-blocking resources |
-| | First Contentful Paint (FCP) | 0.8 s | 0.8 s | **0.8 s** | Already highly optimised; remained stable |
-| | Largest Contentful Paint (LCP) | 2.3 s | 1.1 s | **0.9 s** | Further improvements from refined preload strategy and image optimisation |
-| | Total Blocking Time (TBT) | — | — | **0 ms** | Eliminated blocking scripts; highly responsive |
-| | Cumulative Layout Shift (CLS) | 0.025 | 0.084 | **0.002** | Significant improvement through layout stabilisation and sizing fixes |
-| | Speed Index (SI) | — | — | **0.8 s** | Fast visual load performance |
-| **Mobile** | Performance Score | 66 | 74 | **77** | Incremental gains from ongoing optimisation |
-| | First Contentful Paint (FCP) | 3.5 s | 3.3 s | **3.3 s** | Stable improvement from optimised loading |
-| | Largest Contentful Paint (LCP) | 13.0 s | 5.1 s | **4.6 s** | Major improvement from responsive images and prioritisation |
-| | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts impacting interactivity |
-| | Cumulative Layout Shift (CLS) | 0 | 0.005 | **0.005** | Remains very stable |
-| | Speed Index (SI) | — | — | **3.3 s** | Improved perceived load speed |
-| **Both** | Accessibility | 100 | 100 | **100** | Maintained full compliance |
+| **Desktop** | Performance Score | 88 | 96 | **98** | Continued refinement of image delivery and reduced render-blocking resources |
+| | First Contentful Paint (FCP) | 0.8 s | 0.8 s | **0.8 s** | Initial paint was already fast and remained stable |
+| | Largest Contentful Paint (LCP) | 2.3 s | 1.1 s | **0.9 s** | Improved through preload strategy and hero image optimisation |
+| | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts affecting responsiveness |
+| | Cumulative Layout Shift (CLS) | 0.025 | 0.084 | **0.002** | Improved through layout stabilisation and defined image sizing |
+| | Speed Index (SI) | — | — | **0.8 s** | Fast visual loading performance |
+| **Mobile** | Performance Score | 66 | 74 | **77** | Incremental gains from continued optimisation |
+| | First Contentful Paint (FCP) | 3.5 s | 3.3 s | **3.3 s** | Slight improvement from optimised resource loading |
+| | Largest Contentful Paint (LCP) | 13.0 s | 5.1 s | **4.6 s** | Significant improvement through responsive images and prioritisation |
+| | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts affecting interactivity |
+| | Cumulative Layout Shift (CLS) | 0 | 0.005 | **0.005** | Layout remained highly stable |
+| | Speed Index (SI) | — | — | **3.3 s** | Improved perceived loading speed |
+| **Both** | Accessibility | 100 | 100 | **100** | Full compliance maintained throughout |
 | **Both** | Best Practices | 100 | 100 | **100** | No issues identified |
-| **Both** | SEO | Desktop: 88<br>Mobile: 66 | Desktop: 96<br>Mobile: 74 | **Desktop: 99<br>Mobile: 77** | Improvements align with performance and metadata enhancements |
+| **Both** | SEO | 100 | 100 | **100** | Maintained through semantic HTML, metadata, accessibility, and mobile-friendly design |
 
 <details> <summary><strong> </strong> Lighthouse Scores - Desktop (Updated) (Click to expand)</summary>
 
