@@ -1039,7 +1039,7 @@ This table summarises the improvements made to the website using image optimisat
 | | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts affecting responsiveness |
 | | Cumulative Layout Shift (CLS) | 0.025 | 0.084 | **0.002** | Improved through layout stabilisation and defined image sizing |
 | | Speed Index (SI) | — | — | **0.8 s** | Fast visual loading performance |
-| **Mobile** | Performance Score | 66 | 74 | **77** | Incremental gains from continued optimisation |
+| **Mobile** | Performance Score | 66 | 74 | **77** | Incremental gains from continued optimisation. Subsequent “optimisations” sometimes caused mobile scores to drop|
 | | First Contentful Paint (FCP) | 3.5 s | 3.3 s | **3.3 s** | Slight improvement from optimised resource loading |
 | | Largest Contentful Paint (LCP) | 13.0 s | 5.1 s | **4.6 s** | Significant improvement through responsive images and prioritisation |
 | | Total Blocking Time (TBT) | — | — | **0 ms** | No blocking scripts affecting interactivity |
