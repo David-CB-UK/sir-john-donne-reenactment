@@ -518,7 +518,7 @@ Additionally, as ([Can I Use?](https://caniuse.com/?search=carousel)) notes some
 <details><summary><strong>Events Page</strong> (Click to expand)</summary>
 
 ![Events page](assets/images/readme-images/features-events.png)
-</details> <br>especially
+</details> <br>
 
 **Features:**
 
